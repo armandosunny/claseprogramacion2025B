@@ -16,3 +16,12 @@ https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-gi
 ## Emulador de Bash
 
 https://www.terminaltemple.com/
+
+####Comandos basicos Bash
+
+https://www.hostinger.com/tutorials/linux-commands?utm_campaign=Generic-Tutorials-DSA-t1|NT:Se|LO:MX-EN&utm_medium=ppc&gad_source=1&gad_campaignid=20980195875&gclid=CjwKCAjwpOfHBhAxEiwAm1SwElZECkcb1lSVaCgNapADRpXgdUJh52gYd0ga_2HuNGxJJdOZTGNa5hoCj2UQAvD_BwE
+
+
+https://bioinfo.fmed.uba.ar/docs/guia-del-cluster/comandos-populares-de-bash/
+
+
