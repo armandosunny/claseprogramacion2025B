@@ -31,3 +31,12 @@ https://bioinfo.fmed.uba.ar/docs/guia-del-cluster/comandos-populares-de-bash/
 ![Verde](https://img.shields.io/badge/PRUEBA-VERDE-brightgreen)
 ![Azul](https://img.shields.io/badge/PRUEBA-AZUL-blue)
 
+
+
+#pearl
+https://www.perl.org/
+#conda/anaconda
+
+https://anaconda.org/conda-forge/bash
+
+
