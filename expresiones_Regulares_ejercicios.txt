@@ -1,0 +1,264 @@
+############################################################
+# 💻 BIOINFORMÁTICA - ANÁLISIS DE TEXTO Y PATRONES EN R
+# Tema: Uso de grep(), grepl(), sub(), gsub(), stringr y regex
+# Dataset: Titanic (Seaborn)
+# Nivel: Primer semestre de Biotecnología
+############################################################
+
+# Cargar librerías y dataset --------------------------------
+library(data.table)
+library(stringr)
+datos <- fread("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv")
+
+############################################################
+# 🧠 EJERCICIO 1: BÚSQUEDA DE TEXTO CON grep()
+############################################################
+
+# Buscar clases que contengan "First"
+grep("First", datos$class)
+datos[grep("First", datos$class), ]
+
+# Buscar nombres que contengan "Mr."
+grep("Mr\\.", datos$who)
+datos[grep("Mr\\.", datos$who), ]
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué devuelve grep()?
+# 2. ¿Qué significa el símbolo "\\" dentro del patrón "Mr\\."?
+# 3. ¿Por qué usamos el argumento value = TRUE a veces?
+
+############################################################
+# 🧠 EJERCICIO 2: FILTRAR CON grepl()
+############################################################
+
+# Filtrar solo las mujeres
+mujeres <- datos[grepl("female", datos$sex), ]
+head(mujeres)
+
+# Filtrar nombres con "a" o "A"
+con_a <- datos[grepl("[aA]", datos$who), ]
+nrow(con_a)
+
+# ❓ PREGUNTAS:
+# 1. ¿Cuál es la diferencia entre grep() y grepl()?
+# 2. ¿Qué significa el uso de [aA] en el patrón?
+# 3. ¿Qué tipo de valor devuelve grepl()?
+
+############################################################
+# 🧠 EJERCICIO 3: REEMPLAZO DE TEXTO CON gsub()
+############################################################
+
+datos$sexo_limpio <- gsub("male", "Masculino", datos$sex)
+datos$sexo_limpio <- gsub("female", "Femenino", datos$sexo_limpio)
+head(datos[, .(sex, sexo_limpio)])
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué diferencia hay entre sub() y gsub()?
+# 2. ¿Qué hace gsub() si hay varias coincidencias del patrón en un mismo texto?
+
+############################################################
+# 🧠 EJERCICIO 4: EXPRESIONES REGULARES AVANZADAS
+############################################################
+
+# Nombres que empiezan por M o S
+grep("^(M|S)", datos$who, value = TRUE)
+
+# Nombres que terminan con n
+grep("n$", datos$who, value = TRUE)
+
+# Vocal seguida de consonante
+grep("[aeiou][bcdfghjklmnpqrstvwxyz]", datos$who, value = TRUE)
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué significa "^" y "$" en una expresión regular?
+# 2. ¿Qué hace el operador "|" dentro del patrón (M|S)?
+# 3. ¿Qué representa el uso de los corchetes [ ]?
+
+############################################################
+# 🧠 EJERCICIO 5: USO DE LA LIBRERÍA stringr
+############################################################
+
+nombres_largos <- datos[str_length(datos$who) > 10, ]
+head(nombres_largos)
+
+contiene_man <- datos[str_detect(datos$who, "man"), ]
+head(contiene_man)
+
+datos$who_upper <- str_to_upper(datos$who)
+head(datos[, .(who, who_upper)])
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué ventaja ofrece stringr sobre grep y sub?
+# 2. ¿Qué hace la función str_detect()?
+# 3. ¿Cómo podrías combinar str_length() con filtros de dplyr?
+
+############################################################
+# ⭐ EJERCICIO EXTRA: LIMPIEZA DE TEXTO Y CATEGORÍAS
+############################################################
+
+datos$origen <- sample(c("UK", "Usa", "usa", "U.K.", "England"), nrow(datos), replace = TRUE)
+
+datos$origen_limpio <- gsub("usa|Usa", "USA", datos$origen)
+datos$origen_limpio <- gsub("U\\.K\\.|England", "UK", datos$origen_limpio)
+
+table(datos$origen, datos$origen_limpio)
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué hace el símbolo "|" entre palabras en la expresión?
+# 2. ¿Por qué se usa "\\." al buscar "U.K."?
+
+############################################################
+# 🧩 EJERCICIO 6: CLASIFICACIÓN DE TEXTO CON CONDICIONALES
+############################################################
+
+datos$titulo <- ifelse(grepl("Mr\\.", datos$who), "Señor",
+                ifelse(grepl("Mrs\\.", datos$who), "Señora",
+                ifelse(grepl("Miss\\.", datos$who), "Señorita", "Otro")))
+
+table(datos$titulo)
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué significa el uso de \\ dentro de "Mr\\."?
+# 2. ¿Cómo podrías agregar una categoría “Niño” si aparece "Master."?
+
+############################################################
+# 🧩 EJERCICIO 7: EXTRACCIÓN DE TEXTO CON regexpr() Y regmatches()
+############################################################
+
+patron <- "^[A-Z]"
+coincidencias <- regexpr(patron, datos$who)
+iniciales <- regmatches(datos$who, coincidencias)
+
+datos$inicial <- iniciales
+head(datos[, .(who, inicial)])
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué significa el símbolo "^"?
+# 2. ¿Qué diferencia hay entre regexpr() y grep()?
+
+############################################################
+# 🧩 EJERCICIO 8: LIMPIEZA DE TEXTO CON trimws() Y tolower()
+############################################################
+
+set.seed(1)
+datos$origen_ruidoso <- paste0(" ", toupper(sample(c("uk", "usa", "england"), nrow(datos), replace = TRUE)), " ")
+
+datos$origen_limpio2 <- tolower(trimws(datos$origen_ruidoso))
+
+table(datos$origen_ruidoso, datos$origen_limpio2)
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué hace trimws()?
+# 2. ¿Cuál es la diferencia entre tolower() y toupper()?
+
+############################################################
+# 🧩 EJERCICIO 9: CREACIÓN DE ETIQUETAS CON CONDICIONES Y TEXTO
+############################################################
+
+datos$etiqueta <- ifelse(grepl("Mr\\.", datos$who) & datos$class == "First", "Caballero de Primera",
+                  ifelse(grepl("Mrs\\.", datos$who) & datos$class == "Second", "Dama de Segunda", "Otro"))
+
+table(datos$etiqueta)
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué hace el símbolo "&" en las condiciones?
+# 2. ¿Cómo agregarías “Caballero de Tercera” en esta clasificación?
+
+############################################################
+# 🧩 EJERCICIO 10: EXTRACCIÓN Y REEMPLAZO CON stringr
+############################################################
+
+r_names <- str_extract_all(datos$who, "r")
+head(r_names)
+
+datos$sexo_cod <- str_replace_all(datos$sex, c("female" = "F", "male" = "M"))
+head(datos[, .(sex, sexo_cod)])
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué hace str_replace_all()?
+# 2. ¿Qué significa el uso de "[aeiou]" dentro de str_extract_all()?
+
+############################################################
+# 🧩 EJERCICIO 11: BÚSQUEDA CON OR (|)
+############################################################
+
+grep("Mr|Mrs", datos$who, value = TRUE)
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué función cumple el operador "|"?
+# 2. ¿Cómo modificarías la expresión para buscar "man" o "woman"?
+
+############################################################
+# 🧩 EJERCICIO 12: CONTEO DE PATRONES REPETIDOS
+############################################################
+
+datos$conteo_a <- str_count(datos$who, "a")
+head(datos[, .(who, conteo_a)])
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué hace str_count()?
+# 2. ¿Cómo podrías contar todas las vocales en una sola expresión?
+
+############################################################
+# 🧩 EJERCICIO 13: SUBCONJUNTOS POR PATRONES DEFINIDOS
+############################################################
+
+palabra <- "Mrs"
+subconjunto <- datos[grepl(palabra, datos$who), ]
+head(subconjunto)
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué pasa si cambias el valor de palabra?
+# 2. ¿Cómo podrías convertir esto en una función en R?
+
+############################################################
+# 🧩 EJERCICIO 14: CREACIÓN DE COLUMNAS CON mutate() Y stringr
+############################################################
+
+library(dplyr)
+
+datos <- datos %>%
+  mutate(
+    tiene_M = str_detect(who, "M"),
+    nombre_largo = str_length(who) > 10,
+    mayusculas = str_to_upper(who)
+  )
+
+head(datos[, .(who, tiene_M, nombre_largo, mayusculas)])
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué hace str_detect()?
+# 2. ¿Cómo podrías crear una nueva columna que indique si el nombre termina en “n”?
+
+############################################################
+# 🧩 EJERCICIO 15: RETO FINAL - LIMPIEZA Y ANÁLISIS DE TEXTO
+############################################################
+
+set.seed(42)
+datos$nombres_ruidosos <- paste0(sample(c("", " "), nrow(datos), replace = TRUE),
+                                 datos$who,
+                                 sample(c("", " "), nrow(datos), replace = TRUE))
+
+datos$nombres_limpios <- trimws(str_to_title(datos$nombres_ruidosos))
+
+datos$longitud <- str_length(datos$nombres_limpios)
+datos$vocales <- str_count(datos$nombres_limpios, "[aeiouAEIOU]")
+
+summary(datos$longitud)
+summary(datos$vocales)
+
+# ❓ PREGUNTAS:
+# 1. ¿Qué función convierte la primera letra de cada palabra en mayúscula?
+# 2. ¿Qué representa el patrón "[aeiouAEIOU]"?
+# 3. ¿Cómo podrías encontrar los 5 nombres más largos con arrange()?
+
+############################################################
+# 🧩 FIN DEL SCRIPT
+############################################################
+
+
+
+
+
+
+
