@@ -1,0 +1,169 @@
+# Ejemplo completo: Análisis de regresión lineal con la base de datos 'grasas'
+
+# 1. Cargar los datos
+grasas <- data.frame(
+  peso = c(84,73,65,70,76,69,63,72,79,75,27,89,65,57,59,69,60,79,75,82,59,67,85,55,63),
+  edad = c(46,20,52,30,57,25,28,36,57,44,24,31,52,23,60,48,34,51,50,34,46,23,37,40,30),
+  grasas = c(354,190,405,263,451,302,288,385,402,365,209,290,346,254,395,434,220,374,308,220,311,181,274,303,244)
+)
+
+head(grasas)
+
+# 2. Ajustar un modelo de regresión lineal múltiple
+modelo <- lm(grasas ~ peso + edad, data = grasas)
+summary(modelo)
+
+# Interpretación:
+# - Intercepto: valor base de grasa cuando peso y edad son 0 (solo valor de referencia).
+# - Coeficiente de peso: cambio promedio en grasa por cada unidad de peso, manteniendo edad constante.
+# - Coeficiente de edad: cambio promedio en grasa por cada año adicional, manteniendo peso constante.
+# - R²: porcentaje de variación explicada por el modelo.
+# - p-valores: significancia estadística de cada predictor.
+
+# 3. Verificar supuestos del modelo
+
+## A. Linealidad
+plot(modelo, which=1)  # Nube sin patrón = bien. Curva = falta variable o transformación.
+
+## B. Homocedasticidad
+install.packages('lmtest'); library(lmtest)
+bptest(modelo)  # p > 0.05 indica varianza constante
+
+## C. Normalidad de los residuos
+plot(modelo, which=2)  # QQ-plot
+shapiro.test(residuals(modelo))  # p > 0.05 indica normalidad razonable
+
+## D. Independencia
+dwtest(modelo)  # p > 0.05 indica independencia de residuos
+
+## E. Multicolinealidad
+install.packages('car'); library(car)
+vif(modelo)  # valores < 5 indican que no hay colinealidad problemática
+
+## F. Puntos influyentes Un outlier puede ser “raro pero inofensivo”. Un punto influyente es “raro y con poder para cambiar el resultado”.
+plot(modelo, which=4)  # Distancia de Cook: valores > 1 = posibles puntos influyentes
+
+# 4. Visualización con ggplot2
+install.packages('ggplot2'); library(ggplot2)
+ggplot(grasas, aes(x = peso, y = grasas, color = edad)) +
+  geom_point(size=3) +
+  geom_smooth(method="lm", se=TRUE) +
+  labs(title="Relación entre peso, edad y grasa corporal",
+       x="Peso", y="Grasas (mg)")
+
+# 5. Resumen de verificación de supuestos
+# Supuesto           | Prueba / gráfico              | Qué hacer si falla
+# ------------------- | ------------------------------|--------------------------------------
+# Linealidad          | plot(modelo, which=1)          | Transformar variables o añadir términos polinómicos
+# Homocedasticidad    | bptest(modelo)                 | Usar errores robustos o GLM
+# Normalidad          | QQ-plot / shapiro.test()       | Transformar Y o usar modelo robusto
+# Independencia       | dwtest(modelo)                 | Modelos mixtos o series temporales
+# Multicolinealidad   | vif(modelo)                    | Eliminar o combinar predictores
+
+# 6. Conclusión
+# El modelo permite evaluar cómo el peso y la edad influyen en el nivel de grasa corporal.
+# Si los supuestos se cumplen, los coeficientes se interpretan directamente:
+# cada unidad adicional de peso o año de edad cambia en promedio la cantidad de grasa en la dirección estimada por el modelo.
+
+
+
+
+#########################################################################
+########################################################################
+##################################################################
+###############################################################
+# Explicación del modelo de esperanza de vida (dataset state.x77)
+
+## 1. Contexto del análisis
+El estudio busca generar un modelo para predecir la esperanza de vida media de los habitantes de los estados de EE.UU. a partir de variables socioeconómicas y ambientales.
+
+Las variables consideradas fueron:
+- habitantes
+- analfabetismo
+- ingresos
+- asesinatos
+- universitarios
+- heladas
+- área
+- densidad poblacional
+
+La variable respuesta (Y) es la esperanza de vida (`esp_vida`).
+
+---
+
+## 2. Proceso del análisis
+
+1. Se exploraron las relaciones entre variables mediante correlaciones y gráficos de dispersión.
+2. Se construyó un modelo de regresión lineal múltiple con todas las variables.
+3. Se aplicó un proceso de selección paso a paso (stepwise, usando AIC) para quedarse con las variables más relevantes.
+
+El modelo final fue:
+esp_vida ~ habitantes + asesinatos + universitarios + heladas
+
+---
+
+## 3. Interpretación del modelo final
+
+| Variable | Coeficiente | Significado |
+|-----------|--------------|-------------|
+| (Intercepto) | 71.03 | Valor base de esperanza de vida promedio (años). |
+| habitantes | +0.000050 | Los estados con más población tienden a tener levemente más esperanza de vida. Efecto pequeño. |
+| asesinatos | -0.30 | Por cada aumento de 1 punto en la tasa de asesinatos, la esperanza de vida disminuye en 0.3 años. |
+| universitarios | +0.0466 | Por cada punto más de porcentaje de graduados de secundaria, la esperanza de vida aumenta en 0.0466 años. |
+| heladas | -0.0059 | Los estados con más días de heladas tienden a tener una ligera reducción en la esperanza de vida. |
+
+---
+
+## 4. Evaluación del modelo
+
+- **R² ajustado:** 0.71 → el modelo explica el 71% de la variabilidad de la esperanza de vida.
+- **p-valor global:** 1.69e−12 → el modelo es estadísticamente significativo.
+- **Errores estándar pequeños** → estimaciones confiables.
+- **Intervalos de confianza** de los coeficientes no incluyen cero (para las variables significativas).
+
+---
+
+## 5. Conclusiones
+
+- La variable **asesinatos** es el **predictor más importante y con efecto negativo más fuerte** sobre la esperanza de vida.
+- **Universitarios** tiene un efecto positivo y significativo: más educación → más esperanza de vida.
+- **Heladas** tiene un efecto negativo moderado.
+- **Habitantes** tiene un efecto muy leve y casi marginal.
+
+---
+
+## 6. Interpretación general
+
+> Los estados con **menor tasa de asesinatos** y **mayor nivel educativo** presentan una **mayor esperanza de vida**.
+> La variable *asesinatos* es la que **más explica las diferencias** en esperanza de vida entre los estados.
+
+---
+
+## 7. Validación de supuestos
+
+- **Linealidad:** cumplida (gráficos de residuos sin patrón curvo).
+- **Normalidad de residuos:** Shapiro-Wilk p = 0.525 → distribución normal.
+- **Homoscedasticidad:** Breusch–Pagan p = 0.18 → varianza constante.
+- **Multicolinealidad:** VIF < 2 → sin problemas de colinealidad.
+- **Autocorrelación:** Durbin–Watson p = 0.8 → no hay autocorrelación.
+- **Tamaño de muestra:** adecuado (50 observaciones, > 10× número de predictores).
+
+---
+
+## 8. Resumen final
+
+| Indicador | Resultado |
+|------------|------------|
+| Mejor modelo | esp_vida ~ habitantes + asesinatos + universitarios + heladas |
+| R² ajustado | 0.71 |
+| Mejor predictor | Asesinatos (negativo) |
+| p-valor global | 1.69e−12 |
+| Significativos | Asesinatos, Universitarios, Heladas |
+| No significativos | Habitantes (marginal) |
+
+---
+
+### Conclusión:
+El modelo confirma que **la tasa de asesinatos es el factor más determinante** en la variación de la esperanza de vida.  
+También muestra que **mayor educación y menor violencia** se asocian con **mayor longevidad promedio** en la población.
+

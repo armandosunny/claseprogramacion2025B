@@ -1,0 +1,331 @@
+
+##########################################################################################
+##########################################################################################
+Tips para hacer un análisis Z paso a paso en R##########################################################################################
+##########################################################################################
+
+
+Revisa si tus datos están bien organizados
+
+Asegúrate de tener dos grupos bien definidos, por ejemplo: grupo control y grupo tratamiento.
+
+Cada observación debe tener una etiqueta de grupo y un valor numérico.
+
+Verifica que tus datos sean numéricos y continuos
+
+Este análisis solo se aplica a variables numéricas (como concentración, peso, altura, etc.).
+
+Confirma que los grupos sean independientes
+
+
+
+
+El análisis Z no sirve si los datos son pareados o repetidos. Deben ser muestras independientes.
+
+control <- data$value[data$group == "control"]
+treatment <- data$value[data$group == "treatment"]
+
+Evalúa si la distribución es más o menos normal
+
+El Z-test asume que los datos provienen de poblaciones normalmente distribuidas, aunque con muestras grandes esto es menos crítico.
+
+Debes conocer o asumir la desviación estándar poblacional
+
+Esto es clave para aplicar un Z-test. Si no conoces la desviación estándar de la población, debes estimarla con tus datos o considerar una t de Student.
+
+Calcula las medias y tamaños de muestra de cada grupo
+
+Necesitas conocer el promedio y cuántos datos hay en cada grupo.
+
+Aplica la fórmula del estadístico Z
+
+Investiga cómo se calcula: es la diferencia de medias dividida entre el error estándar.
+
+Interpreta el valor de Z
+
+Verifica si está por fuera de los valores críticos (por ejemplo ±1.96 si el nivel de significancia es 0.05).
+
+Calcula el valor-p (p-value)
+
+Esto te dirá si hay diferencia estadísticamente significativa entre los grupos.
+
+Concluye si rechazas o no la hipótesis nula
+
+Si el valor-p es menor a 0.05, hay una diferencia significativa. Si es mayor, no hay suficiente evidencia.
+
+(Opcional) Representa gráficamente la distribución Z
+
+Hacer un gráfico puede ayudar a visualizar en qué parte cae el valor calculado.
+
+Reflexiona sobre los supuestos del análisis
+
+Pregúntate si el Z-test es adecuado o si deberías usar otra prueba (como t-test o Wilcoxon) si no se cumplen los requisitos.
+##########################################################################################
+######################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+
+
+##########################################################################################
+
+
+ Conocimiento de la desviación estándar poblacional (σ)
+
+Z test:
+
+Solo se puede aplicar si σ (desviación estándar poblacional) es conocida.
+
+Esto rara vez ocurre en la vida real (solo en estudios teóricos, simulaciones o datos censales).
+
+t test:
+
+Se usa cuando σ es desconocida, y se estima con la desviación estándar muestral (s).
+
+Tamaño de la muestra
+
+Z test:
+
+Requiere que n ≥ 30 por grupo para que la distribución muestral sea aproximadamente normal (según el Teorema Central del Límite).
+
+t test:
+
+Se puede usar con muestras pequeñas o grandes.
+
+Es más conservadora y robusta para muestras pequeñas.
+
+
+##########################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##########################################################################################
+##########################################################################################
+############################Z TEST###########################################
+##########################################################################################
+##########################################################################################
+##########################################################################################
+
+
+# ================================
+# 1. Librerías necesarias
+# ================================
+# install.packages(c("ggplot2", "DescTools", "dplyr", "ggpubr"))
+library(ggplot2)
+library(DescTools)
+library(dplyr)
+library(ggpubr)
+
+# ================================
+# 2. Cargar y preparar los datos
+# ================================
+# Suponemos que tienes un data.frame llamado 'data'
+# con columnas: id, group (control/treatment), value
+
+# Separar los grupos
+control <- data$value[data$group == "control"]
+treatment <- data$value[data$group == "treatment"]
+
+# ================================
+# 3. Supuesto 1: Escala de intervalo o razón
+# ================================
+# Cumplido: datos numéricos continuos
+
+# ================================
+# 4. Supuesto 2: Independencia
+# ================================
+# Asumimos diseño experimental con asignación aleatoria
+
+# ================================
+# 5. Supuesto 3: Normalidad
+# ================================
+shapiro_control <- shapiro.test(sample(control, min(500, length(control))))
+shapiro_treatment <- shapiro.test(sample(treatment, min(500, length(treatment))))
+
+print(shapiro_control)
+print(shapiro_treatment)
+
+# Histogramas y QQ-plots
+p1 <- ggplot(data, aes(x = value, fill = group)) +
+  geom_histogram(alpha = 0.6, bins = 50, position = "identity") +
+  facet_wrap(~group, scales = "free") +
+  theme_minimal() +
+  labs(title = "Distribución de los valores", x = "Valor", y = "Frecuencia")
+
+p1 
+
+p2 <- ggqqplot(data, x = "value", facet.by = "group", color = "group") +
+  labs(title = "QQ-plot por grupo")
+
+p2
+
+# Mostrar ambas gráficas
+ggarrange(p1, p2, ncol = 2, nrow = 1)
+
+# ================================
+# 6. Supuesto 4: Conocer SD poblacional
+# ================================
+sd_poblacional <- function(x) {
+  sqrt(sum((x - mean(x))^2) / length(x))
+}
+
+sigma_control <- sd_poblacional(control)
+sigma_treatment <- sd_poblacional(treatment)
+
+cat("Sigma (Control):", sigma_control, "\n")
+cat("Sigma (Treatment):", sigma_treatment, "\n")
+
+# ================================
+# 7. Prueba Z manual para 2 muestras
+# ================================
+
+# Medias y tamaños
+media_control <- mean(control)
+media_treatment <- mean(treatment)
+n_control <- length(control)
+n_treatment <- length(treatment)
+
+# Diferencia de medias
+diff_means <- media_treatment - media_control
+
+# Error estándar
+se_diff <- sqrt((sigma_control^2 / n_control) + (sigma_treatment^2 / n_treatment))
+
+# Estadístico Z
+z_stat <- diff_means / se_diff
+
+# Valor p bilateral
+p_value <- 2 * (1 - pnorm(abs(z_stat)))
+
+
+z_stat
+p_value
+
+##########################################################################################
+library(dplyr)
+
+# Calcular medias y SD
+summary_stats <- data %>%
+  group_by(group) %>%
+  summarise(media = mean(value),
+            sd = sd(value),
+            n = n(),
+            se = sd / sqrt(n))
+
+# Gráfico de barras con error estándar
+ggplot(summary_stats, aes(x = group, y = media, fill = group)) +
+  geom_bar(stat = "identity", width = 0.6, color = "black") +
+  geom_errorbar(aes(ymin = media - se, ymax = media + se), width = 0.2) +
+  scale_fill_manual(values = c("control" = "#6BAED6", "treatment" = "#FD8D3C")) +
+  labs(title = "Comparación de medias por grupo",
+       y = "Media ± Error estándar",
+       x = "") +
+  theme_minimal(base_size = 14) +
+  theme(legend.position = "none")
+
+
+
+
+
+##########################################################################################
+
+ggplot(data, aes(x = group, y = value, fill = group)) +
+  geom_violin(trim = FALSE, alpha = 0.7) +
+  geom_boxplot(width = 0.1, color = "black", fill = "white") +
+  stat_summary(fun = mean, geom = "point", shape = 18, size = 3, color = "red") +
+  scale_fill_manual(values = c("control" = "#9ecae1", "treatment" = "#fdae6b")) +
+  labs(title = "Distribución de los valores por grupo",
+       x = "",
+       y = "Valor") +
+  theme_minimal(base_size = 14) +
+  theme(legend.position = "none")
+
+
+
+##########################################################################################
+
+ggplot(data, aes(x = value, fill = group)) +
+  geom_density(alpha = 0.5) +
+  scale_fill_manual(values = c("control" = "#3182bd", "treatment" = "#e6550d")) +
+  labs(title = "Distribución de densidades por grupo",
+       x = "Valor",
+       y = "Densidad") +
+  theme_minimal(base_size = 14)
+
+
+##########################################################################################
+##########################################################################################
+################################ T TEST###################################################
+##########################################################################################
+##########################################################################################
+##########################################################################################
+
+
+
+library(dplyr)
+
+# ================================
+# 2. Separar los grupos desde tu dataframe `data`
+# ================================
+control <- data %>% filter(group == "control") %>% pull(value)
+treatment <- data %>% filter(group == "treatment") %>% pull(value)
+
+# ================================
+# 3. Verificar homogeneidad de varianzas (ya lo hiciste)
+# ================================
+# Resultado esperado: p > 0.05 en var.test(control, treatment)
+
+# ================================
+# 4. Aplicar prueba t de Student con varianzas iguales
+# ================================
+t_equal_result <- t.test(treatment, control,
+                         alternative = "two.sided",
+                         var.equal = TRUE)  # <-- varianzas iguales
+
+# ================================
+# 5. Mostrar resultados
+# ================================
+print(t_equal_result)
+
+
+
+
+# Comparación de estadísticos y valores p
+cat("Z test:\n")
+cat("Z =", z_stat, " | p =", p_value, "\n\n")
+
+cat("T test:\n")
+cat("t =", t_equal_result$statistic,
+    " | df =", t_equal_result$parameter,
+    " | p =", t_equal_result$p.value, "\n")
+
+
+
+
+##########################################################################################
+##########################################################################################
+##########################################################################################
+#Recomendación final
+##############################################################################################################################################################################################################################################################################
+
+#Para estudios reales, el t-test suele ser preferido porque no se requiere conocer σ #poblacional, que raramente está disponible. El Z test es útil como aproximación teórica o #cuando σ es conocida (como en simulaciones o datos poblacionales grandes).
+##########################################################################################
+##########################################################################################
+##########################################################################################

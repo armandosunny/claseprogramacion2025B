@@ -1,0 +1,13 @@
+"pollo2" "cabra2" "borrego2"
+"vaca3" 7 "a" 7
+"pollo3" 8 "b" 8
+"cabra3" 9 "c" 9
+"borrego4" 10 "d" 10
+"vaca4" 11 "e" 11
+"pollo4" NA "f" NA
+"cabra4" 7 "a" 7
+"borrego5" 8 "b" 8
+"vaca5" 9 "c" 9
+"pollo5" 10 "d" 10
+"cabra5" 11 "e" 11
+"borrego6" NA "f" NA

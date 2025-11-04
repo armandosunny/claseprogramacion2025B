@@ -1,0 +1,19 @@
+#########para instalar las librerías o paquetes en R de CRAN##########
+install.packages("terra")
+
+#para cargar o abrir la libreria
+
+library(terra)
+
+##para cargar una base de datos .csv
+
+library(readr)
+datacs <- read_csv("~/Desktop/datacs.csv", 
+     col_types = cols(Grupo = col_factor(levels = c("a", 
+        "b"))))
+View(datacs) 
+
+
+
+
+https://bookdown.org/jboscomendoza/r-principiantes4/matrices-y-arrays.html

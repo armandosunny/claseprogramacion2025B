@@ -1,0 +1,183 @@
+
+🧮 EJERCICIOS DE MANIPULACIÓN DE BASES DE DATOS GRANDES EN R
+
+📊 Ejercicio 1: Exploración de una base de datos grande
+-----------------------------------------------------
+Objetivo: Cargar y examinar un dataset extenso.
+
+# Instalar paquetes si no están
+install.packages(c("dplyr", "ggplot2", "nycflights13"))
+
+library(dplyr)
+library(ggplot2)
+library(nycflights13)
+
+# Usar la base de datos flights (más de 300,000 filas)
+data("flights")
+
+# Ver primeras filas
+head(flights)
+
+# Dimensiones
+dim(flights)
+
+# Columnas disponibles
+colnames(flights)
+
+# Resumen estadístico
+summary(flights)
+
+Desafío: ¿Cuántos vuelos salieron retrasados más de 1 hora?
+18813
+
+🧩 Ejercicio 2: Seleccionar y renombrar columnas
+------------------------------------------------
+Objetivo: Manipular la estructura del data frame.
+
+# Seleccionar columnas específicas
+vuelos_sel <- select(flights, year, month, day, carrier, dep_delay, arr_delay)
+
+# Renombrar columnas
+vuelos_sel <- rename(vuelos_sel, Aerolinea = carrier, Retraso_Salida = dep_delay)
+
+head(vuelos_sel)
+
+Desafío: Agrega una columna nueva que muestre la diferencia entre retraso de llegada y de salida.
+
+
+🧱 Ejercicio 3: Filtrado y ordenamiento
+---------------------------------------
+Objetivo: Extraer subconjuntos específicos y ordenar resultados.
+
+# Filtrar vuelos con más de 1 hora de retraso
+retrasados <- filter(flights, dep_delay > 60)
+
+# Ordenar por mayor retraso
+retrasados <- arrange(retrasados, desc(dep_delay))
+
+head(retrasados)
+
+Desafío: ¿Cuál fue el vuelo con mayor retraso de llegada?
+
+
+📈 Ejercicio 4: Crear columnas nuevas y calcular promedios
+----------------------------------------------------------
+Objetivo: Usar mutate y summarise para crear y resumir información.
+
+# Nueva columna: duración total del vuelo (en horas)
+flights <- mutate(flights, duracion_horas = air_time / 60)
+
+# Calcular promedio de duración y retraso por aerolínea
+resumen <- flights %>%
+  group_by(carrier) %>%
+  summarise(
+    Promedio_duracion = mean(duracion_horas, na.rm = TRUE),
+    Promedio_retraso = mean(dep_delay, na.rm = TRUE)
+  )
+
+print(resumen)
+
+Desafío: ¿Qué aerolínea tiene el mayor retraso promedio?
+F9 20.2
+
+🧮 Ejercicio 5: Agregar títulos y modificar nombres de columnas automáticamente
+-------------------------------------------------------------------------------
+Objetivo: Modificar encabezados y limpiar la base.
+
+# Cambiar nombres de todas las columnas a mayúsculas
+colnames(flights) <- toupper(colnames(flights))
+
+# Verificar cambios
+head(flights)
+
+Desafío: Crea un vector con nombres personalizados y reemplaza los nombres de columnas.
+
+
+📊 Ejercicio 6: Graficar información agregada
+---------------------------------------------
+Objetivo: Hacer visualizaciones con ggplot2.
+
+library(ggplot2)
+
+# Promedio de retraso por mes
+retraso_mes <- flights %>%
+  group_by(MONTH) %>%
+  summarise(Promedio_Retraso = mean(DEP_DELAY, na.rm = TRUE))
+
+# Gráfica
+ggplot(retraso_mes, aes(x = MONTH, y = Promedio_Retraso)) +
+  geom_line(color = "blue", linewidth = 1.2) +
+  geom_point(size = 2) +
+  labs(title = "Retraso promedio por mes",
+       x = "Mes", y = "Retraso promedio (min)")
+
+Desafío: Cambia el color y estilo del gráfico. ¿En qué mes hay más retraso?
+
+
+🧮 Ejercicio 7: Unión de tablas y combinación de datos
+------------------------------------------------------
+Objetivo: Trabajar con múltiples bases (joins).
+
+# Unir con información de aerolíneas
+data("airlines")
+
+flights_joined <- left_join(flights, airlines, by = c("CARRIER" = "carrier"))
+
+# Verificar
+head(select(flights_joined, CARRIER, name))
+
+Desafío: Filtra vuelos solo de “United Air Lines Inc.” y calcula su retraso medio.
+
+
+📦 Ejercicio 8: Exportar los datos modificados
+----------------------------------------------
+Objetivo: Guardar una base de datos procesada.
+
+# Guardar como CSV
+write.csv(flights_joined, "vuelos_modificados.csv", row.names = FALSE)
+
+Desafío: Exporta solo las columnas YEAR, MONTH, ARR_DELAY y CARRIER.
+
+
+📈 Ejercicio 9: Visualización avanzada con facet_wrap
+-----------------------------------------------------
+Objetivo: Crear múltiples gráficos en un mismo panel.
+
+ggplot(flights, aes(x = DEP_DELAY, fill = factor(MONTH))) +
+  geom_histogram(binwidth = 10, color = "white") +
+  facet_wrap(~MONTH) +
+  labs(title = "Distribución de retrasos de salida por mes",
+       x = "Retraso (min)", y = "Frecuencia")
+
+Desafío: Ajusta los intervalos de los histogramas y observa cómo cambia la distribución.
+
+
+📚 Ejercicio 10: Desafío final — Limpieza y análisis de un CSV grande
+---------------------------------------------------------------------
+Objetivo: Simular un caso real de análisis masivo.
+
+# Leer un CSV grande (puedes usar uno propio o descargar uno público)
+datos <- read.csv("ventas_grandes.csv")
+
+# Limpiar nombres de columnas
+colnames(datos) <- make.names(colnames(datos))
+
+# Filtrar datos de un año específico
+datos_filtrados <- filter(datos, Año == 2024)
+
+# Crear variable nueva
+datos_filtrados <- mutate(datos_filtrados,
+                          Ganancia = Precio * Cantidad - Costo)
+
+# Calcular promedios por categoría
+resumen <- datos_filtrados %>%
+  group_by(Categoria) %>%
+  summarise(Ventas_Totales = sum(Precio * Cantidad),
+            Ganancia_Promedio = mean(Ganancia))
+
+# Graficar resultados
+ggplot(resumen, aes(x = Categoria, y = Ganancia_Promedio, fill = Categoria)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Ganancia promedio por categoría", y = "Ganancia promedio")
+
+Desafío: Ordena las categorías de mayor a menor ganancia y guarda el gráfico como imagen PNG.
