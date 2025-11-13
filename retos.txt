@@ -1,0 +1,16 @@
+RETOS DE PROGRAMACIÓN - BIOTECNOLOGÍA PRIMER SEMESTRE
+
+1.  Encuentra todos los registros del laboratorio LabA usando grep.
+2.  Busca los nombres que empiezan con A o M.
+3.  Filtra todas las muestras cuyo código ID contiene “012”.
+4.  Reemplaza “Fenol-Cloroformo” por “Fenol/Cloroformo” usando gsub.
+5.  Convierte todas las ciudades a minúsculas.
+6.  Extrae solo la primera letra del nombre de cada estudiante.
+7.  Detecta qué nombres contienen exactamente 5 letras.
+8.  Calcula la media de expresión genética para cada gene usando apply.
+9.  Calcula la suma total de expresión genética por individuo.
+10. Selecciona columnas de genes + ID usando dplyr.
+11. Filtra muestras con concentración > 60 ng/µl.
+12. Agrupa por laboratorio y calcula promedios de concentración y Gene2.
+13. Convierte los genes a formato long con pivot_longer.
+

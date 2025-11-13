@@ -1,0 +1,1501 @@
+"ID","Nombre","Ciudad","Laboratorio","MetodoExtraccion","ConcDNA_ng_ul","Gene1","Gene2","Gene3","Gene4","Fecha"
+"MUE-0001","Pedro","Toluca","LabB","Fenol-Cloroformo",58.43,49,58,22,115,2023-06-08
+"MUE-0002","Pedro","Guadalajara","LabA","Lisis alcalina",36.86,34,65,18,114,2024-05-22
+"MUE-0003","Elena","Guadalajara","LabB","Kits comerciales",58.8,46,71,25,92,2024-02-06
+"MUE-0004","Ana","CDMX","LabA","Kits comerciales",32.54,37,67,20,112,2022-09-05
+"MUE-0005","Sofia","Monterrey","LabC","Fenol-Cloroformo",41.81,42,64,17,91,2024-05-27
+"MUE-0006","Maria","Monterrey","LabB","CTAB",56.76,38,77,16,76,2022-03-17
+"MUE-0007","Luis","Toluca","LabC","Fenol-Cloroformo",39.61,31,69,22,100,2021-11-02
+"MUE-0008","Sofia","Monterrey","LabA","Fenol-Cloroformo",38.31,29,79,21,116,2022-04-19
+"MUE-0009","Andres","Toluca","LabB","Kits comerciales",49.29,31,63,13,112,2022-12-31
+"MUE-0010","Elena","Guadalajara","LabC","Fenol-Cloroformo",50.53,43,50,19,110,2020-08-17
+"MUE-0011","Maria","Monterrey","LabA","Fenol-Cloroformo",64.02,48,68,20,89,2023-09-08
+"MUE-0012","Pedro","Guadalajara","LabC","CTAB",46.5,31,63,18,104,2022-07-02
+"MUE-0013","Andres","Toluca","LabC","Fenol-Cloroformo",24.49,42,58,20,79,2023-03-13
+"MUE-0014","Andres","Toluca","LabA","Lisis alcalina",40.16,34,79,21,90,2020-12-06
+"MUE-0015","Andres","Toluca","LabB","CTAB",40.54,47,67,18,84,2020-05-26
+"MUE-0016","Pedro","Puebla","LabB","Kits comerciales",36.02,43,68,17,104,2023-04-24
+"MUE-0017","Camila","Toluca","LabC","CTAB",54.83,48,73,13,96,2023-08-20
+"MUE-0018","Elena","Toluca","LabC","Kits comerciales",87.53,35,64,19,82,2024-08-24
+"MUE-0019","Diego","CDMX","LabC","Lisis alcalina",61.91,39,73,18,118,2022-12-05
+"MUE-0020","Elena","Guadalajara","LabB","CTAB",47.68,25,78,18,99,2024-10-02
+"MUE-0021","Andres","Monterrey","LabA","Fenol-Cloroformo",57.56,42,60,19,105,2021-07-17
+"MUE-0022","Pedro","Monterrey","LabC","CTAB",71.64,41,81,19,94,2022-04-25
+"MUE-0023","Luis","CDMX","LabB","Kits comerciales",45.36,44,88,22,96,2020-01-22
+"MUE-0024","Juan","Toluca","LabB","Lisis alcalina",59.97,49,69,15,98,2020-05-05
+"MUE-0025","Diego","Toluca","LabA","Lisis alcalina",58.43,40,76,18,105,2024-09-18
+"MUE-0026","Maria","CDMX","LabA","Kits comerciales",48.16,47,67,16,82,2020-09-16
+"MUE-0027","Elena","Toluca","LabB","CTAB",50.85,25,53,26,94,2021-12-10
+"MUE-0028","Diego","Toluca","LabC","Lisis alcalina",59.78,42,79,27,103,2023-01-21
+"MUE-0029","Andres","Puebla","LabA","CTAB",49.61,46,61,22,91,2022-09-22
+"MUE-0030","Andres","Toluca","LabB","Lisis alcalina",44.91,34,70,18,86,2022-01-17
+"MUE-0031","Elena","Monterrey","LabC","Lisis alcalina",41.09,37,78,22,115,2024-11-28
+"MUE-0032","Diego","Guadalajara","LabC","Fenol-Cloroformo",54.36,49,78,27,93,2024-06-12
+"MUE-0033","Maria","Puebla","LabB","CTAB",49.17,43,75,21,88,2021-12-13
+"MUE-0034","Diego","Guadalajara","LabB","Kits comerciales",44.42,42,85,15,116,2024-04-15
+"MUE-0035","Maria","Toluca","LabA","Fenol-Cloroformo",52.65,42,60,23,109,2021-11-14
+"MUE-0036","Sofia","Monterrey","LabC","Kits comerciales",38.4,33,57,23,95,2022-07-26
+"MUE-0037","Andres","Puebla","LabC","Fenol-Cloroformo",37.96,49,65,20,89,2021-05-02
+"MUE-0038","Ana","Guadalajara","LabA","Lisis alcalina",70.6,39,60,19,115,2021-08-18
+"MUE-0039","Maria","Toluca","LabA","Kits comerciales",36.78,47,76,23,106,2020-12-17
+"MUE-0040","Camila","Monterrey","LabB","Lisis alcalina",54.74,32,65,19,102,2023-10-30
+"MUE-0041","Ana","Monterrey","LabB","Fenol-Cloroformo",35.47,27,72,21,126,2022-01-25
+"MUE-0042","Juan","CDMX","LabA","Fenol-Cloroformo",46.54,52,77,14,111,2024-05-17
+"MUE-0043","Andres","CDMX","LabB","Fenol-Cloroformo",55.86,48,68,22,94,2024-09-05
+"MUE-0044","Andres","Guadalajara","LabA","Lisis alcalina",34.86,43,76,21,103,2023-05-24
+"MUE-0045","Sofia","CDMX","LabC","Kits comerciales",58.93,36,67,19,101,2022-12-14
+"MUE-0046","Maria","Guadalajara","LabA","Lisis alcalina",53.28,31,58,20,92,2023-01-21
+"MUE-0047","Andres","CDMX","LabA","CTAB",45.25,30,62,20,87,2024-08-06
+"MUE-0048","Elena","Puebla","LabC","Lisis alcalina",53.68,36,81,30,86,2021-01-26
+"MUE-0049","Luis","Monterrey","LabB","CTAB",51.13,38,85,24,113,2022-06-27
+"MUE-0050","Sofia","Puebla","LabB","CTAB",37.41,54,72,20,97,2021-10-22
+"MUE-0051","Camila","Puebla","LabA","CTAB",29.04,46,69,12,104,2022-02-17
+"MUE-0052","Sofia","Puebla","LabC","Lisis alcalina",51.59,36,48,24,73,2022-04-03
+"MUE-0053","Sofia","Guadalajara","LabB","Lisis alcalina",34.93,41,48,12,101,2024-08-03
+"MUE-0054","Diego","Guadalajara","LabA","Kits comerciales",49.47,31,69,22,80,2024-07-09
+"MUE-0055","Juan","CDMX","LabB","CTAB",25.28,53,59,14,97,2024-05-07
+"MUE-0056","Sofia","Guadalajara","LabB","Kits comerciales",36.06,43,66,19,104,2021-03-03
+"MUE-0057","Ana","Puebla","LabC","Fenol-Cloroformo",54.08,34,62,20,94,2022-06-28
+"MUE-0058","Juan","Toluca","LabB","Fenol-Cloroformo",65.68,41,76,14,92,2021-09-07
+"MUE-0059","Ana","Guadalajara","LabA","Fenol-Cloroformo",52.54,49,54,15,118,2022-06-16
+"MUE-0060","Luis","Toluca","LabC","Lisis alcalina",35.08,39,68,22,92,2021-08-22
+"MUE-0061","Maria","Toluca","LabB","Lisis alcalina",43.77,33,81,20,89,2020-01-24
+"MUE-0062","Sofia","Toluca","LabA","Kits comerciales",66.4,39,63,18,109,2023-11-26
+"MUE-0063","Pedro","CDMX","LabB","Fenol-Cloroformo",57.78,45,60,21,95,2021-06-27
+"MUE-0064","Andres","Guadalajara","LabC","Fenol-Cloroformo",61.81,42,66,26,111,2020-02-03
+"MUE-0065","Luis","CDMX","LabB","Lisis alcalina",64.95,52,77,17,103,2021-01-21
+"MUE-0066","Sofia","Monterrey","LabC","Lisis alcalina",55.66,45,81,17,96,2022-07-19
+"MUE-0067","Andres","Monterrey","LabC","Lisis alcalina",66.64,39,69,15,117,2023-12-10
+"MUE-0068","Andres","CDMX","LabB","Kits comerciales",35.4,24,83,14,94,2023-03-14
+"MUE-0069","Diego","Monterrey","LabB","Lisis alcalina",54.49,38,85,26,108,2024-12-13
+"MUE-0070","Pedro","Monterrey","LabC","Kits comerciales",44.91,38,74,25,100,2020-09-28
+"MUE-0071","Camila","Guadalajara","LabB","Kits comerciales",53.03,43,76,15,111,2023-02-06
+"MUE-0072","Andres","Monterrey","LabB","Lisis alcalina",69.88,42,64,17,116,2022-12-24
+"MUE-0073","Pedro","CDMX","LabB","Fenol-Cloroformo",57.56,36,59,23,98,2023-07-13
+"MUE-0074","Diego","Guadalajara","LabB","Lisis alcalina",40.56,52,61,22,94,2022-12-08
+"MUE-0075","Pedro","Monterrey","LabA","CTAB",44.75,37,44,28,105,2024-03-11
+"MUE-0076","Diego","Toluca","LabC","Fenol-Cloroformo",35.73,42,63,14,104,2022-11-07
+"MUE-0077","Sofia","Toluca","LabB","Kits comerciales",48.65,37,64,20,90,2021-03-04
+"MUE-0078","Elena","Puebla","LabC","Kits comerciales",42.51,40,76,24,107,2022-08-27
+"MUE-0079","Maria","Monterrey","LabB","CTAB",61.87,47,75,22,103,2022-10-02
+"MUE-0080","Maria","Monterrey","LabB","Lisis alcalina",42.61,38,72,25,116,2022-11-12
+"MUE-0081","Camila","Toluca","LabC","Lisis alcalina",60.65,46,56,23,109,2020-09-25
+"MUE-0082","Pedro","Guadalajara","LabB","Kits comerciales",60.81,53,77,24,104,2020-04-23
+"MUE-0083","Elena","CDMX","LabC","CTAB",43.47,37,59,18,80,2021-02-06
+"MUE-0084","Ana","Monterrey","LabC","Fenol-Cloroformo",71.4,36,68,28,104,2021-08-08
+"MUE-0085","Elena","Monterrey","LabB","CTAB",50.4,44,77,30,105,2023-08-25
+"MUE-0086","Ana","Puebla","LabB","Lisis alcalina",40.21,41,76,25,91,2022-06-28
+"MUE-0087","Elena","Monterrey","LabC","Lisis alcalina",51.12,56,72,15,102,2022-08-18
+"MUE-0088","Sofia","Guadalajara","LabB","Kits comerciales",35.14,45,62,18,95,2023-06-30
+"MUE-0089","Luis","Puebla","LabA","CTAB",59.76,43,63,21,80,2020-04-12
+"MUE-0090","Juan","Guadalajara","LabC","Kits comerciales",36.57,45,67,17,112,2022-11-01
+"MUE-0091","Sofia","Guadalajara","LabC","Kits comerciales",69.39,49,67,18,116,2021-06-08
+"MUE-0092","Pedro","Monterrey","LabB","Lisis alcalina",18.89,46,68,22,96,2024-02-07
+"MUE-0093","Camila","Guadalajara","LabC","CTAB",33.31,49,81,19,95,2021-08-29
+"MUE-0094","Pedro","Guadalajara","LabA","CTAB",44.92,37,65,14,97,2021-07-20
+"MUE-0095","Camila","Toluca","LabB","Kits comerciales",39.49,38,69,23,100,2022-02-09
+"MUE-0096","Juan","Toluca","LabA","Kits comerciales",70.2,37,72,24,94,2020-08-30
+"MUE-0097","Diego","Puebla","LabA","Fenol-Cloroformo",49.09,50,73,30,96,2021-01-13
+"MUE-0098","Diego","Guadalajara","LabA","Kits comerciales",55.32,53,58,19,103,2021-09-17
+"MUE-0099","Diego","Monterrey","LabC","Lisis alcalina",60.61,41,89,20,92,2022-12-01
+"MUE-0100","Elena","CDMX","LabC","Lisis alcalina",52.29,44,54,13,93,2021-06-17
+"MUE-0101","Sofia","Puebla","LabB","Fenol-Cloroformo",64.42,33,70,24,93,2024-05-06
+"MUE-0102","Diego","Toluca","LabB","Fenol-Cloroformo",56.6,43,78,8,96,2022-02-04
+"MUE-0103","Elena","Puebla","LabA","Kits comerciales",60.47,31,59,18,105,2022-02-17
+"MUE-0104","Maria","Guadalajara","LabC","Lisis alcalina",27.71,39,68,19,118,2020-08-02
+"MUE-0105","Sofia","Puebla","LabA","Lisis alcalina",33.11,34,73,18,106,2021-06-06
+"MUE-0106","Camila","Monterrey","LabC","Fenol-Cloroformo",16.6,30,78,23,99,2024-11-01
+"MUE-0107","Maria","Toluca","LabB","Fenol-Cloroformo",46.2,46,79,21,87,2023-10-02
+"MUE-0108","Diego","Puebla","LabB","Lisis alcalina",71.48,38,84,18,93,2021-01-11
+"MUE-0109","Luis","CDMX","LabA","Kits comerciales",35.32,50,59,18,113,2024-01-29
+"MUE-0110","Pedro","Monterrey","LabC","Fenol-Cloroformo",54.73,40,65,17,120,2021-04-05
+"MUE-0111","Andres","Guadalajara","LabB","CTAB",56.61,46,53,26,90,2020-10-23
+"MUE-0112","Diego","Guadalajara","LabC","CTAB",53.58,35,84,16,117,2020-08-30
+"MUE-0113","Sofia","CDMX","LabA","Kits comerciales",45.74,44,82,23,97,2021-03-24
+"MUE-0114","Elena","Monterrey","LabA","CTAB",40.73,39,64,24,109,2024-08-19
+"MUE-0115","Andres","CDMX","LabC","CTAB",40.45,44,70,10,108,2021-10-10
+"MUE-0116","Diego","Toluca","LabC","Fenol-Cloroformo",50.26,44,54,18,99,2024-02-06
+"MUE-0117","Ana","Guadalajara","LabA","Kits comerciales",69.49,43,55,22,91,2023-06-05
+"MUE-0118","Pedro","Toluca","LabA","Kits comerciales",38.1,34,84,15,100,2020-11-19
+"MUE-0119","Camila","Guadalajara","LabC","Lisis alcalina",48.16,44,67,17,88,2024-08-04
+"MUE-0120","Luis","Monterrey","LabB","Kits comerciales",51.49,49,78,22,107,2021-06-07
+"MUE-0121","Diego","Toluca","LabA","CTAB",61.87,29,62,21,108,2024-11-29
+"MUE-0122","Luis","CDMX","LabB","Kits comerciales",46.53,41,78,21,103,2020-10-20
+"MUE-0123","Juan","Guadalajara","LabA","CTAB",59.57,44,77,16,94,2022-06-23
+"MUE-0124","Camila","Monterrey","LabC","Lisis alcalina",27.55,45,72,16,97,2020-08-09
+"MUE-0125","Luis","Guadalajara","LabB","Fenol-Cloroformo",60.78,31,73,22,89,2023-04-20
+"MUE-0126","Andres","CDMX","LabB","Kits comerciales",51.45,29,72,29,113,2023-08-07
+"MUE-0127","Camila","Toluca","LabC","Fenol-Cloroformo",33.57,62,73,22,108,2021-02-10
+"MUE-0128","Sofia","Puebla","LabB","Kits comerciales",15.04,31,71,14,102,2021-02-19
+"MUE-0129","Luis","Monterrey","LabB","Lisis alcalina",44.52,45,88,20,87,2020-05-25
+"MUE-0130","Camila","Puebla","LabA","Fenol-Cloroformo",60.03,47,69,10,86,2021-12-08
+"MUE-0131","Pedro","Puebla","LabB","Kits comerciales",54.79,46,55,26,106,2023-09-26
+"MUE-0132","Luis","Toluca","LabB","Kits comerciales",44.54,38,75,15,108,2020-10-01
+"MUE-0133","Luis","Guadalajara","LabC","CTAB",50.75,39,83,25,101,2020-02-19
+"MUE-0134","Sofia","Puebla","LabB","Fenol-Cloroformo",52.34,41,69,17,106,2024-11-22
+"MUE-0135","Juan","CDMX","LabA","Fenol-Cloroformo",38.71,53,67,14,100,2023-03-25
+"MUE-0136","Elena","Monterrey","LabC","Kits comerciales",50.82,29,64,17,110,2024-12-14
+"MUE-0137","Luis","Guadalajara","LabB","Fenol-Cloroformo",51.68,48,70,23,106,2021-08-08
+"MUE-0138","Andres","Guadalajara","LabC","Kits comerciales",39.16,43,79,12,106,2020-05-08
+"MUE-0139","Diego","Guadalajara","LabC","Lisis alcalina",52.97,36,58,19,107,2020-07-19
+"MUE-0140","Camila","Puebla","LabB","Fenol-Cloroformo",54.66,35,63,23,96,2020-07-24
+"MUE-0141","Maria","Guadalajara","LabA","Fenol-Cloroformo",57.89,38,74,15,95,2021-03-27
+"MUE-0142","Ana","Puebla","LabC","Fenol-Cloroformo",60.67,38,75,22,103,2024-07-21
+"MUE-0143","Sofia","Puebla","LabC","Fenol-Cloroformo",56.15,39,68,25,90,2024-01-10
+"MUE-0144","Andres","Monterrey","LabA","Kits comerciales",54.52,44,71,20,103,2021-10-01
+"MUE-0145","Camila","CDMX","LabC","Lisis alcalina",48.57,46,60,17,100,2024-06-24
+"MUE-0146","Elena","Monterrey","LabA","Fenol-Cloroformo",56.73,43,71,18,114,2021-08-04
+"MUE-0147","Luis","Puebla","LabB","Kits comerciales",30.96,51,75,18,118,2021-12-09
+"MUE-0148","Maria","CDMX","LabC","Lisis alcalina",59.81,43,69,17,125,2023-01-12
+"MUE-0149","Diego","CDMX","LabA","Kits comerciales",41.98,42,58,20,106,2023-09-20
+"MUE-0150","Juan","Guadalajara","LabC","Fenol-Cloroformo",85.06,45,77,24,106,2024-07-01
+"MUE-0151","Camila","Guadalajara","LabB","Lisis alcalina",41.05,39,54,22,101,2022-05-04
+"MUE-0152","Camila","Monterrey","LabC","CTAB",6.69,44,85,27,100,2022-04-20
+"MUE-0153","Elena","Toluca","LabA","Lisis alcalina",70.58,52,72,31,104,2021-11-04
+"MUE-0154","Andres","Puebla","LabB","Fenol-Cloroformo",41.02,38,76,22,96,2024-06-10
+"MUE-0155","Camila","Guadalajara","LabC","Fenol-Cloroformo",58.89,46,79,19,98,2023-05-28
+"MUE-0156","Ana","Guadalajara","LabB","Kits comerciales",53.39,40,55,25,93,2020-12-07
+"MUE-0157","Maria","Puebla","LabB","Kits comerciales",66.44,35,54,23,103,2020-09-12
+"MUE-0158","Andres","Puebla","LabC","Kits comerciales",36.45,47,77,29,108,2022-11-26
+"MUE-0159","Diego","Toluca","LabA","Lisis alcalina",32.16,51,65,21,87,2023-05-27
+"MUE-0160","Diego","Toluca","LabC","Lisis alcalina",65.97,36,77,19,82,2024-05-31
+"MUE-0161","Elena","Puebla","LabC","Fenol-Cloroformo",35.62,28,72,23,98,2023-09-15
+"MUE-0162","Elena","CDMX","LabB","Kits comerciales",26.99,36,69,20,113,2023-11-06
+"MUE-0163","Camila","Monterrey","LabB","Kits comerciales",61.67,39,71,21,110,2024-04-07
+"MUE-0164","Sofia","Toluca","LabC","Kits comerciales",49.02,40,69,26,108,2020-10-06
+"MUE-0165","Diego","Monterrey","LabB","Lisis alcalina",84.17,51,75,14,119,2020-08-21
+"MUE-0166","Elena","Monterrey","LabB","Fenol-Cloroformo",55.15,26,71,14,117,2022-04-21
+"MUE-0167","Juan","Guadalajara","LabA","CTAB",44.7,48,82,15,96,2020-01-20
+"MUE-0168","Andres","Puebla","LabA","Kits comerciales",40.59,28,66,22,86,2022-07-05
+"MUE-0169","Pedro","Puebla","LabA","Kits comerciales",75.27,37,76,16,101,2024-11-23
+"MUE-0170","Elena","CDMX","LabC","Fenol-Cloroformo",31.78,37,68,25,110,2023-12-13
+"MUE-0171","Maria","Puebla","LabB","Lisis alcalina",59.25,36,65,16,96,2020-12-04
+"MUE-0172","Sofia","Monterrey","LabC","Fenol-Cloroformo",58.43,40,71,20,73,2024-08-24
+"MUE-0173","Andres","Toluca","LabA","Fenol-Cloroformo",41.41,33,67,9,101,2023-09-24
+"MUE-0174","Luis","Guadalajara","LabB","Fenol-Cloroformo",73.04,39,55,21,82,2024-07-15
+"MUE-0175","Elena","Toluca","LabC","Fenol-Cloroformo",38.79,43,68,16,90,2023-12-07
+"MUE-0176","Diego","Monterrey","LabB","CTAB",49.71,39,70,17,84,2023-07-08
+"MUE-0177","Andres","Monterrey","LabC","Fenol-Cloroformo",55.81,47,64,27,103,2023-10-26
+"MUE-0178","Diego","CDMX","LabB","Kits comerciales",84.85,32,68,19,99,2022-04-22
+"MUE-0179","Elena","CDMX","LabB","Lisis alcalina",59.23,38,60,18,104,2023-04-07
+"MUE-0180","Luis","Toluca","LabA","CTAB",75.97,30,51,26,94,2020-07-27
+"MUE-0181","Camila","CDMX","LabC","Fenol-Cloroformo",39.07,39,81,29,109,2023-05-21
+"MUE-0182","Andres","CDMX","LabA","Kits comerciales",23.82,36,71,16,95,2020-02-12
+"MUE-0183","Andres","Toluca","LabB","Kits comerciales",63.34,48,59,23,87,2020-12-29
+"MUE-0184","Andres","Guadalajara","LabB","Fenol-Cloroformo",25.57,46,68,11,114,2023-12-06
+"MUE-0185","Maria","Monterrey","LabA","Lisis alcalina",29.87,48,67,17,108,2023-01-09
+"MUE-0186","Diego","Guadalajara","LabC","Kits comerciales",59.16,44,80,23,102,2022-10-27
+"MUE-0187","Sofia","Guadalajara","LabB","CTAB",49.16,26,71,20,102,2022-07-12
+"MUE-0188","Juan","Puebla","LabA","Kits comerciales",62.71,32,65,24,96,2023-03-22
+"MUE-0189","Elena","Toluca","LabC","CTAB",71.5,31,65,11,85,2024-03-23
+"MUE-0190","Elena","Puebla","LabC","CTAB",63.69,23,68,27,92,2021-06-09
+"MUE-0191","Juan","Puebla","LabA","Kits comerciales",55.73,42,77,26,89,2023-06-15
+"MUE-0192","Elena","Monterrey","LabB","Fenol-Cloroformo",58.28,32,84,18,106,2021-12-19
+"MUE-0193","Juan","Toluca","LabC","Lisis alcalina",52.17,47,68,20,109,2022-01-31
+"MUE-0194","Elena","CDMX","LabA","Lisis alcalina",75.63,48,65,15,98,2022-06-20
+"MUE-0195","Maria","Puebla","LabA","CTAB",50.79,34,81,22,110,2021-12-27
+"MUE-0196","Diego","Monterrey","LabB","Lisis alcalina",62.11,30,75,24,110,2021-06-15
+"MUE-0197","Maria","Puebla","LabB","CTAB",35.9,42,70,19,103,2024-10-14
+"MUE-0198","Elena","Puebla","LabA","CTAB",50.59,39,60,20,86,2020-10-11
+"MUE-0199","Andres","Toluca","LabB","Fenol-Cloroformo",20.04,54,79,18,118,2024-10-02
+"MUE-0200","Luis","Monterrey","LabB","Lisis alcalina",52.08,37,72,16,115,2024-07-15
+"MUE-0201","Sofia","Puebla","LabB","Kits comerciales",27.68,34,68,15,95,2023-06-29
+"MUE-0202","Ana","Guadalajara","LabA","Lisis alcalina",48.01,41,78,25,84,2020-02-14
+"MUE-0203","Juan","CDMX","LabC","Kits comerciales",46.4,35,69,19,92,2021-04-08
+"MUE-0204","Maria","Puebla","LabC","Kits comerciales",64.58,39,79,18,102,2023-11-09
+"MUE-0205","Andres","Guadalajara","LabC","CTAB",40.37,41,66,19,106,2020-09-25
+"MUE-0206","Luis","Toluca","LabB","Kits comerciales",40.04,46,88,9,105,2020-09-20
+"MUE-0207","Pedro","Guadalajara","LabB","CTAB",20.4,40,71,18,96,2021-08-30
+"MUE-0208","Andres","Monterrey","LabB","CTAB",59.31,32,74,17,83,2023-11-25
+"MUE-0209","Juan","CDMX","LabA","Fenol-Cloroformo",66.33,45,76,19,99,2024-10-18
+"MUE-0210","Ana","CDMX","LabC","Lisis alcalina",46.61,39,63,14,96,2022-03-22
+"MUE-0211","Luis","Puebla","LabB","Fenol-Cloroformo",72.2,40,76,20,90,2023-02-24
+"MUE-0212","Elena","Toluca","LabA","Lisis alcalina",43.85,35,76,19,109,2023-10-19
+"MUE-0213","Juan","CDMX","LabC","CTAB",34.97,34,70,18,107,2022-01-04
+"MUE-0214","Maria","CDMX","LabB","Fenol-Cloroformo",53.44,33,80,15,114,2021-10-19
+"MUE-0215","Maria","Toluca","LabB","Fenol-Cloroformo",60.29,36,65,14,108,2020-08-19
+"MUE-0216","Andres","CDMX","LabA","Fenol-Cloroformo",27.6,42,65,26,128,2023-02-16
+"MUE-0217","Camila","Guadalajara","LabC","Fenol-Cloroformo",25.47,31,57,20,94,2024-01-28
+"MUE-0218","Diego","Guadalajara","LabB","CTAB",50.7,43,56,30,108,2021-05-31
+"MUE-0219","Andres","Puebla","LabC","Kits comerciales",57.21,36,70,21,98,2023-11-19
+"MUE-0220","Maria","Puebla","LabA","CTAB",14.83,29,59,25,115,2022-12-24
+"MUE-0221","Ana","Toluca","LabB","Lisis alcalina",24.41,48,74,21,111,2020-06-24
+"MUE-0222","Elena","CDMX","LabB","Lisis alcalina",54.62,48,75,28,85,2024-06-13
+"MUE-0223","Sofia","Toluca","LabA","Lisis alcalina",63.33,48,62,19,117,2023-08-01
+"MUE-0224","Diego","Guadalajara","LabB","Kits comerciales",44.29,43,83,15,106,2021-09-15
+"MUE-0225","Andres","CDMX","LabC","Fenol-Cloroformo",68.01,26,59,13,104,2021-05-16
+"MUE-0226","Juan","Monterrey","LabA","Fenol-Cloroformo",40.79,42,60,23,94,2020-02-04
+"MUE-0227","Maria","Toluca","LabC","CTAB",47.5,37,74,13,97,2022-01-16
+"MUE-0228","Maria","Monterrey","LabB","Fenol-Cloroformo",70.25,27,71,22,104,2023-02-27
+"MUE-0229","Camila","Puebla","LabC","Kits comerciales",48.78,31,49,21,93,2020-02-08
+"MUE-0230","Maria","Guadalajara","LabB","Lisis alcalina",50.39,36,69,22,89,2023-05-20
+"MUE-0231","Diego","Toluca","LabA","Lisis alcalina",36.5,39,59,20,116,2024-02-22
+"MUE-0232","Luis","CDMX","LabA","Lisis alcalina",51.01,38,72,17,108,2022-08-04
+"MUE-0233","Ana","Puebla","LabC","Kits comerciales",40.34,34,84,20,103,2024-03-24
+"MUE-0234","Juan","CDMX","LabB","CTAB",23.01,38,76,19,89,2020-01-05
+"MUE-0235","Juan","CDMX","LabB","Fenol-Cloroformo",35.44,43,67,22,111,2024-02-06
+"MUE-0236","Ana","Monterrey","LabA","CTAB",46.42,34,67,16,97,2024-06-09
+"MUE-0237","Juan","Toluca","LabA","Kits comerciales",52.45,34,59,21,98,2024-10-21
+"MUE-0238","Ana","Guadalajara","LabB","Kits comerciales",66.02,42,75,25,99,2022-05-17
+"MUE-0239","Camila","Guadalajara","LabB","Lisis alcalina",50.58,40,50,15,118,2022-06-18
+"MUE-0240","Juan","Puebla","LabB","Lisis alcalina",48.09,29,74,21,115,2023-11-11
+"MUE-0241","Pedro","Guadalajara","LabA","CTAB",66.59,42,70,21,88,2024-10-29
+"MUE-0242","Ana","Puebla","LabB","Fenol-Cloroformo",86.23,44,66,21,112,2021-11-06
+"MUE-0243","Ana","Monterrey","LabA","CTAB",48.72,42,52,21,82,2023-12-29
+"MUE-0244","Maria","Toluca","LabC","Fenol-Cloroformo",67.67,47,73,12,103,2022-05-08
+"MUE-0245","Andres","Monterrey","LabC","Kits comerciales",57.29,32,79,19,101,2021-02-11
+"MUE-0246","Elena","Puebla","LabC","Lisis alcalina",48.86,50,65,16,101,2024-12-08
+"MUE-0247","Sofia","CDMX","LabC","Kits comerciales",21.19,35,73,21,117,2024-12-03
+"MUE-0248","Elena","Monterrey","LabA","Lisis alcalina",35.49,47,72,21,99,2024-02-18
+"MUE-0249","Elena","CDMX","LabA","Lisis alcalina",41.65,43,69,27,109,2021-06-06
+"MUE-0250","Sofia","Guadalajara","LabC","Fenol-Cloroformo",33.35,36,70,18,94,2024-07-08
+"MUE-0251","Pedro","CDMX","LabC","Lisis alcalina",32.58,45,86,13,98,2021-09-17
+"MUE-0252","Luis","Guadalajara","LabC","CTAB",43.81,29,79,23,94,2022-05-29
+"MUE-0253","Pedro","Toluca","LabC","Kits comerciales",64.28,45,87,24,92,2020-09-08
+"MUE-0254","Diego","Guadalajara","LabC","Fenol-Cloroformo",36.2,31,66,28,93,2024-04-27
+"MUE-0255","Pedro","Puebla","LabB","Kits comerciales",51.77,44,66,20,98,2022-02-09
+"MUE-0256","Ana","Puebla","LabC","Lisis alcalina",46.96,50,76,20,108,2021-07-20
+"MUE-0257","Diego","Monterrey","LabB","CTAB",61.9,40,84,18,91,2020-04-30
+"MUE-0258","Pedro","Puebla","LabB","Fenol-Cloroformo",50.58,35,73,28,102,2024-05-08
+"MUE-0259","Andres","Toluca","LabC","Lisis alcalina",47.48,46,67,17,109,2024-04-15
+"MUE-0260","Diego","CDMX","LabB","Fenol-Cloroformo",41.24,52,91,23,90,2023-05-16
+"MUE-0261","Andres","Toluca","LabA","Lisis alcalina",63.38,32,76,27,113,2023-12-08
+"MUE-0262","Luis","Guadalajara","LabA","Kits comerciales",67.09,41,68,30,86,2020-07-17
+"MUE-0263","Ana","Monterrey","LabA","Fenol-Cloroformo",50.29,34,70,25,110,2023-12-11
+"MUE-0264","Sofia","Guadalajara","LabA","Fenol-Cloroformo",99.08,44,74,17,103,2022-04-06
+"MUE-0265","Elena","Monterrey","LabA","CTAB",49.96,33,69,24,91,2023-07-21
+"MUE-0266","Andres","Toluca","LabA","Lisis alcalina",93.86,43,61,18,106,2020-05-10
+"MUE-0267","Diego","Guadalajara","LabC","Kits comerciales",47.99,44,74,20,117,2023-04-19
+"MUE-0268","Maria","Puebla","LabB","Lisis alcalina",26.44,41,68,23,106,2023-06-13
+"MUE-0269","Juan","Puebla","LabA","CTAB",28.63,56,67,22,109,2024-05-13
+"MUE-0270","Pedro","Guadalajara","LabA","Lisis alcalina",36.93,43,58,19,123,2024-08-16
+"MUE-0271","Ana","Puebla","LabC","Kits comerciales",72.18,39,76,20,104,2024-01-29
+"MUE-0272","Maria","Toluca","LabA","CTAB",75.55,39,69,22,96,2024-11-20
+"MUE-0273","Juan","Toluca","LabC","Fenol-Cloroformo",55.96,45,62,17,93,2024-07-11
+"MUE-0274","Pedro","Toluca","LabB","Fenol-Cloroformo",54.63,40,87,14,132,2020-04-12
+"MUE-0275","Andres","Toluca","LabA","Lisis alcalina",41.95,42,72,18,105,2024-03-26
+"MUE-0276","Ana","Puebla","LabB","Fenol-Cloroformo",39.85,31,65,22,111,2022-12-19
+"MUE-0277","Sofia","Puebla","LabB","Kits comerciales",39.23,50,82,15,93,2023-06-07
+"MUE-0278","Pedro","Puebla","LabA","Kits comerciales",36.94,41,79,16,87,2020-10-30
+"MUE-0279","Pedro","CDMX","LabB","Kits comerciales",41.9,41,73,17,105,2021-10-22
+"MUE-0280","Andres","CDMX","LabB","Lisis alcalina",40.66,50,66,19,98,2024-02-19
+"MUE-0281","Ana","CDMX","LabC","Lisis alcalina",57.93,38,64,17,104,2021-07-15
+"MUE-0282","Juan","Puebla","LabB","CTAB",61.56,43,68,13,94,2022-05-12
+"MUE-0283","Sofia","Toluca","LabA","Fenol-Cloroformo",74.05,35,79,24,105,2021-03-31
+"MUE-0284","Elena","Monterrey","LabA","Kits comerciales",13.27,37,71,17,111,2022-08-31
+"MUE-0285","Camila","Guadalajara","LabC","Lisis alcalina",57.43,39,71,27,104,2022-05-14
+"MUE-0286","Elena","Guadalajara","LabC","Lisis alcalina",45.22,47,66,23,113,2022-05-13
+"MUE-0287","Elena","Puebla","LabA","Kits comerciales",46,48,82,20,90,2024-04-17
+"MUE-0288","Luis","CDMX","LabA","CTAB",25.37,39,69,26,117,2024-11-20
+"MUE-0289","Sofia","Puebla","LabC","Fenol-Cloroformo",49.51,24,60,22,89,2020-06-15
+"MUE-0290","Luis","Monterrey","LabB","Kits comerciales",38.36,30,79,20,95,2023-06-09
+"MUE-0291","Luis","CDMX","LabA","Lisis alcalina",55.34,44,67,18,120,2023-03-10
+"MUE-0292","Andres","Toluca","LabB","CTAB",33.31,29,73,17,103,2022-02-08
+"MUE-0293","Camila","Monterrey","LabC","Fenol-Cloroformo",101.69,40,57,19,103,2022-10-14
+"MUE-0294","Diego","CDMX","LabB","Fenol-Cloroformo",38.27,39,70,17,113,2023-02-03
+"MUE-0295","Elena","Toluca","LabC","Lisis alcalina",45.77,37,92,17,111,2024-07-13
+"MUE-0296","Juan","Toluca","LabC","Fenol-Cloroformo",31.57,45,53,22,99,2020-01-11
+"MUE-0297","Ana","Puebla","LabB","Fenol-Cloroformo",45.12,31,71,15,106,2024-05-15
+"MUE-0298","Camila","Toluca","LabB","CTAB",82.01,38,72,20,106,2021-07-02
+"MUE-0299","Pedro","Toluca","LabC","Kits comerciales",44.2,36,63,26,106,2024-04-04
+"MUE-0300","Elena","Monterrey","LabB","Kits comerciales",59.15,34,69,21,99,2022-07-09
+"MUE-0301","Diego","Puebla","LabB","Kits comerciales",35.9,44,61,22,93,2024-02-19
+"MUE-0302","Juan","Puebla","LabB","Fenol-Cloroformo",73.08,54,59,13,102,2022-04-25
+"MUE-0303","Ana","Guadalajara","LabA","Lisis alcalina",57.03,29,70,24,99,2023-04-02
+"MUE-0304","Pedro","Guadalajara","LabA","CTAB",39.25,25,71,16,101,2023-10-05
+"MUE-0305","Pedro","CDMX","LabC","Fenol-Cloroformo",53.46,37,82,20,100,2024-06-17
+"MUE-0306","Sofia","Toluca","LabC","Kits comerciales",44.2,45,64,14,86,2020-06-14
+"MUE-0307","Elena","Puebla","LabB","Kits comerciales",57.63,35,75,15,109,2021-01-15
+"MUE-0308","Maria","Monterrey","LabA","Lisis alcalina",37.86,55,53,18,121,2020-09-28
+"MUE-0309","Luis","Puebla","LabB","CTAB",56.95,41,71,27,112,2024-12-27
+"MUE-0310","Ana","CDMX","LabC","CTAB",73.75,46,72,20,95,2021-11-17
+"MUE-0311","Juan","Toluca","LabA","Lisis alcalina",68.94,34,59,18,112,2023-01-31
+"MUE-0312","Juan","Puebla","LabA","Kits comerciales",54.57,40,66,22,91,2022-02-21
+"MUE-0313","Maria","Puebla","LabB","Kits comerciales",55.01,49,64,14,109,2021-10-07
+"MUE-0314","Ana","Monterrey","LabA","Kits comerciales",56.32,37,78,17,97,2023-08-24
+"MUE-0315","Ana","Puebla","LabC","Fenol-Cloroformo",63.48,43,59,15,115,2024-04-24
+"MUE-0316","Pedro","Guadalajara","LabB","Fenol-Cloroformo",55.79,37,73,18,112,2023-10-21
+"MUE-0317","Maria","Guadalajara","LabB","Kits comerciales",59.09,38,63,23,102,2020-12-22
+"MUE-0318","Sofia","Puebla","LabB","Lisis alcalina",59.57,43,73,14,98,2020-09-25
+"MUE-0319","Elena","Toluca","LabA","Lisis alcalina",53.42,42,77,23,94,2020-12-02
+"MUE-0320","Pedro","Puebla","LabB","Lisis alcalina",60.81,47,60,24,110,2023-02-26
+"MUE-0321","Pedro","Toluca","LabB","Kits comerciales",50.87,35,53,22,84,2023-05-23
+"MUE-0322","Juan","Puebla","LabB","CTAB",65.17,41,65,25,85,2024-08-05
+"MUE-0323","Camila","Puebla","LabB","Lisis alcalina",43.58,26,83,21,87,2020-08-04
+"MUE-0324","Juan","Monterrey","LabB","Lisis alcalina",52.91,52,61,25,92,2020-02-15
+"MUE-0325","Luis","CDMX","LabB","CTAB",50.49,39,76,22,111,2024-05-12
+"MUE-0326","Camila","CDMX","LabB","Kits comerciales",33.89,39,60,15,122,2020-05-03
+"MUE-0327","Elena","Guadalajara","LabA","CTAB",67.98,43,79,20,88,2020-03-26
+"MUE-0328","Elena","Toluca","LabA","Kits comerciales",32.56,32,69,19,106,2022-05-12
+"MUE-0329","Camila","Puebla","LabB","Lisis alcalina",69.58,40,86,19,112,2023-10-07
+"MUE-0330","Diego","Monterrey","LabA","Fenol-Cloroformo",33.97,32,65,17,120,2021-12-16
+"MUE-0331","Ana","Toluca","LabB","Kits comerciales",35.27,42,70,15,104,2023-08-06
+"MUE-0332","Juan","CDMX","LabC","Kits comerciales",62.91,38,89,18,84,2024-08-25
+"MUE-0333","Luis","Toluca","LabA","Lisis alcalina",48.77,39,68,16,99,2023-12-15
+"MUE-0334","Andres","Puebla","LabC","Fenol-Cloroformo",22.32,39,67,28,108,2022-03-13
+"MUE-0335","Maria","Monterrey","LabB","Fenol-Cloroformo",72.55,49,67,21,92,2023-07-03
+"MUE-0336","Camila","Puebla","LabB","Kits comerciales",12.67,36,65,20,98,2022-03-11
+"MUE-0337","Ana","Toluca","LabB","Lisis alcalina",39.61,33,55,31,90,2020-01-18
+"MUE-0338","Maria","Puebla","LabA","CTAB",27.19,38,76,14,104,2022-10-13
+"MUE-0339","Ana","Puebla","LabB","Kits comerciales",41.48,35,69,19,100,2024-01-04
+"MUE-0340","Sofia","Toluca","LabB","Kits comerciales",51.33,32,67,21,105,2024-03-18
+"MUE-0341","Elena","CDMX","LabB","Kits comerciales",45,46,75,21,92,2024-03-08
+"MUE-0342","Elena","CDMX","LabA","Fenol-Cloroformo",41.32,35,78,17,87,2023-10-12
+"MUE-0343","Andres","Monterrey","LabB","Kits comerciales",47.54,34,72,31,104,2023-12-29
+"MUE-0344","Diego","Puebla","LabA","Kits comerciales",54.04,35,64,16,102,2021-11-29
+"MUE-0345","Sofia","Monterrey","LabC","Kits comerciales",37.16,40,74,17,92,2024-11-04
+"MUE-0346","Pedro","CDMX","LabB","Fenol-Cloroformo",18.88,45,55,16,95,2023-04-14
+"MUE-0347","Camila","Monterrey","LabB","Kits comerciales",36.11,47,66,13,92,2020-01-09
+"MUE-0348","Diego","Toluca","LabC","Fenol-Cloroformo",21.43,44,68,19,99,2020-11-06
+"MUE-0349","Luis","Toluca","LabC","CTAB",59.53,43,60,19,92,2020-05-28
+"MUE-0350","Camila","Guadalajara","LabB","Lisis alcalina",78.05,39,85,26,100,2023-09-04
+"MUE-0351","Pedro","Monterrey","LabB","Kits comerciales",32.82,36,62,19,99,2020-02-09
+"MUE-0352","Camila","CDMX","LabB","Fenol-Cloroformo",36.72,46,87,24,96,2021-10-09
+"MUE-0353","Sofia","Monterrey","LabB","CTAB",36.87,32,58,21,93,2024-01-28
+"MUE-0354","Luis","Toluca","LabB","CTAB",61.83,47,81,16,90,2021-06-18
+"MUE-0355","Diego","Puebla","LabB","Lisis alcalina",50.47,39,75,26,124,2024-06-01
+"MUE-0356","Elena","Guadalajara","LabB","CTAB",57.33,36,71,21,102,2022-04-01
+"MUE-0357","Camila","Guadalajara","LabA","Fenol-Cloroformo",61.57,36,61,12,93,2023-06-27
+"MUE-0358","Luis","Monterrey","LabA","CTAB",53.72,46,80,20,89,2020-07-23
+"MUE-0359","Elena","Puebla","LabA","Kits comerciales",56.72,43,73,12,92,2024-11-16
+"MUE-0360","Andres","Puebla","LabA","Kits comerciales",32.56,46,77,20,115,2020-02-12
+"MUE-0361","Sofia","CDMX","LabB","Kits comerciales",49.07,44,55,16,94,2023-03-22
+"MUE-0362","Pedro","Toluca","LabB","Lisis alcalina",40.76,39,72,18,106,2021-01-19
+"MUE-0363","Luis","Guadalajara","LabA","Fenol-Cloroformo",30.43,39,68,15,100,2022-05-17
+"MUE-0364","Andres","Monterrey","LabA","Kits comerciales",32.47,37,92,24,114,2021-02-10
+"MUE-0365","Andres","Guadalajara","LabB","CTAB",64.06,36,79,17,84,2023-04-14
+"MUE-0366","Luis","Toluca","LabB","Kits comerciales",30.49,43,70,24,119,2021-09-24
+"MUE-0367","Luis","Guadalajara","LabB","Lisis alcalina",43.94,42,74,22,103,2021-11-27
+"MUE-0368","Sofia","Puebla","LabC","Lisis alcalina",64.74,37,77,18,95,2020-04-07
+"MUE-0369","Maria","Monterrey","LabA","Lisis alcalina",54.94,47,69,28,103,2023-11-11
+"MUE-0370","Juan","Guadalajara","LabB","CTAB",59.79,47,68,18,91,2020-06-27
+"MUE-0371","Camila","Toluca","LabB","CTAB",54.97,26,60,18,104,2021-08-15
+"MUE-0372","Diego","CDMX","LabB","Kits comerciales",47.77,39,79,25,123,2020-07-17
+"MUE-0373","Maria","Guadalajara","LabB","Lisis alcalina",17,42,57,18,89,2022-01-17
+"MUE-0374","Sofia","Monterrey","LabB","Lisis alcalina",40.87,45,80,15,93,2021-04-18
+"MUE-0375","Pedro","Guadalajara","LabC","Fenol-Cloroformo",29.33,40,63,17,108,2021-09-02
+"MUE-0376","Camila","Puebla","LabA","Kits comerciales",44.33,34,68,22,108,2020-03-09
+"MUE-0377","Elena","Guadalajara","LabB","CTAB",80.81,41,99,19,113,2023-03-24
+"MUE-0378","Maria","Puebla","LabA","Kits comerciales",52.07,51,54,25,102,2023-04-05
+"MUE-0379","Diego","CDMX","LabC","Lisis alcalina",39.21,25,68,22,109,2020-08-06
+"MUE-0380","Luis","Guadalajara","LabA","CTAB",63.33,33,64,14,94,2023-02-23
+"MUE-0381","Andres","CDMX","LabB","Kits comerciales",57.37,47,71,16,89,2024-10-27
+"MUE-0382","Pedro","CDMX","LabA","CTAB",48.79,46,76,15,92,2024-07-13
+"MUE-0383","Elena","Puebla","LabC","Lisis alcalina",46.59,37,62,16,106,2021-03-02
+"MUE-0384","Diego","Puebla","LabB","Fenol-Cloroformo",47.82,49,79,22,88,2020-11-01
+"MUE-0385","Ana","Monterrey","LabC","CTAB",48.93,42,61,22,82,2022-05-19
+"MUE-0386","Andres","CDMX","LabC","Fenol-Cloroformo",59.29,48,73,22,107,2022-10-17
+"MUE-0387","Sofia","Toluca","LabA","Lisis alcalina",51.91,35,74,17,100,2023-01-21
+"MUE-0388","Luis","Monterrey","LabC","Lisis alcalina",40.59,41,62,13,96,2021-05-05
+"MUE-0389","Sofia","Monterrey","LabC","Kits comerciales",62.52,26,76,23,102,2023-12-03
+"MUE-0390","Ana","Guadalajara","LabB","CTAB",39.52,26,58,17,82,2023-07-12
+"MUE-0391","Ana","CDMX","LabB","CTAB",69.64,45,62,17,117,2023-01-28
+"MUE-0392","Camila","Monterrey","LabB","CTAB",35.3,34,69,14,88,2023-03-04
+"MUE-0393","Camila","Guadalajara","LabA","CTAB",61.22,40,63,10,95,2024-09-12
+"MUE-0394","Maria","Monterrey","LabC","Fenol-Cloroformo",68.87,44,58,14,89,2024-12-19
+"MUE-0395","Andres","Puebla","LabA","Kits comerciales",68.33,44,85,16,97,2023-08-01
+"MUE-0396","Diego","Puebla","LabB","Lisis alcalina",48.32,37,81,25,103,2024-10-03
+"MUE-0397","Pedro","Puebla","LabB","CTAB",60.38,22,61,15,81,2024-06-18
+"MUE-0398","Diego","CDMX","LabA","Fenol-Cloroformo",17.94,41,71,15,93,2023-06-01
+"MUE-0399","Camila","Monterrey","LabC","Fenol-Cloroformo",56.66,40,66,16,103,2020-06-06
+"MUE-0400","Elena","Guadalajara","LabB","Fenol-Cloroformo",48.36,44,73,11,86,2024-06-05
+"MUE-0401","Maria","CDMX","LabC","Fenol-Cloroformo",59,34,76,15,89,2024-12-19
+"MUE-0402","Juan","Monterrey","LabB","Fenol-Cloroformo",51.63,42,75,19,90,2020-09-13
+"MUE-0403","Diego","Monterrey","LabC","Fenol-Cloroformo",69.42,35,74,20,103,2022-02-01
+"MUE-0404","Sofia","Puebla","LabC","Kits comerciales",47.44,39,73,16,86,2024-10-11
+"MUE-0405","Camila","CDMX","LabB","CTAB",61.01,30,78,28,86,2020-05-19
+"MUE-0406","Luis","Puebla","LabB","CTAB",48.41,39,67,16,97,2021-12-24
+"MUE-0407","Sofia","Monterrey","LabC","CTAB",59.84,34,57,20,88,2024-07-27
+"MUE-0408","Juan","Guadalajara","LabB","Lisis alcalina",31.53,32,73,20,91,2020-10-31
+"MUE-0409","Pedro","Toluca","LabC","Lisis alcalina",59.1,43,78,25,99,2024-12-18
+"MUE-0410","Luis","Guadalajara","LabA","Kits comerciales",44.16,34,61,21,90,2022-01-15
+"MUE-0411","Juan","Guadalajara","LabC","Fenol-Cloroformo",55.92,42,65,26,84,2024-07-28
+"MUE-0412","Maria","Puebla","LabB","Lisis alcalina",36.87,40,75,28,90,2020-07-09
+"MUE-0413","Luis","Toluca","LabA","Lisis alcalina",58.12,36,79,14,105,2020-12-28
+"MUE-0414","Ana","Guadalajara","LabC","Kits comerciales",94.87,36,77,30,98,2024-01-25
+"MUE-0415","Diego","Toluca","LabA","Lisis alcalina",73.11,45,61,17,88,2023-12-25
+"MUE-0416","Pedro","Puebla","LabC","Fenol-Cloroformo",64.71,43,79,16,96,2022-11-06
+"MUE-0417","Elena","CDMX","LabB","CTAB",40.71,38,71,22,94,2021-09-08
+"MUE-0418","Pedro","CDMX","LabB","CTAB",54.87,55,70,17,98,2023-06-15
+"MUE-0419","Juan","Toluca","LabA","CTAB",47.62,49,68,17,86,2023-04-07
+"MUE-0420","Diego","Puebla","LabC","Lisis alcalina",20.22,37,73,19,93,2020-03-22
+"MUE-0421","Sofia","Toluca","LabA","Fenol-Cloroformo",46.4,53,78,22,106,2022-09-24
+"MUE-0422","Luis","Guadalajara","LabA","Fenol-Cloroformo",45.25,34,77,18,104,2022-08-25
+"MUE-0423","Maria","Guadalajara","LabA","Fenol-Cloroformo",48.66,38,72,16,88,2024-11-19
+"MUE-0424","Diego","CDMX","LabA","Fenol-Cloroformo",42.02,40,67,14,103,2020-06-14
+"MUE-0425","Pedro","CDMX","LabC","CTAB",59.78,34,61,19,99,2024-11-27
+"MUE-0426","Ana","Guadalajara","LabB","Fenol-Cloroformo",78.78,54,66,17,106,2024-08-31
+"MUE-0427","Camila","Guadalajara","LabC","CTAB",67.33,41,58,20,90,2022-10-12
+"MUE-0428","Luis","Monterrey","LabA","Lisis alcalina",59.9,36,55,20,114,2022-11-18
+"MUE-0429","Sofia","Guadalajara","LabC","CTAB",50.83,38,73,26,99,2021-04-08
+"MUE-0430","Elena","Puebla","LabB","Lisis alcalina",51.14,39,59,11,103,2022-08-09
+"MUE-0431","Diego","Toluca","LabB","Kits comerciales",67.36,44,74,25,109,2021-04-13
+"MUE-0432","Sofia","Puebla","LabB","Kits comerciales",69.22,35,83,19,103,2022-06-16
+"MUE-0433","Juan","Guadalajara","LabA","Kits comerciales",41.12,47,77,12,80,2020-03-21
+"MUE-0434","Sofia","Monterrey","LabC","Fenol-Cloroformo",64.25,42,74,11,108,2022-04-17
+"MUE-0435","Camila","Puebla","LabC","Fenol-Cloroformo",32.25,27,73,20,90,2021-11-29
+"MUE-0436","Pedro","Guadalajara","LabC","Fenol-Cloroformo",32.11,48,69,27,91,2023-11-24
+"MUE-0437","Ana","Puebla","LabB","Kits comerciales",73.94,37,70,22,95,2020-03-12
+"MUE-0438","Pedro","Toluca","LabB","Fenol-Cloroformo",50.55,51,77,20,98,2020-06-20
+"MUE-0439","Juan","CDMX","LabB","CTAB",50.51,42,77,21,114,2023-06-11
+"MUE-0440","Ana","CDMX","LabC","Lisis alcalina",64.69,19,74,17,118,2023-12-29
+"MUE-0441","Ana","Guadalajara","LabA","CTAB",47.05,45,75,20,84,2020-08-04
+"MUE-0442","Camila","Monterrey","LabC","CTAB",37.3,37,75,32,88,2024-04-04
+"MUE-0443","Elena","CDMX","LabA","Lisis alcalina",52.08,39,76,19,97,2023-03-29
+"MUE-0444","Luis","Toluca","LabC","Fenol-Cloroformo",24.37,35,59,25,82,2023-07-23
+"MUE-0445","Andres","CDMX","LabA","Kits comerciales",42.91,37,74,15,94,2022-08-13
+"MUE-0446","Diego","Guadalajara","LabB","Kits comerciales",47.65,36,85,23,99,2020-03-30
+"MUE-0447","Camila","Monterrey","LabC","Kits comerciales",28.36,46,55,23,96,2023-02-20
+"MUE-0448","Pedro","CDMX","LabC","Lisis alcalina",52.77,43,68,15,90,2024-11-21
+"MUE-0449","Sofia","Puebla","LabC","Fenol-Cloroformo",39.01,33,75,23,135,2023-12-11
+"MUE-0450","Sofia","Monterrey","LabC","Kits comerciales",66.71,43,69,17,88,2024-09-16
+"MUE-0451","Camila","Guadalajara","LabC","Fenol-Cloroformo",45.78,47,73,21,84,2023-09-01
+"MUE-0452","Juan","Guadalajara","LabA","CTAB",33.63,25,74,13,100,2020-11-18
+"MUE-0453","Ana","Puebla","LabB","Lisis alcalina",53.59,35,76,24,110,2020-05-05
+"MUE-0454","Maria","Puebla","LabB","CTAB",49.2,43,82,21,90,2024-03-04
+"MUE-0455","Camila","CDMX","LabC","Fenol-Cloroformo",50.6,40,84,25,100,2021-04-15
+"MUE-0456","Camila","Monterrey","LabB","Lisis alcalina",53.23,33,67,18,106,2021-07-20
+"MUE-0457","Diego","Toluca","LabB","CTAB",44.09,49,69,19,97,2021-04-29
+"MUE-0458","Maria","Toluca","LabB","Fenol-Cloroformo",45.1,36,79,16,85,2020-04-18
+"MUE-0459","Juan","Puebla","LabC","Lisis alcalina",59.72,29,69,27,93,2021-07-22
+"MUE-0460","Elena","CDMX","LabB","Lisis alcalina",74.4,45,63,15,97,2021-12-01
+"MUE-0461","Andres","CDMX","LabB","Kits comerciales",21.11,46,61,12,113,2020-08-21
+"MUE-0462","Andres","CDMX","LabC","CTAB",47.96,31,63,22,78,2023-04-21
+"MUE-0463","Diego","Toluca","LabB","Fenol-Cloroformo",64.7,38,82,20,88,2024-11-04
+"MUE-0464","Elena","Toluca","LabB","CTAB",32.31,31,69,23,96,2023-12-21
+"MUE-0465","Luis","Monterrey","LabA","Fenol-Cloroformo",67.5,34,74,15,98,2022-08-10
+"MUE-0466","Camila","Guadalajara","LabC","Lisis alcalina",44.31,43,71,19,109,2021-08-09
+"MUE-0467","Luis","Toluca","LabC","CTAB",60.62,42,62,21,108,2020-11-10
+"MUE-0468","Pedro","CDMX","LabB","Fenol-Cloroformo",72.11,47,64,21,114,2023-10-16
+"MUE-0469","Diego","CDMX","LabB","Lisis alcalina",63.48,41,61,17,100,2021-11-07
+"MUE-0470","Juan","Monterrey","LabC","Lisis alcalina",68.21,43,60,23,98,2021-10-03
+"MUE-0471","Sofia","Guadalajara","LabA","Fenol-Cloroformo",16.88,46,69,21,100,2020-06-27
+"MUE-0472","Elena","Toluca","LabA","Lisis alcalina",30.9,38,71,19,107,2022-07-02
+"MUE-0473","Elena","Guadalajara","LabC","CTAB",58.72,34,76,18,110,2023-06-18
+"MUE-0474","Juan","Guadalajara","LabA","Lisis alcalina",36.34,38,62,23,98,2020-02-15
+"MUE-0475","Diego","Toluca","LabA","Fenol-Cloroformo",41.72,42,67,27,102,2024-08-05
+"MUE-0476","Maria","CDMX","LabB","Kits comerciales",70.76,47,66,26,106,2024-10-21
+"MUE-0477","Sofia","Guadalajara","LabB","Fenol-Cloroformo",51.75,34,71,17,83,2022-07-19
+"MUE-0478","Elena","Toluca","LabA","CTAB",50.68,34,74,13,88,2022-01-28
+"MUE-0479","Sofia","CDMX","LabA","Lisis alcalina",46.32,53,62,20,87,2020-10-05
+"MUE-0480","Andres","CDMX","LabA","Kits comerciales",26.03,37,72,18,103,2023-06-24
+"MUE-0481","Camila","Toluca","LabA","Kits comerciales",21.79,35,63,27,109,2024-04-28
+"MUE-0482","Juan","Puebla","LabC","CTAB",46.73,32,63,18,103,2022-01-05
+"MUE-0483","Sofia","Guadalajara","LabC","Kits comerciales",55.32,33,92,18,101,2020-02-22
+"MUE-0484","Ana","Toluca","LabB","Fenol-Cloroformo",30.22,45,63,19,78,2022-06-24
+"MUE-0485","Camila","Puebla","LabB","CTAB",22.88,42,73,19,95,2024-07-14
+"MUE-0486","Elena","Toluca","LabA","Kits comerciales",69.13,41,79,23,86,2024-01-04
+"MUE-0487","Camila","Toluca","LabA","Kits comerciales",57.6,42,69,22,93,2024-12-13
+"MUE-0488","Andres","CDMX","LabA","Lisis alcalina",57.23,40,82,12,103,2024-11-13
+"MUE-0489","Camila","Guadalajara","LabB","Kits comerciales",63.76,37,60,19,116,2022-05-17
+"MUE-0490","Andres","CDMX","LabB","Kits comerciales",58.32,40,71,20,109,2021-02-16
+"MUE-0491","Andres","CDMX","LabB","Kits comerciales",34.17,37,70,17,93,2021-05-30
+"MUE-0492","Luis","Puebla","LabB","Fenol-Cloroformo",68.75,41,71,22,106,2021-02-12
+"MUE-0493","Juan","Guadalajara","LabA","Fenol-Cloroformo",30.84,41,59,19,90,2020-06-24
+"MUE-0494","Pedro","Monterrey","LabA","Fenol-Cloroformo",42.82,48,68,18,99,2020-01-24
+"MUE-0495","Camila","Guadalajara","LabC","Lisis alcalina",55,31,79,22,112,2021-06-19
+"MUE-0496","Ana","Puebla","LabB","CTAB",54.21,50,87,30,96,2022-08-04
+"MUE-0497","Juan","CDMX","LabB","CTAB",58.84,41,68,20,87,2024-06-16
+"MUE-0498","Andres","CDMX","LabC","Lisis alcalina",63.15,41,77,25,107,2023-11-10
+"MUE-0499","Diego","Guadalajara","LabB","Kits comerciales",37.85,31,73,22,91,2022-08-24
+"MUE-0500","Diego","Puebla","LabB","Kits comerciales",30.69,42,74,20,103,2021-07-02
+"MUE-0501","Luis","CDMX","LabB","Kits comerciales",32.48,49,77,18,94,2022-06-01
+"MUE-0502","Diego","Monterrey","LabC","Kits comerciales",58.62,38,65,22,90,2020-12-18
+"MUE-0503","Luis","CDMX","LabA","CTAB",43.06,51,71,19,104,2021-06-18
+"MUE-0504","Andres","Toluca","LabA","Lisis alcalina",56.19,42,72,25,115,2024-05-24
+"MUE-0505","Luis","Monterrey","LabB","Lisis alcalina",67.74,42,89,13,102,2024-02-22
+"MUE-0506","Elena","Toluca","LabC","Kits comerciales",39.92,52,73,24,100,2021-01-14
+"MUE-0507","Andres","Toluca","LabC","Fenol-Cloroformo",63.87,47,63,16,81,2023-02-06
+"MUE-0508","Camila","Puebla","LabB","CTAB",40.33,42,70,19,101,2024-12-18
+"MUE-0509","Diego","Puebla","LabA","Lisis alcalina",59.25,35,77,19,82,2022-05-27
+"MUE-0510","Andres","Guadalajara","LabC","CTAB",50.51,37,54,16,94,2024-02-02
+"MUE-0511","Pedro","Puebla","LabA","Fenol-Cloroformo",37.24,36,60,19,112,2024-09-16
+"MUE-0512","Juan","Puebla","LabB","CTAB",64.22,38,69,24,95,2023-01-14
+"MUE-0513","Diego","Guadalajara","LabA","Lisis alcalina",60.84,51,62,25,123,2021-10-29
+"MUE-0514","Pedro","Puebla","LabA","CTAB",36.97,32,72,20,92,2022-07-17
+"MUE-0515","Diego","Toluca","LabA","Kits comerciales",50.57,30,67,20,108,2023-01-31
+"MUE-0516","Elena","Monterrey","LabA","CTAB",87.84,37,62,29,85,2022-04-17
+"MUE-0517","Pedro","CDMX","LabA","CTAB",38.72,46,53,17,97,2021-08-07
+"MUE-0518","Sofia","Guadalajara","LabC","CTAB",47.5,45,77,11,111,2020-10-12
+"MUE-0519","Diego","Puebla","LabC","CTAB",71.04,51,68,17,112,2023-06-08
+"MUE-0520","Luis","Guadalajara","LabB","Lisis alcalina",33.29,32,83,22,102,2024-09-17
+"MUE-0521","Elena","Puebla","LabC","CTAB",85.71,44,81,11,80,2020-04-18
+"MUE-0522","Juan","Guadalajara","LabC","Lisis alcalina",39.99,46,79,15,103,2023-01-15
+"MUE-0523","Camila","CDMX","LabC","CTAB",42.18,40,74,21,82,2023-10-13
+"MUE-0524","Maria","Toluca","LabB","CTAB",49.42,45,72,16,98,2022-08-31
+"MUE-0525","Pedro","Monterrey","LabC","Kits comerciales",66.12,36,57,10,99,2023-04-10
+"MUE-0526","Maria","CDMX","LabA","CTAB",98.53,34,52,18,113,2020-11-30
+"MUE-0527","Maria","Monterrey","LabA","Fenol-Cloroformo",57.25,43,73,13,105,2023-07-23
+"MUE-0528","Sofia","CDMX","LabB","Lisis alcalina",59.29,30,75,23,89,2024-03-26
+"MUE-0529","Andres","CDMX","LabC","Fenol-Cloroformo",29.4,37,69,18,114,2023-02-17
+"MUE-0530","Juan","Monterrey","LabA","Fenol-Cloroformo",52.12,38,75,17,81,2020-01-23
+"MUE-0531","Luis","Guadalajara","LabC","Kits comerciales",14.6,39,79,16,105,2020-09-12
+"MUE-0532","Pedro","CDMX","LabA","Lisis alcalina",46.13,32,68,21,105,2020-08-27
+"MUE-0533","Maria","Monterrey","LabB","Fenol-Cloroformo",71.92,46,65,22,107,2020-11-12
+"MUE-0534","Ana","CDMX","LabC","Fenol-Cloroformo",47.03,49,85,23,97,2023-08-17
+"MUE-0535","Juan","Guadalajara","LabA","Kits comerciales",49.14,33,83,19,96,2020-10-23
+"MUE-0536","Luis","Puebla","LabC","Lisis alcalina",50.59,43,63,20,105,2023-07-23
+"MUE-0537","Luis","Monterrey","LabA","Fenol-Cloroformo",48.14,42,75,15,79,2024-01-07
+"MUE-0538","Elena","CDMX","LabB","CTAB",51.5,46,77,18,80,2024-06-30
+"MUE-0539","Elena","Toluca","LabA","Fenol-Cloroformo",27.33,35,76,22,94,2023-07-24
+"MUE-0540","Maria","CDMX","LabC","Lisis alcalina",42.79,41,77,19,102,2022-06-22
+"MUE-0541","Sofia","Puebla","LabA","Lisis alcalina",44.88,31,64,20,112,2021-04-08
+"MUE-0542","Luis","CDMX","LabC","Fenol-Cloroformo",58.55,35,80,17,112,2021-09-15
+"MUE-0543","Pedro","Guadalajara","LabB","Kits comerciales",53.11,41,85,17,91,2023-02-28
+"MUE-0544","Pedro","Toluca","LabC","Lisis alcalina",38.62,41,62,17,89,2021-06-30
+"MUE-0545","Juan","Monterrey","LabA","CTAB",62.74,49,81,24,97,2024-01-30
+"MUE-0546","Diego","Puebla","LabA","Lisis alcalina",68.4,35,62,17,94,2020-10-14
+"MUE-0547","Maria","Puebla","LabC","Fenol-Cloroformo",30.81,46,89,19,107,2023-11-29
+"MUE-0548","Diego","Puebla","LabA","Lisis alcalina",52.76,30,75,14,111,2023-06-24
+"MUE-0549","Andres","Puebla","LabA","Lisis alcalina",38.76,27,67,18,104,2021-05-12
+"MUE-0550","Andres","CDMX","LabC","Kits comerciales",40.88,34,69,12,95,2023-06-25
+"MUE-0551","Camila","Guadalajara","LabA","Fenol-Cloroformo",56.3,55,75,18,91,2021-09-19
+"MUE-0552","Juan","CDMX","LabA","Lisis alcalina",62.63,42,72,28,115,2022-05-15
+"MUE-0553","Maria","Guadalajara","LabC","CTAB",55.7,39,76,12,101,2024-10-17
+"MUE-0554","Maria","Toluca","LabB","Fenol-Cloroformo",41.98,29,82,22,107,2021-05-22
+"MUE-0555","Camila","CDMX","LabC","Lisis alcalina",66.95,41,73,13,102,2021-01-31
+"MUE-0556","Ana","CDMX","LabB","Lisis alcalina",65.48,41,57,14,99,2020-05-22
+"MUE-0557","Sofia","CDMX","LabA","Kits comerciales",35.16,41,54,19,117,2021-10-03
+"MUE-0558","Ana","CDMX","LabB","Kits comerciales",54.7,38,67,26,107,2023-11-21
+"MUE-0559","Luis","Guadalajara","LabB","Kits comerciales",32.61,40,72,24,101,2022-11-07
+"MUE-0560","Elena","Monterrey","LabA","CTAB",72,30,67,17,94,2021-05-22
+"MUE-0561","Diego","Monterrey","LabA","Lisis alcalina",54.05,40,102,14,105,2023-09-19
+"MUE-0562","Sofia","Guadalajara","LabA","Lisis alcalina",66.01,33,61,13,103,2024-04-02
+"MUE-0563","Camila","Guadalajara","LabC","Lisis alcalina",55.82,37,58,21,129,2023-11-26
+"MUE-0564","Juan","Puebla","LabA","Lisis alcalina",48.38,35,66,20,92,2022-11-03
+"MUE-0565","Camila","Toluca","LabC","Lisis alcalina",61.26,38,71,22,105,2021-09-29
+"MUE-0566","Maria","Toluca","LabA","Lisis alcalina",33.45,36,57,18,107,2020-01-19
+"MUE-0567","Andres","CDMX","LabB","CTAB",28.51,45,66,26,108,2024-12-29
+"MUE-0568","Camila","Guadalajara","LabA","CTAB",40.53,41,82,17,100,2024-07-27
+"MUE-0569","Elena","Monterrey","LabC","Kits comerciales",53.95,29,65,31,84,2024-06-18
+"MUE-0570","Luis","CDMX","LabC","Lisis alcalina",43.79,38,70,22,93,2022-01-14
+"MUE-0571","Andres","Puebla","LabB","Kits comerciales",43.02,40,56,26,94,2024-05-26
+"MUE-0572","Andres","Monterrey","LabB","CTAB",63.81,41,67,15,98,2021-07-04
+"MUE-0573","Luis","Monterrey","LabB","Lisis alcalina",42.47,37,80,17,95,2024-01-25
+"MUE-0574","Pedro","Guadalajara","LabB","Kits comerciales",64.62,31,72,21,107,2022-06-07
+"MUE-0575","Diego","Monterrey","LabC","Lisis alcalina",38.41,46,71,25,108,2021-07-12
+"MUE-0576","Luis","Guadalajara","LabC","Fenol-Cloroformo",46.15,40,63,22,106,2022-09-10
+"MUE-0577","Camila","CDMX","LabC","Fenol-Cloroformo",37.61,45,76,19,110,2024-12-07
+"MUE-0578","Camila","CDMX","LabA","CTAB",43.61,50,52,13,113,2024-12-28
+"MUE-0579","Maria","Toluca","LabB","Fenol-Cloroformo",32.57,36,76,19,95,2020-07-24
+"MUE-0580","Maria","CDMX","LabB","Lisis alcalina",56.7,40,67,26,115,2022-01-18
+"MUE-0581","Camila","Puebla","LabC","Fenol-Cloroformo",67.73,48,70,12,98,2022-12-15
+"MUE-0582","Sofia","CDMX","LabC","Fenol-Cloroformo",54.25,50,70,20,103,2020-04-14
+"MUE-0583","Luis","Monterrey","LabB","Kits comerciales",75.68,51,65,22,93,2023-06-24
+"MUE-0584","Pedro","Guadalajara","LabC","Fenol-Cloroformo",25.4,31,73,20,109,2020-10-21
+"MUE-0585","Elena","CDMX","LabB","Kits comerciales",38.73,40,65,17,95,2020-09-01
+"MUE-0586","Diego","CDMX","LabB","CTAB",57.87,43,60,20,95,2020-09-09
+"MUE-0587","Maria","CDMX","LabC","Lisis alcalina",59.5,52,69,18,106,2022-09-07
+"MUE-0588","Camila","Monterrey","LabB","Lisis alcalina",54.9,29,77,21,95,2022-09-24
+"MUE-0589","Andres","Monterrey","LabA","Fenol-Cloroformo",76.19,38,67,17,101,2021-07-02
+"MUE-0590","Elena","Monterrey","LabA","Lisis alcalina",75.13,39,79,15,90,2024-03-13
+"MUE-0591","Pedro","Monterrey","LabA","Fenol-Cloroformo",28.11,37,72,15,95,2022-03-28
+"MUE-0592","Elena","Guadalajara","LabA","Kits comerciales",43.74,42,68,16,100,2023-06-29
+"MUE-0593","Camila","Toluca","LabC","CTAB",28.49,49,71,25,91,2020-01-29
+"MUE-0594","Pedro","Puebla","LabC","Lisis alcalina",34.54,41,62,18,91,2021-06-27
+"MUE-0595","Ana","Puebla","LabB","Fenol-Cloroformo",53.72,49,66,24,96,2024-09-06
+"MUE-0596","Elena","Toluca","LabA","Fenol-Cloroformo",55.27,42,66,19,111,2021-09-26
+"MUE-0597","Camila","Puebla","LabC","Fenol-Cloroformo",38.29,38,65,17,105,2020-04-17
+"MUE-0598","Elena","Toluca","LabC","Fenol-Cloroformo",54.52,39,67,21,98,2021-07-04
+"MUE-0599","Diego","Toluca","LabC","CTAB",39.08,46,59,24,91,2023-06-26
+"MUE-0600","Diego","Puebla","LabC","Fenol-Cloroformo",53.74,31,59,21,84,2021-07-12
+"MUE-0601","Sofia","CDMX","LabC","CTAB",51.7,40,69,18,117,2024-03-13
+"MUE-0602","Juan","Monterrey","LabB","Lisis alcalina",45.74,40,61,22,102,2021-02-27
+"MUE-0603","Luis","CDMX","LabA","CTAB",35.6,42,62,23,94,2024-08-24
+"MUE-0604","Juan","Toluca","LabA","CTAB",43.02,40,55,22,101,2021-12-15
+"MUE-0605","Maria","Guadalajara","LabC","Fenol-Cloroformo",57.37,34,79,20,100,2024-12-06
+"MUE-0606","Elena","Guadalajara","LabB","Kits comerciales",42.59,31,76,21,95,2024-07-07
+"MUE-0607","Elena","Guadalajara","LabB","Lisis alcalina",45.12,38,82,18,89,2024-10-25
+"MUE-0608","Ana","Monterrey","LabB","CTAB",33.95,32,80,15,111,2022-03-03
+"MUE-0609","Diego","CDMX","LabB","Fenol-Cloroformo",43.49,47,69,18,97,2023-05-01
+"MUE-0610","Camila","Guadalajara","LabB","CTAB",49.63,46,64,17,97,2020-10-02
+"MUE-0611","Pedro","Toluca","LabB","Kits comerciales",39.06,29,80,21,102,2022-06-25
+"MUE-0612","Ana","Puebla","LabB","CTAB",44.26,41,69,22,137,2022-04-20
+"MUE-0613","Sofia","Monterrey","LabB","CTAB",33.49,35,65,22,101,2020-01-28
+"MUE-0614","Pedro","Puebla","LabB","CTAB",61.24,42,62,17,99,2020-01-20
+"MUE-0615","Andres","Puebla","LabC","Fenol-Cloroformo",83.15,33,72,19,101,2023-03-02
+"MUE-0616","Diego","Guadalajara","LabB","Fenol-Cloroformo",43.62,33,70,20,89,2024-02-11
+"MUE-0617","Andres","Puebla","LabC","CTAB",57,49,53,18,99,2020-10-06
+"MUE-0618","Sofia","CDMX","LabC","Kits comerciales",73.73,36,93,17,102,2022-03-18
+"MUE-0619","Camila","Puebla","LabA","CTAB",44.23,47,66,18,102,2020-01-22
+"MUE-0620","Andres","Guadalajara","LabB","CTAB",44.16,44,66,19,100,2024-04-12
+"MUE-0621","Maria","Puebla","LabA","Lisis alcalina",59.71,37,86,21,107,2021-04-02
+"MUE-0622","Diego","CDMX","LabC","Kits comerciales",35.71,33,82,22,96,2022-08-11
+"MUE-0623","Andres","Monterrey","LabB","Fenol-Cloroformo",47.4,54,72,18,102,2020-01-24
+"MUE-0624","Ana","Toluca","LabA","Lisis alcalina",41.7,45,76,16,87,2021-02-20
+"MUE-0625","Camila","Puebla","LabA","CTAB",35.48,40,77,19,102,2021-09-19
+"MUE-0626","Andres","Puebla","LabC","Kits comerciales",56.31,50,79,22,101,2023-10-03
+"MUE-0627","Camila","Guadalajara","LabA","Kits comerciales",47.92,44,64,26,124,2021-03-29
+"MUE-0628","Luis","CDMX","LabB","Lisis alcalina",82.54,49,70,24,97,2022-04-23
+"MUE-0629","Diego","Toluca","LabB","CTAB",7.35,39,82,16,101,2024-04-23
+"MUE-0630","Camila","Monterrey","LabC","CTAB",59.68,41,63,15,108,2021-04-15
+"MUE-0631","Ana","Guadalajara","LabA","Fenol-Cloroformo",37.68,38,84,22,86,2021-08-23
+"MUE-0632","Sofia","Monterrey","LabB","Kits comerciales",45.71,46,82,18,100,2021-11-23
+"MUE-0633","Juan","Guadalajara","LabB","Lisis alcalina",33.67,36,92,16,92,2022-09-09
+"MUE-0634","Elena","CDMX","LabA","Fenol-Cloroformo",58.68,38,78,24,108,2020-11-08
+"MUE-0635","Sofia","Monterrey","LabA","Kits comerciales",70.33,39,93,22,83,2022-07-11
+"MUE-0636","Maria","Guadalajara","LabA","Fenol-Cloroformo",57.34,40,69,15,111,2022-05-09
+"MUE-0637","Elena","CDMX","LabA","Kits comerciales",36.32,47,75,25,83,2023-12-07
+"MUE-0638","Andres","Monterrey","LabB","Fenol-Cloroformo",74.22,31,73,19,96,2024-08-21
+"MUE-0639","Ana","CDMX","LabA","Lisis alcalina",47.54,34,74,25,97,2024-12-22
+"MUE-0640","Pedro","Monterrey","LabB","Lisis alcalina",52.68,30,58,17,95,2024-09-04
+"MUE-0641","Pedro","Puebla","LabC","Fenol-Cloroformo",49.26,37,74,22,99,2024-03-31
+"MUE-0642","Ana","Toluca","LabB","CTAB",46.76,54,79,18,91,2024-10-24
+"MUE-0643","Elena","Guadalajara","LabC","Kits comerciales",51.21,50,83,22,131,2020-05-17
+"MUE-0644","Camila","Guadalajara","LabB","Fenol-Cloroformo",34.54,36,77,24,114,2022-05-21
+"MUE-0645","Camila","CDMX","LabB","Kits comerciales",67.3,40,78,15,114,2022-12-27
+"MUE-0646","Ana","Puebla","LabA","Kits comerciales",59.69,47,66,21,93,2021-12-04
+"MUE-0647","Sofia","CDMX","LabB","Fenol-Cloroformo",51.18,36,63,13,113,2022-01-26
+"MUE-0648","Diego","Monterrey","LabB","Kits comerciales",64.18,40,83,18,99,2020-01-04
+"MUE-0649","Juan","CDMX","LabB","Fenol-Cloroformo",31.67,53,52,35,72,2024-04-29
+"MUE-0650","Diego","CDMX","LabA","Kits comerciales",66.28,38,76,30,94,2021-10-23
+"MUE-0651","Camila","Monterrey","LabB","CTAB",53.18,35,88,21,98,2022-06-12
+"MUE-0652","Sofia","Puebla","LabB","Lisis alcalina",57.55,41,60,14,98,2023-09-02
+"MUE-0653","Elena","Monterrey","LabB","Lisis alcalina",43.16,51,58,22,107,2020-05-08
+"MUE-0654","Juan","CDMX","LabC","Kits comerciales",38.27,46,89,25,105,2024-04-20
+"MUE-0655","Diego","Puebla","LabA","Kits comerciales",41.81,36,75,17,97,2022-01-19
+"MUE-0656","Diego","Monterrey","LabC","Lisis alcalina",65.54,36,74,24,88,2023-05-27
+"MUE-0657","Pedro","Guadalajara","LabA","CTAB",66.36,43,66,21,98,2021-03-11
+"MUE-0658","Juan","Toluca","LabA","CTAB",73.32,47,63,13,105,2023-12-30
+"MUE-0659","Camila","Monterrey","LabA","Kits comerciales",49.07,49,61,22,99,2020-05-26
+"MUE-0660","Elena","Monterrey","LabC","Kits comerciales",38.66,41,56,15,108,2020-08-23
+"MUE-0661","Juan","Puebla","LabA","Fenol-Cloroformo",72.09,41,75,19,113,2020-01-22
+"MUE-0662","Juan","Toluca","LabC","Lisis alcalina",26.72,42,74,20,104,2024-11-13
+"MUE-0663","Ana","Monterrey","LabB","Kits comerciales",47.62,46,61,19,98,2022-11-12
+"MUE-0664","Ana","Guadalajara","LabC","CTAB",59.05,41,65,15,95,2024-10-09
+"MUE-0665","Luis","CDMX","LabC","Kits comerciales",32.57,37,67,21,116,2022-09-01
+"MUE-0666","Elena","Monterrey","LabC","Fenol-Cloroformo",26.6,47,79,21,103,2020-03-03
+"MUE-0667","Elena","Monterrey","LabA","CTAB",57.34,45,67,16,98,2022-04-25
+"MUE-0668","Maria","Toluca","LabC","Lisis alcalina",74.32,46,78,26,99,2023-05-13
+"MUE-0669","Andres","Toluca","LabA","CTAB",39.28,42,61,14,93,2020-09-16
+"MUE-0670","Pedro","Guadalajara","LabC","Fenol-Cloroformo",39.7,35,71,16,105,2023-09-11
+"MUE-0671","Diego","CDMX","LabB","CTAB",35.88,45,70,23,106,2020-04-14
+"MUE-0672","Diego","CDMX","LabC","Kits comerciales",72.27,39,60,22,80,2024-12-17
+"MUE-0673","Ana","CDMX","LabB","CTAB",39.38,49,69,19,97,2022-02-15
+"MUE-0674","Ana","Toluca","LabA","CTAB",37.44,35,86,22,90,2023-11-24
+"MUE-0675","Maria","CDMX","LabA","CTAB",37.94,34,80,21,106,2022-04-04
+"MUE-0676","Camila","Toluca","LabC","Kits comerciales",41.18,45,62,24,120,2023-09-09
+"MUE-0677","Luis","Toluca","LabC","CTAB",41.03,39,72,25,110,2022-11-25
+"MUE-0678","Luis","Guadalajara","LabA","Lisis alcalina",59.1,30,69,22,106,2021-04-28
+"MUE-0679","Diego","Monterrey","LabA","Lisis alcalina",54.53,49,59,14,107,2020-10-04
+"MUE-0680","Elena","Toluca","LabB","Kits comerciales",57.12,44,84,21,86,2022-01-12
+"MUE-0681","Maria","Toluca","LabC","CTAB",40.55,29,83,13,105,2021-06-15
+"MUE-0682","Ana","Monterrey","LabC","CTAB",60.87,45,85,19,85,2022-06-23
+"MUE-0683","Ana","Puebla","LabA","CTAB",4.35,42,75,17,111,2020-10-11
+"MUE-0684","Pedro","Toluca","LabB","Fenol-Cloroformo",66.92,34,85,11,104,2020-04-30
+"MUE-0685","Sofia","Puebla","LabB","Kits comerciales",53,42,60,19,87,2022-12-16
+"MUE-0686","Ana","Puebla","LabA","Kits comerciales",43.92,45,74,22,103,2023-12-22
+"MUE-0687","Elena","Puebla","LabB","Kits comerciales",57.13,44,61,14,96,2021-09-01
+"MUE-0688","Andres","Puebla","LabA","Fenol-Cloroformo",31.65,36,73,19,94,2023-05-04
+"MUE-0689","Pedro","Guadalajara","LabA","Kits comerciales",40.51,46,76,13,95,2024-11-28
+"MUE-0690","Sofia","Toluca","LabC","Kits comerciales",51.64,48,68,16,105,2020-03-29
+"MUE-0691","Pedro","Monterrey","LabA","Kits comerciales",26.56,33,80,14,107,2023-09-05
+"MUE-0692","Camila","Guadalajara","LabA","Fenol-Cloroformo",49.4,37,74,23,81,2023-05-27
+"MUE-0693","Juan","CDMX","LabC","CTAB",49.46,44,63,13,90,2021-01-29
+"MUE-0694","Ana","CDMX","LabB","Fenol-Cloroformo",45.82,40,78,19,92,2022-07-31
+"MUE-0695","Maria","Monterrey","LabC","Lisis alcalina",30.6,33,89,18,109,2023-10-13
+"MUE-0696","Maria","Toluca","LabA","Kits comerciales",67.5,33,65,23,110,2020-07-26
+"MUE-0697","Luis","Monterrey","LabB","CTAB",27.72,39,75,25,101,2024-06-27
+"MUE-0698","Diego","Toluca","LabA","Lisis alcalina",27.84,46,73,16,99,2022-10-24
+"MUE-0699","Pedro","Toluca","LabA","Lisis alcalina",41.26,39,79,22,97,2022-01-07
+"MUE-0700","Elena","Guadalajara","LabC","Fenol-Cloroformo",73.24,37,73,20,104,2021-12-15
+"MUE-0701","Diego","CDMX","LabC","Lisis alcalina",51.6,34,77,26,101,2024-12-20
+"MUE-0702","Elena","Toluca","LabA","Kits comerciales",53.89,35,64,19,113,2020-09-09
+"MUE-0703","Diego","Toluca","LabA","CTAB",46.76,35,67,24,89,2024-04-01
+"MUE-0704","Ana","Guadalajara","LabC","Kits comerciales",54.06,33,62,18,115,2021-12-29
+"MUE-0705","Ana","Guadalajara","LabA","CTAB",59.5,30,79,24,97,2023-08-05
+"MUE-0706","Ana","Toluca","LabC","Lisis alcalina",60.61,40,77,20,87,2023-02-26
+"MUE-0707","Pedro","Monterrey","LabB","Kits comerciales",70.56,42,77,17,88,2020-11-04
+"MUE-0708","Camila","CDMX","LabC","CTAB",38.33,44,72,20,104,2024-05-05
+"MUE-0709","Andres","Puebla","LabA","Kits comerciales",47.63,46,70,16,108,2022-03-17
+"MUE-0710","Juan","CDMX","LabB","Fenol-Cloroformo",56.2,35,79,24,100,2021-03-25
+"MUE-0711","Diego","Puebla","LabB","Lisis alcalina",62.38,33,79,18,96,2022-10-28
+"MUE-0712","Camila","CDMX","LabC","Kits comerciales",45,36,76,19,97,2023-05-15
+"MUE-0713","Juan","Monterrey","LabB","Lisis alcalina",59.76,55,78,23,106,2022-01-31
+"MUE-0714","Andres","Puebla","LabA","Kits comerciales",41.77,41,73,13,90,2024-09-23
+"MUE-0715","Pedro","Monterrey","LabB","CTAB",44.88,52,57,20,93,2021-05-08
+"MUE-0716","Andres","Toluca","LabA","CTAB",65.18,38,67,16,87,2024-01-16
+"MUE-0717","Ana","Puebla","LabC","Kits comerciales",21.76,32,75,22,110,2022-12-25
+"MUE-0718","Luis","Guadalajara","LabC","Fenol-Cloroformo",53.32,41,53,23,84,2023-02-17
+"MUE-0719","Camila","Guadalajara","LabB","Kits comerciales",63.89,39,55,21,95,2021-08-11
+"MUE-0720","Luis","Monterrey","LabC","Fenol-Cloroformo",44.83,33,75,23,79,2020-02-23
+"MUE-0721","Ana","CDMX","LabC","CTAB",59.37,36,56,31,101,2022-04-26
+"MUE-0722","Sofia","CDMX","LabB","Kits comerciales",39.4,38,69,20,87,2022-04-18
+"MUE-0723","Pedro","CDMX","LabA","Lisis alcalina",52.57,51,64,24,97,2024-07-02
+"MUE-0724","Diego","Toluca","LabC","Fenol-Cloroformo",50.15,49,64,25,107,2024-05-09
+"MUE-0725","Pedro","Monterrey","LabC","Fenol-Cloroformo",49.57,35,67,14,95,2022-03-01
+"MUE-0726","Diego","CDMX","LabA","CTAB",30.86,34,74,24,99,2021-09-14
+"MUE-0727","Diego","Monterrey","LabA","Lisis alcalina",47.56,35,57,11,109,2021-02-10
+"MUE-0728","Diego","Monterrey","LabB","Lisis alcalina",37.79,48,57,16,99,2024-09-12
+"MUE-0729","Diego","Puebla","LabA","CTAB",44.61,47,74,10,105,2020-08-13
+"MUE-0730","Camila","Guadalajara","LabB","Kits comerciales",65.36,37,60,24,98,2023-02-26
+"MUE-0731","Camila","Monterrey","LabB","Kits comerciales",41.5,33,58,23,99,2020-08-14
+"MUE-0732","Juan","CDMX","LabA","Kits comerciales",49.51,39,62,19,103,2020-10-30
+"MUE-0733","Maria","CDMX","LabA","Kits comerciales",51.55,39,65,20,104,2023-02-15
+"MUE-0734","Andres","Puebla","LabA","Kits comerciales",47.16,45,67,28,102,2020-10-29
+"MUE-0735","Juan","Puebla","LabA","CTAB",62.09,38,73,14,97,2022-11-24
+"MUE-0736","Sofia","Monterrey","LabA","Kits comerciales",49.36,35,73,12,107,2021-01-25
+"MUE-0737","Andres","Toluca","LabA","Fenol-Cloroformo",52.32,35,77,21,101,2021-04-17
+"MUE-0738","Elena","Puebla","LabC","Fenol-Cloroformo",36.65,39,77,18,108,2023-06-21
+"MUE-0739","Elena","Guadalajara","LabC","CTAB",44.27,40,70,22,103,2020-07-04
+"MUE-0740","Camila","Puebla","LabC","CTAB",40.29,46,56,19,98,2023-01-02
+"MUE-0741","Camila","Guadalajara","LabB","Kits comerciales",57.11,39,88,17,95,2020-05-03
+"MUE-0742","Diego","Monterrey","LabA","Lisis alcalina",67.27,39,60,17,104,2021-08-28
+"MUE-0743","Diego","Guadalajara","LabB","Kits comerciales",43.09,42,51,20,105,2022-08-20
+"MUE-0744","Juan","Toluca","LabA","Fenol-Cloroformo",16.77,35,74,25,99,2022-11-24
+"MUE-0745","Elena","CDMX","LabC","Kits comerciales",37.32,31,66,24,108,2023-08-28
+"MUE-0746","Andres","Monterrey","LabB","Fenol-Cloroformo",35.99,40,76,23,116,2023-03-06
+"MUE-0747","Camila","Guadalajara","LabC","Kits comerciales",67.71,36,79,17,80,2023-06-08
+"MUE-0748","Pedro","CDMX","LabC","Kits comerciales",52.14,34,68,14,105,2024-12-28
+"MUE-0749","Camila","Monterrey","LabB","CTAB",73.47,45,72,23,87,2023-03-16
+"MUE-0750","Sofia","CDMX","LabB","CTAB",56.01,46,74,21,114,2020-11-23
+"MUE-0751","Juan","Toluca","LabA","Fenol-Cloroformo",26.79,48,75,18,96,2021-04-18
+"MUE-0752","Luis","Puebla","LabC","CTAB",57.42,43,76,20,86,2024-01-08
+"MUE-0753","Pedro","Monterrey","LabC","CTAB",38.78,31,77,17,104,2023-03-27
+"MUE-0754","Maria","CDMX","LabB","Kits comerciales",50.01,43,68,26,105,2023-07-01
+"MUE-0755","Diego","Monterrey","LabB","Kits comerciales",48.48,43,77,21,101,2021-12-13
+"MUE-0756","Ana","Monterrey","LabA","Lisis alcalina",47.84,32,65,19,101,2023-12-03
+"MUE-0757","Camila","Toluca","LabB","Lisis alcalina",45.03,40,77,25,109,2021-12-31
+"MUE-0758","Camila","Toluca","LabC","CTAB",78.82,36,70,21,109,2022-09-12
+"MUE-0759","Luis","Guadalajara","LabB","Lisis alcalina",72.65,34,74,18,85,2022-07-04
+"MUE-0760","Camila","CDMX","LabA","Kits comerciales",36.66,42,63,23,98,2020-04-13
+"MUE-0761","Elena","Guadalajara","LabA","Fenol-Cloroformo",52.98,31,70,24,98,2023-03-13
+"MUE-0762","Sofia","Monterrey","LabC","CTAB",67.27,39,74,22,82,2021-09-13
+"MUE-0763","Ana","CDMX","LabC","CTAB",66.54,38,61,26,96,2020-07-25
+"MUE-0764","Juan","Guadalajara","LabC","Lisis alcalina",36.57,47,58,18,102,2022-02-18
+"MUE-0765","Andres","Toluca","LabA","Kits comerciales",71.15,36,60,19,108,2022-07-17
+"MUE-0766","Pedro","Guadalajara","LabC","Fenol-Cloroformo",39.43,43,68,18,92,2024-10-01
+"MUE-0767","Maria","CDMX","LabC","Lisis alcalina",51.9,33,71,24,97,2020-10-01
+"MUE-0768","Maria","Toluca","LabA","Kits comerciales",52.53,39,64,19,97,2023-05-05
+"MUE-0769","Andres","Guadalajara","LabA","Kits comerciales",21.2,40,78,18,104,2024-11-22
+"MUE-0770","Luis","Monterrey","LabA","Fenol-Cloroformo",48,46,71,19,92,2021-11-23
+"MUE-0771","Elena","Monterrey","LabA","Fenol-Cloroformo",18.49,42,76,17,95,2020-06-23
+"MUE-0772","Pedro","CDMX","LabB","Fenol-Cloroformo",20.5,42,85,14,95,2021-09-28
+"MUE-0773","Pedro","Puebla","LabA","Fenol-Cloroformo",54.81,38,74,13,91,2021-02-04
+"MUE-0774","Sofia","Puebla","LabA","Lisis alcalina",55.12,40,65,19,107,2022-12-02
+"MUE-0775","Elena","Puebla","LabC","CTAB",64.62,40,60,21,97,2021-07-24
+"MUE-0776","Luis","Puebla","LabB","Kits comerciales",55.69,43,86,23,97,2020-04-06
+"MUE-0777","Diego","CDMX","LabB","Lisis alcalina",39.89,39,63,19,107,2022-07-24
+"MUE-0778","Andres","CDMX","LabC","Kits comerciales",37.99,38,82,17,96,2021-10-07
+"MUE-0779","Pedro","Puebla","LabA","Fenol-Cloroformo",62.07,39,56,16,91,2020-03-13
+"MUE-0780","Sofia","CDMX","LabB","Fenol-Cloroformo",71.77,37,72,18,96,2024-03-27
+"MUE-0781","Maria","Toluca","LabC","Fenol-Cloroformo",61.98,44,69,19,102,2023-01-19
+"MUE-0782","Andres","Toluca","LabB","Kits comerciales",53.25,46,62,26,89,2024-01-09
+"MUE-0783","Luis","Monterrey","LabA","Kits comerciales",48.97,28,81,22,95,2024-01-22
+"MUE-0784","Pedro","CDMX","LabB","Lisis alcalina",74.43,31,76,23,91,2024-06-30
+"MUE-0785","Diego","Monterrey","LabA","Lisis alcalina",12.62,48,66,14,120,2022-12-10
+"MUE-0786","Luis","CDMX","LabB","CTAB",64.89,41,77,22,95,2020-01-03
+"MUE-0787","Maria","Puebla","LabA","Lisis alcalina",47.48,35,70,16,110,2021-07-14
+"MUE-0788","Camila","Puebla","LabB","Kits comerciales",33.09,38,62,27,90,2021-06-02
+"MUE-0789","Diego","Guadalajara","LabA","Lisis alcalina",62.55,46,76,14,94,2022-04-30
+"MUE-0790","Camila","Monterrey","LabB","Kits comerciales",35.3,44,61,20,100,2024-06-21
+"MUE-0791","Sofia","Monterrey","LabB","Lisis alcalina",55.16,47,72,21,100,2021-05-20
+"MUE-0792","Camila","Puebla","LabA","CTAB",52.78,48,64,22,86,2024-11-12
+"MUE-0793","Diego","Toluca","LabC","CTAB",52.12,46,71,22,108,2020-09-02
+"MUE-0794","Juan","Monterrey","LabC","Lisis alcalina",22.22,42,66,18,100,2021-03-13
+"MUE-0795","Sofia","Monterrey","LabA","Lisis alcalina",52.44,40,74,25,99,2022-12-16
+"MUE-0796","Elena","Guadalajara","LabB","Kits comerciales",42.6,40,65,16,96,2022-09-04
+"MUE-0797","Sofia","Toluca","LabA","Kits comerciales",39.44,42,72,24,92,2022-03-07
+"MUE-0798","Elena","Puebla","LabB","Kits comerciales",32.25,34,67,26,101,2024-05-27
+"MUE-0799","Luis","Monterrey","LabB","Fenol-Cloroformo",32.92,37,73,26,90,2020-12-22
+"MUE-0800","Andres","Puebla","LabC","CTAB",37.32,36,79,27,111,2021-12-06
+"MUE-0801","Andres","Monterrey","LabC","Fenol-Cloroformo",68.7,35,71,27,99,2024-09-26
+"MUE-0802","Elena","CDMX","LabA","Lisis alcalina",60.43,46,85,16,103,2021-03-14
+"MUE-0803","Luis","Guadalajara","LabC","Fenol-Cloroformo",54.12,50,66,15,105,2020-04-18
+"MUE-0804","Maria","Puebla","LabC","Lisis alcalina",75.75,48,52,32,102,2022-05-06
+"MUE-0805","Andres","CDMX","LabA","CTAB",74.18,19,71,15,102,2024-04-30
+"MUE-0806","Pedro","Monterrey","LabB","Fenol-Cloroformo",63.54,28,82,17,110,2020-07-19
+"MUE-0807","Pedro","Toluca","LabC","Kits comerciales",32.25,39,75,11,102,2022-03-24
+"MUE-0808","Ana","Guadalajara","LabC","CTAB",71.5,39,52,16,95,2021-01-12
+"MUE-0809","Diego","CDMX","LabC","Kits comerciales",46.97,39,52,14,96,2020-03-24
+"MUE-0810","Juan","Monterrey","LabC","Kits comerciales",46.36,45,74,20,97,2024-04-17
+"MUE-0811","Pedro","Guadalajara","LabA","Fenol-Cloroformo",53.56,30,74,21,93,2022-12-02
+"MUE-0812","Diego","Puebla","LabC","Lisis alcalina",50.94,41,69,15,97,2022-08-07
+"MUE-0813","Ana","Toluca","LabC","Lisis alcalina",42.59,43,57,21,99,2023-04-04
+"MUE-0814","Andres","CDMX","LabB","Kits comerciales",60.27,38,69,17,94,2024-08-14
+"MUE-0815","Maria","Monterrey","LabA","CTAB",42.77,36,60,18,83,2023-07-12
+"MUE-0816","Juan","Guadalajara","LabA","CTAB",41.53,48,75,17,104,2023-06-10
+"MUE-0817","Elena","Monterrey","LabB","Fenol-Cloroformo",46.19,45,80,22,108,2023-10-27
+"MUE-0818","Andres","Monterrey","LabC","Lisis alcalina",38.6,42,57,20,106,2021-02-02
+"MUE-0819","Andres","Toluca","LabB","Lisis alcalina",52.31,30,78,20,111,2024-07-01
+"MUE-0820","Diego","Monterrey","LabB","Lisis alcalina",48.54,37,61,14,97,2024-06-28
+"MUE-0821","Ana","Puebla","LabC","CTAB",45.56,44,68,21,118,2024-05-06
+"MUE-0822","Camila","Guadalajara","LabB","CTAB",56.96,43,71,32,104,2022-10-05
+"MUE-0823","Diego","Puebla","LabB","CTAB",22.63,40,74,25,101,2020-01-13
+"MUE-0824","Sofia","Toluca","LabC","CTAB",53.79,32,57,25,110,2020-08-26
+"MUE-0825","Diego","Toluca","LabB","Fenol-Cloroformo",63.52,38,77,23,112,2023-01-28
+"MUE-0826","Elena","Monterrey","LabA","Lisis alcalina",63.21,39,70,18,100,2022-08-21
+"MUE-0827","Ana","Puebla","LabA","Fenol-Cloroformo",83.48,40,74,21,87,2020-10-06
+"MUE-0828","Ana","CDMX","LabB","CTAB",40.4,38,66,19,88,2021-04-11
+"MUE-0829","Maria","Monterrey","LabB","Fenol-Cloroformo",35.3,50,75,15,95,2022-07-20
+"MUE-0830","Diego","CDMX","LabA","Fenol-Cloroformo",54.89,41,67,12,97,2024-01-05
+"MUE-0831","Elena","CDMX","LabB","CTAB",24.72,25,77,30,118,2022-05-07
+"MUE-0832","Andres","CDMX","LabC","Lisis alcalina",68.16,33,73,18,96,2022-02-01
+"MUE-0833","Diego","Toluca","LabA","Lisis alcalina",34.29,35,68,19,93,2020-06-12
+"MUE-0834","Sofia","Guadalajara","LabC","Fenol-Cloroformo",56.58,37,62,14,97,2023-02-04
+"MUE-0835","Luis","Monterrey","LabA","CTAB",44.93,46,64,18,104,2023-05-17
+"MUE-0836","Pedro","CDMX","LabB","Lisis alcalina",14.31,35,67,19,116,2023-01-06
+"MUE-0837","Pedro","Toluca","LabC","Fenol-Cloroformo",53.89,37,89,14,110,2024-07-11
+"MUE-0838","Elena","Guadalajara","LabC","Lisis alcalina",33.45,45,74,16,91,2024-06-14
+"MUE-0839","Ana","Monterrey","LabC","Lisis alcalina",63.83,33,79,20,103,2023-04-02
+"MUE-0840","Pedro","Puebla","LabA","CTAB",13.23,35,69,24,90,2020-03-03
+"MUE-0841","Juan","Monterrey","LabC","Kits comerciales",48.03,30,83,18,102,2023-06-25
+"MUE-0842","Juan","Monterrey","LabA","Kits comerciales",34.2,38,70,21,93,2021-11-15
+"MUE-0843","Juan","Puebla","LabC","Kits comerciales",66.91,42,69,15,98,2022-11-24
+"MUE-0844","Luis","CDMX","LabB","Fenol-Cloroformo",39.08,48,61,16,82,2022-08-28
+"MUE-0845","Pedro","Puebla","LabC","Lisis alcalina",64.03,33,70,15,121,2020-06-09
+"MUE-0846","Ana","Guadalajara","LabC","Lisis alcalina",42.98,58,94,18,92,2024-12-06
+"MUE-0847","Diego","CDMX","LabB","Lisis alcalina",51.95,36,74,15,96,2023-11-26
+"MUE-0848","Ana","Puebla","LabA","Lisis alcalina",71.94,46,71,25,97,2024-07-07
+"MUE-0849","Ana","Guadalajara","LabB","Kits comerciales",39.77,39,76,18,102,2022-07-22
+"MUE-0850","Diego","Guadalajara","LabC","Lisis alcalina",77.28,35,61,23,85,2024-11-01
+"MUE-0851","Elena","Monterrey","LabB","Kits comerciales",64.79,34,78,27,114,2023-01-17
+"MUE-0852","Luis","CDMX","LabC","Kits comerciales",69.27,37,54,26,116,2023-07-30
+"MUE-0853","Luis","Monterrey","LabB","Kits comerciales",16.3,35,76,19,103,2023-09-18
+"MUE-0854","Camila","CDMX","LabB","CTAB",47.47,36,73,15,100,2021-04-19
+"MUE-0855","Andres","Toluca","LabB","Lisis alcalina",28,42,57,23,97,2021-04-19
+"MUE-0856","Pedro","Guadalajara","LabB","CTAB",61.39,41,70,23,100,2021-10-30
+"MUE-0857","Andres","Monterrey","LabC","Lisis alcalina",68.34,36,69,18,106,2024-07-08
+"MUE-0858","Pedro","Guadalajara","LabA","Fenol-Cloroformo",40.74,52,57,26,93,2024-05-20
+"MUE-0859","Sofia","CDMX","LabA","Kits comerciales",42.32,38,86,22,104,2022-09-10
+"MUE-0860","Maria","CDMX","LabA","Kits comerciales",25.68,39,79,23,97,2022-09-04
+"MUE-0861","Ana","Monterrey","LabA","Lisis alcalina",61.86,27,74,22,95,2023-03-15
+"MUE-0862","Sofia","Puebla","LabC","CTAB",71.92,48,67,31,103,2021-08-11
+"MUE-0863","Juan","Monterrey","LabC","Fenol-Cloroformo",24.5,38,65,21,108,2021-02-20
+"MUE-0864","Maria","CDMX","LabB","Kits comerciales",22.81,33,53,25,87,2020-06-08
+"MUE-0865","Pedro","Puebla","LabA","Fenol-Cloroformo",67.16,46,85,20,107,2024-09-26
+"MUE-0866","Pedro","Guadalajara","LabB","Lisis alcalina",70.23,40,63,28,93,2022-04-05
+"MUE-0867","Pedro","Monterrey","LabA","CTAB",55.57,41,70,18,99,2021-04-26
+"MUE-0868","Sofia","Puebla","LabA","Fenol-Cloroformo",53.63,46,70,23,126,2023-07-25
+"MUE-0869","Andres","Puebla","LabB","Lisis alcalina",40.68,34,60,23,111,2021-01-24
+"MUE-0870","Pedro","Guadalajara","LabA","Kits comerciales",55.09,31,72,20,98,2023-01-29
+"MUE-0871","Ana","Toluca","LabB","CTAB",43.22,31,65,25,83,2021-05-27
+"MUE-0872","Maria","Puebla","LabA","Lisis alcalina",80.65,48,75,19,103,2024-10-30
+"MUE-0873","Maria","CDMX","LabA","Kits comerciales",43.26,32,63,19,101,2020-03-17
+"MUE-0874","Diego","Guadalajara","LabB","Kits comerciales",2.94,41,68,20,102,2021-06-21
+"MUE-0875","Ana","Guadalajara","LabB","Kits comerciales",57.5,36,78,23,86,2023-06-17
+"MUE-0876","Camila","Puebla","LabB","Fenol-Cloroformo",31.14,44,60,16,89,2023-09-28
+"MUE-0877","Diego","Monterrey","LabC","Kits comerciales",62.34,31,63,18,104,2020-02-29
+"MUE-0878","Diego","Toluca","LabA","Fenol-Cloroformo",26.81,31,58,21,108,2023-01-12
+"MUE-0879","Camila","Puebla","LabA","Kits comerciales",46.12,47,72,24,76,2022-04-09
+"MUE-0880","Maria","Guadalajara","LabA","Kits comerciales",55.86,41,70,19,109,2020-11-18
+"MUE-0881","Ana","Puebla","LabB","Fenol-Cloroformo",47.04,43,86,26,117,2022-10-19
+"MUE-0882","Pedro","Guadalajara","LabA","Lisis alcalina",20.8,41,75,24,97,2024-07-17
+"MUE-0883","Andres","Guadalajara","LabB","Lisis alcalina",28.59,37,60,22,99,2024-08-19
+"MUE-0884","Pedro","Monterrey","LabB","Fenol-Cloroformo",37.24,40,66,19,98,2022-06-09
+"MUE-0885","Pedro","CDMX","LabC","Kits comerciales",74.37,36,89,24,100,2022-12-18
+"MUE-0886","Maria","Toluca","LabA","Fenol-Cloroformo",48.1,37,66,18,114,2021-06-05
+"MUE-0887","Diego","Monterrey","LabA","Kits comerciales",69.13,40,63,17,98,2024-11-02
+"MUE-0888","Camila","CDMX","LabC","Fenol-Cloroformo",52.69,37,63,18,101,2023-05-15
+"MUE-0889","Elena","CDMX","LabC","Fenol-Cloroformo",42.59,47,81,20,93,2021-08-13
+"MUE-0890","Luis","Monterrey","LabC","Kits comerciales",66.91,41,61,25,98,2021-06-03
+"MUE-0891","Pedro","Guadalajara","LabB","Lisis alcalina",32.8,46,81,26,111,2023-06-08
+"MUE-0892","Diego","CDMX","LabB","Kits comerciales",72.22,55,76,23,86,2024-04-20
+"MUE-0893","Camila","Puebla","LabB","CTAB",63.74,36,70,19,108,2022-02-02
+"MUE-0894","Juan","Guadalajara","LabA","Fenol-Cloroformo",55.03,34,72,21,102,2024-07-19
+"MUE-0895","Diego","CDMX","LabA","Lisis alcalina",58.62,36,67,30,122,2024-02-18
+"MUE-0896","Andres","CDMX","LabB","CTAB",53.05,38,71,19,93,2022-08-23
+"MUE-0897","Pedro","Puebla","LabA","Kits comerciales",43.29,39,74,19,93,2022-08-28
+"MUE-0898","Elena","Guadalajara","LabA","Fenol-Cloroformo",44.85,34,68,18,91,2022-10-13
+"MUE-0899","Sofia","Puebla","LabA","Lisis alcalina",40.94,48,62,15,103,2024-04-13
+"MUE-0900","Luis","Puebla","LabB","Fenol-Cloroformo",68.58,33,61,22,89,2020-12-10
+"MUE-0901","Andres","Monterrey","LabC","Kits comerciales",58.99,39,78,22,104,2023-05-10
+"MUE-0902","Maria","Monterrey","LabC","Kits comerciales",48.37,30,68,25,89,2022-09-05
+"MUE-0903","Andres","CDMX","LabC","CTAB",32.92,34,59,16,95,2020-09-01
+"MUE-0904","Andres","Guadalajara","LabA","Lisis alcalina",54.8,49,66,28,111,2020-12-21
+"MUE-0905","Maria","Toluca","LabA","CTAB",34.9,52,83,23,96,2021-12-29
+"MUE-0906","Sofia","Monterrey","LabA","Kits comerciales",37.23,39,63,21,84,2021-07-16
+"MUE-0907","Sofia","Guadalajara","LabB","Kits comerciales",80.58,40,64,22,111,2020-01-03
+"MUE-0908","Sofia","Puebla","LabC","CTAB",29.06,53,76,17,108,2024-08-14
+"MUE-0909","Camila","Monterrey","LabC","Kits comerciales",36.76,34,76,14,87,2023-08-11
+"MUE-0910","Luis","Toluca","LabB","Lisis alcalina",41.29,40,79,24,84,2023-11-01
+"MUE-0911","Camila","Puebla","LabC","Fenol-Cloroformo",41.06,37,66,18,87,2022-06-26
+"MUE-0912","Diego","Guadalajara","LabC","Fenol-Cloroformo",33.12,35,74,29,87,2022-03-03
+"MUE-0913","Diego","Puebla","LabB","Kits comerciales",47.18,41,74,16,113,2024-12-17
+"MUE-0914","Maria","Monterrey","LabA","CTAB",34.43,34,63,29,103,2021-04-03
+"MUE-0915","Camila","Monterrey","LabC","Kits comerciales",70.14,49,60,25,103,2023-11-14
+"MUE-0916","Juan","CDMX","LabB","CTAB",51.85,42,55,12,116,2021-12-21
+"MUE-0917","Diego","Puebla","LabB","Kits comerciales",62.87,32,76,24,84,2023-11-12
+"MUE-0918","Elena","Toluca","LabA","CTAB",28.92,33,55,22,84,2023-02-23
+"MUE-0919","Diego","Puebla","LabC","Fenol-Cloroformo",49.78,41,71,17,104,2023-08-21
+"MUE-0920","Maria","Guadalajara","LabC","Lisis alcalina",58.18,34,66,22,95,2020-05-16
+"MUE-0921","Juan","Toluca","LabC","Fenol-Cloroformo",51.47,43,62,19,102,2024-04-30
+"MUE-0922","Diego","CDMX","LabB","Lisis alcalina",50.26,39,69,19,105,2024-08-14
+"MUE-0923","Diego","Toluca","LabC","Kits comerciales",34.49,44,61,27,100,2024-05-08
+"MUE-0924","Pedro","Toluca","LabA","Lisis alcalina",40.57,29,81,26,101,2021-01-01
+"MUE-0925","Pedro","Monterrey","LabA","Fenol-Cloroformo",43.93,40,69,26,102,2020-04-09
+"MUE-0926","Andres","Guadalajara","LabC","Lisis alcalina",37.96,42,71,21,124,2023-10-20
+"MUE-0927","Juan","Guadalajara","LabC","CTAB",61.46,35,81,12,97,2023-01-02
+"MUE-0928","Andres","CDMX","LabC","Fenol-Cloroformo",76.39,34,76,18,111,2020-04-04
+"MUE-0929","Diego","Guadalajara","LabB","CTAB",69.73,41,64,19,115,2020-01-06
+"MUE-0930","Sofia","CDMX","LabB","Kits comerciales",56.34,46,60,25,87,2022-05-18
+"MUE-0931","Juan","Toluca","LabB","Lisis alcalina",48.23,39,59,17,87,2020-02-22
+"MUE-0932","Camila","Guadalajara","LabC","Kits comerciales",58.64,40,48,16,123,2024-03-06
+"MUE-0933","Maria","Puebla","LabA","Lisis alcalina",38.17,38,66,21,110,2020-07-28
+"MUE-0934","Elena","Guadalajara","LabB","CTAB",53.97,54,63,28,100,2020-02-17
+"MUE-0935","Andres","Monterrey","LabA","CTAB",52.5,38,77,19,94,2020-10-04
+"MUE-0936","Maria","Monterrey","LabA","CTAB",14.82,33,70,20,114,2021-06-16
+"MUE-0937","Pedro","Monterrey","LabB","Fenol-Cloroformo",78.45,41,67,16,81,2021-10-03
+"MUE-0938","Juan","Puebla","LabC","Lisis alcalina",30.03,52,50,23,90,2020-02-12
+"MUE-0939","Sofia","Puebla","LabC","Fenol-Cloroformo",10.61,38,73,14,90,2022-08-29
+"MUE-0940","Luis","Toluca","LabC","Kits comerciales",49.99,38,49,15,94,2021-08-13
+"MUE-0941","Camila","Guadalajara","LabB","Kits comerciales",51.61,17,72,22,97,2023-04-03
+"MUE-0942","Andres","Puebla","LabC","Fenol-Cloroformo",49.88,39,76,19,104,2023-08-21
+"MUE-0943","Andres","Monterrey","LabB","Kits comerciales",52.11,33,77,19,88,2023-01-28
+"MUE-0944","Camila","Guadalajara","LabC","Kits comerciales",32.23,43,57,22,94,2024-03-01
+"MUE-0945","Diego","Toluca","LabC","Fenol-Cloroformo",58.89,28,67,31,117,2023-10-21
+"MUE-0946","Luis","CDMX","LabC","Lisis alcalina",70.71,43,87,19,94,2022-06-13
+"MUE-0947","Camila","Puebla","LabA","Kits comerciales",37.42,41,80,16,97,2022-08-29
+"MUE-0948","Maria","CDMX","LabC","CTAB",54.59,33,61,17,114,2021-06-17
+"MUE-0949","Juan","Toluca","LabC","Fenol-Cloroformo",45.94,34,78,19,87,2020-08-10
+"MUE-0950","Juan","Toluca","LabA","CTAB",49.09,44,58,15,89,2022-07-16
+"MUE-0951","Maria","Monterrey","LabC","Kits comerciales",64.64,43,86,19,109,2023-08-22
+"MUE-0952","Pedro","Monterrey","LabC","CTAB",54.17,37,70,23,104,2023-02-01
+"MUE-0953","Luis","CDMX","LabC","Fenol-Cloroformo",78.98,38,90,24,127,2020-03-26
+"MUE-0954","Pedro","Guadalajara","LabA","Fenol-Cloroformo",45.02,39,59,25,89,2023-01-25
+"MUE-0955","Ana","Puebla","LabC","Fenol-Cloroformo",72.23,32,73,25,107,2020-01-03
+"MUE-0956","Elena","Monterrey","LabC","Lisis alcalina",43.17,40,80,20,84,2021-01-15
+"MUE-0957","Pedro","CDMX","LabC","Lisis alcalina",46.53,41,79,26,105,2023-08-24
+"MUE-0958","Elena","CDMX","LabB","Fenol-Cloroformo",45.09,24,72,22,90,2021-06-05
+"MUE-0959","Maria","Guadalajara","LabA","CTAB",54.32,44,87,22,92,2022-03-17
+"MUE-0960","Camila","Monterrey","LabB","Lisis alcalina",57,43,61,24,113,2023-12-04
+"MUE-0961","Juan","CDMX","LabA","Lisis alcalina",52.18,33,75,16,87,2021-05-03
+"MUE-0962","Maria","Guadalajara","LabB","Lisis alcalina",58.99,41,62,13,94,2020-05-17
+"MUE-0963","Pedro","Puebla","LabB","Lisis alcalina",38.27,33,83,24,92,2022-03-17
+"MUE-0964","Sofia","Guadalajara","LabB","CTAB",46.42,42,76,18,94,2024-02-17
+"MUE-0965","Ana","Puebla","LabC","Lisis alcalina",59.78,40,66,13,89,2023-03-03
+"MUE-0966","Juan","CDMX","LabC","Lisis alcalina",65.57,32,73,27,92,2024-07-23
+"MUE-0967","Diego","Monterrey","LabA","Lisis alcalina",55.08,44,63,17,106,2021-08-19
+"MUE-0968","Juan","Puebla","LabC","CTAB",60.64,30,65,17,104,2020-09-29
+"MUE-0969","Camila","Guadalajara","LabA","Fenol-Cloroformo",62.6,27,74,24,99,2021-01-24
+"MUE-0970","Pedro","Guadalajara","LabC","Kits comerciales",59.14,38,73,23,100,2024-05-18
+"MUE-0971","Ana","Toluca","LabC","Fenol-Cloroformo",46.64,46,64,19,85,2024-11-07
+"MUE-0972","Elena","Guadalajara","LabA","Kits comerciales",47.53,54,67,24,93,2021-11-24
+"MUE-0973","Pedro","Guadalajara","LabA","CTAB",59.33,36,69,20,101,2023-08-27
+"MUE-0974","Maria","Puebla","LabA","Fenol-Cloroformo",43.17,44,63,19,116,2023-05-21
+"MUE-0975","Camila","Monterrey","LabB","Fenol-Cloroformo",48.02,44,65,20,93,2020-10-08
+"MUE-0976","Juan","Monterrey","LabA","Lisis alcalina",48.62,38,65,25,124,2024-05-12
+"MUE-0977","Ana","Puebla","LabA","Lisis alcalina",26.2,40,70,16,95,2022-06-13
+"MUE-0978","Luis","Guadalajara","LabC","Kits comerciales",55.01,46,73,22,91,2023-11-19
+"MUE-0979","Diego","Puebla","LabC","Kits comerciales",58.55,39,62,22,100,2024-08-18
+"MUE-0980","Maria","Guadalajara","LabC","Kits comerciales",49.08,38,68,21,94,2022-08-31
+"MUE-0981","Elena","Puebla","LabC","Kits comerciales",76.91,40,60,17,103,2021-05-23
+"MUE-0982","Luis","Guadalajara","LabB","Lisis alcalina",47.36,41,68,27,94,2024-02-08
+"MUE-0983","Camila","CDMX","LabA","Fenol-Cloroformo",58.68,41,83,18,103,2023-12-04
+"MUE-0984","Juan","CDMX","LabB","CTAB",57.99,36,66,28,117,2021-07-22
+"MUE-0985","Maria","Guadalajara","LabA","Fenol-Cloroformo",61.77,38,80,26,97,2020-11-25
+"MUE-0986","Diego","Toluca","LabA","Lisis alcalina",56.27,45,65,23,86,2020-09-20
+"MUE-0987","Sofia","CDMX","LabB","Kits comerciales",47.13,36,74,21,89,2020-07-09
+"MUE-0988","Elena","Toluca","LabC","Lisis alcalina",58.45,46,76,20,103,2024-10-04
+"MUE-0989","Juan","Guadalajara","LabC","CTAB",53.8,35,71,25,86,2022-05-08
+"MUE-0990","Elena","Puebla","LabC","Lisis alcalina",53.65,41,68,19,87,2021-08-11
+"MUE-0991","Diego","Guadalajara","LabA","Fenol-Cloroformo",60.79,36,60,24,102,2024-05-01
+"MUE-0992","Ana","CDMX","LabA","Lisis alcalina",61.59,38,75,20,87,2022-06-13
+"MUE-0993","Elena","Guadalajara","LabC","Fenol-Cloroformo",49.87,35,69,16,96,2022-12-22
+"MUE-0994","Maria","Toluca","LabA","Fenol-Cloroformo",44.16,47,78,10,111,2021-03-13
+"MUE-0995","Pedro","CDMX","LabC","CTAB",69.92,46,72,18,115,2023-01-21
+"MUE-0996","Ana","Toluca","LabA","CTAB",50.8,35,60,16,102,2024-07-12
+"MUE-0997","Sofia","Monterrey","LabC","CTAB",44.36,34,66,24,101,2022-01-20
+"MUE-0998","Ana","Monterrey","LabC","CTAB",35.81,41,67,25,115,2022-08-09
+"MUE-0999","Pedro","Guadalajara","LabC","Fenol-Cloroformo",54.05,27,60,23,91,2022-02-22
+"MUE-1000","Pedro","Toluca","LabB","Kits comerciales",55.81,42,66,24,101,2020-03-09
+"MUE-1001","Luis","Guadalajara","LabC","Lisis alcalina",32.93,37,71,19,100,2023-03-07
+"MUE-1002","Andres","CDMX","LabA","Lisis alcalina",29.77,41,81,25,91,2024-08-03
+"MUE-1003","Maria","Toluca","LabB","Kits comerciales",52.76,30,78,18,110,2020-12-30
+"MUE-1004","Ana","Guadalajara","LabC","CTAB",37.72,45,91,11,107,2024-06-13
+"MUE-1005","Andres","CDMX","LabA","Kits comerciales",70.23,39,69,17,98,2024-07-04
+"MUE-1006","Juan","Monterrey","LabB","Fenol-Cloroformo",33.39,44,72,23,104,2020-11-06
+"MUE-1007","Diego","Monterrey","LabC","Lisis alcalina",26.77,35,74,14,90,2024-10-03
+"MUE-1008","Juan","Guadalajara","LabB","Fenol-Cloroformo",48.95,30,77,16,106,2024-08-17
+"MUE-1009","Sofia","CDMX","LabB","CTAB",57.02,48,71,25,102,2021-05-10
+"MUE-1010","Juan","CDMX","LabA","CTAB",52.35,39,65,28,110,2021-12-06
+"MUE-1011","Sofia","Guadalajara","LabB","Kits comerciales",48.19,47,70,17,98,2021-05-16
+"MUE-1012","Camila","Toluca","LabA","Kits comerciales",55.68,43,60,17,106,2022-05-03
+"MUE-1013","Elena","CDMX","LabB","Fenol-Cloroformo",38.47,49,74,24,86,2022-09-24
+"MUE-1014","Ana","Puebla","LabA","Fenol-Cloroformo",53.4,39,78,20,108,2022-12-04
+"MUE-1015","Maria","Monterrey","LabA","Lisis alcalina",37.49,41,61,17,119,2023-08-20
+"MUE-1016","Elena","Guadalajara","LabB","Kits comerciales",37.93,41,76,14,97,2020-04-19
+"MUE-1017","Ana","Guadalajara","LabB","CTAB",51.6,41,57,16,96,2020-09-02
+"MUE-1018","Maria","Monterrey","LabC","Fenol-Cloroformo",56.17,47,71,20,107,2021-08-07
+"MUE-1019","Pedro","Puebla","LabC","Fenol-Cloroformo",36.96,28,75,24,97,2020-12-23
+"MUE-1020","Sofia","Monterrey","LabA","Kits comerciales",26.74,49,65,24,81,2024-12-27
+"MUE-1021","Sofia","CDMX","LabB","Kits comerciales",34.6,37,69,21,105,2024-05-18
+"MUE-1022","Andres","Monterrey","LabA","Fenol-Cloroformo",20,39,86,16,98,2020-01-16
+"MUE-1023","Sofia","Puebla","LabB","Kits comerciales",51.94,34,72,21,90,2023-10-06
+"MUE-1024","Luis","Puebla","LabB","CTAB",58.77,38,73,19,104,2020-09-30
+"MUE-1025","Ana","Monterrey","LabB","CTAB",77.03,38,63,16,115,2023-06-16
+"MUE-1026","Diego","Monterrey","LabA","Kits comerciales",36.58,43,80,20,100,2022-02-22
+"MUE-1027","Andres","Monterrey","LabC","CTAB",42.91,43,70,24,105,2024-10-19
+"MUE-1028","Luis","Puebla","LabA","Fenol-Cloroformo",48.37,49,71,24,91,2021-11-05
+"MUE-1029","Juan","Guadalajara","LabA","Lisis alcalina",53.56,42,72,15,81,2023-01-14
+"MUE-1030","Camila","Toluca","LabC","Lisis alcalina",38.02,46,69,13,93,2023-07-23
+"MUE-1031","Pedro","Puebla","LabB","Fenol-Cloroformo",63.94,44,75,9,89,2020-03-03
+"MUE-1032","Andres","Toluca","LabB","Lisis alcalina",44.3,36,86,22,92,2022-08-14
+"MUE-1033","Sofia","Toluca","LabA","Lisis alcalina",64.78,25,72,10,90,2024-05-20
+"MUE-1034","Pedro","Toluca","LabA","Lisis alcalina",25.56,46,68,21,114,2023-02-22
+"MUE-1035","Pedro","Monterrey","LabA","Fenol-Cloroformo",47.57,34,68,17,94,2024-11-24
+"MUE-1036","Luis","Guadalajara","LabA","Kits comerciales",55.19,47,60,21,98,2023-02-01
+"MUE-1037","Sofia","Puebla","LabA","Kits comerciales",42.62,41,62,16,96,2021-01-11
+"MUE-1038","Ana","CDMX","LabB","Lisis alcalina",42.82,28,60,17,99,2020-08-06
+"MUE-1039","Diego","Monterrey","LabB","Lisis alcalina",40.43,35,84,18,110,2022-12-02
+"MUE-1040","Sofia","CDMX","LabB","CTAB",51.55,44,72,24,99,2022-07-21
+"MUE-1041","Diego","Puebla","LabB","Lisis alcalina",68.93,31,68,17,104,2020-05-23
+"MUE-1042","Luis","Toluca","LabA","Lisis alcalina",34.64,39,65,15,102,2024-03-18
+"MUE-1043","Diego","Guadalajara","LabA","Kits comerciales",48.51,52,73,12,123,2020-03-22
+"MUE-1044","Elena","Puebla","LabB","Kits comerciales",42.76,48,68,18,113,2020-08-01
+"MUE-1045","Luis","Toluca","LabC","Fenol-Cloroformo",71.2,40,84,19,102,2024-10-19
+"MUE-1046","Andres","CDMX","LabC","Lisis alcalina",78.92,40,70,9,104,2021-05-25
+"MUE-1047","Maria","Guadalajara","LabC","Kits comerciales",57.51,40,66,20,120,2021-02-21
+"MUE-1048","Andres","Puebla","LabC","Lisis alcalina",50.99,47,71,25,99,2020-08-06
+"MUE-1049","Andres","Puebla","LabA","Lisis alcalina",70.49,37,64,20,123,2021-01-23
+"MUE-1050","Pedro","Guadalajara","LabA","CTAB",43.08,35,73,17,90,2023-07-05
+"MUE-1051","Juan","Toluca","LabA","Fenol-Cloroformo",49.15,43,70,25,115,2020-02-20
+"MUE-1052","Andres","Guadalajara","LabB","Kits comerciales",65.75,33,83,14,104,2023-03-31
+"MUE-1053","Andres","Monterrey","LabA","Lisis alcalina",51.59,37,62,23,88,2022-09-29
+"MUE-1054","Pedro","Guadalajara","LabA","Fenol-Cloroformo",42.87,45,68,20,80,2021-04-07
+"MUE-1055","Luis","Puebla","LabB","Kits comerciales",52.77,36,68,15,124,2021-12-28
+"MUE-1056","Diego","Puebla","LabC","Lisis alcalina",43.29,53,78,23,103,2022-10-08
+"MUE-1057","Andres","Monterrey","LabA","Lisis alcalina",78.05,41,68,23,91,2021-07-14
+"MUE-1058","Elena","Monterrey","LabA","Kits comerciales",44.25,35,80,21,100,2022-06-05
+"MUE-1059","Camila","Monterrey","LabB","Kits comerciales",64.11,44,72,18,117,2021-10-26
+"MUE-1060","Pedro","Toluca","LabB","Kits comerciales",50.02,40,61,24,116,2022-07-31
+"MUE-1061","Sofia","Guadalajara","LabB","CTAB",69.96,36,58,19,105,2020-04-24
+"MUE-1062","Juan","Puebla","LabA","Lisis alcalina",63.96,45,65,18,93,2020-08-28
+"MUE-1063","Andres","Guadalajara","LabB","Fenol-Cloroformo",40.27,38,62,27,92,2023-08-24
+"MUE-1064","Andres","Monterrey","LabB","Kits comerciales",54.23,51,75,24,87,2020-04-06
+"MUE-1065","Diego","CDMX","LabB","Kits comerciales",47.81,38,70,21,108,2024-05-15
+"MUE-1066","Camila","Monterrey","LabB","Kits comerciales",57.54,32,71,24,107,2021-11-13
+"MUE-1067","Juan","CDMX","LabA","Kits comerciales",49.3,40,59,24,97,2022-03-07
+"MUE-1068","Elena","Puebla","LabB","Kits comerciales",57.06,33,87,16,110,2021-09-30
+"MUE-1069","Camila","Toluca","LabA","CTAB",48.25,40,69,23,110,2022-06-04
+"MUE-1070","Ana","Guadalajara","LabB","Lisis alcalina",64.33,32,70,22,98,2023-06-11
+"MUE-1071","Camila","Puebla","LabB","Lisis alcalina",54.7,34,77,14,101,2022-05-03
+"MUE-1072","Sofia","Monterrey","LabB","Lisis alcalina",30.26,36,63,24,95,2020-02-14
+"MUE-1073","Andres","Toluca","LabB","CTAB",49.69,37,73,13,114,2023-05-26
+"MUE-1074","Ana","Guadalajara","LabB","CTAB",44.95,40,82,25,99,2020-01-23
+"MUE-1075","Diego","Puebla","LabB","Kits comerciales",66.75,33,68,20,95,2022-08-23
+"MUE-1076","Diego","Monterrey","LabB","CTAB",32.72,43,67,21,100,2024-07-25
+"MUE-1077","Andres","Guadalajara","LabB","Lisis alcalina",19.33,46,79,22,101,2024-10-26
+"MUE-1078","Pedro","Toluca","LabB","CTAB",57.02,34,65,22,88,2020-02-18
+"MUE-1079","Pedro","Toluca","LabA","Lisis alcalina",64.13,34,74,15,93,2024-02-01
+"MUE-1080","Maria","Monterrey","LabA","CTAB",56.79,45,68,22,113,2020-07-01
+"MUE-1081","Ana","Monterrey","LabC","Fenol-Cloroformo",70.29,37,74,19,94,2023-10-01
+"MUE-1082","Luis","Toluca","LabC","CTAB",63.53,44,76,17,100,2024-10-20
+"MUE-1083","Elena","Guadalajara","LabC","Fenol-Cloroformo",36.05,46,93,10,98,2024-11-24
+"MUE-1084","Juan","Monterrey","LabB","Lisis alcalina",63.96,43,80,21,99,2022-04-19
+"MUE-1085","Elena","Guadalajara","LabC","Fenol-Cloroformo",41.17,53,77,18,103,2023-12-24
+"MUE-1086","Maria","Toluca","LabA","Kits comerciales",66.58,41,72,21,87,2020-05-24
+"MUE-1087","Elena","Monterrey","LabC","CTAB",64.89,39,66,21,89,2020-12-26
+"MUE-1088","Camila","Guadalajara","LabA","Kits comerciales",49.25,37,68,17,106,2020-03-02
+"MUE-1089","Maria","Guadalajara","LabB","Lisis alcalina",66.02,51,73,16,90,2021-02-25
+"MUE-1090","Sofia","Monterrey","LabA","Fenol-Cloroformo",45.98,40,63,17,105,2023-09-02
+"MUE-1091","Andres","Monterrey","LabB","Fenol-Cloroformo",65.17,40,80,21,102,2024-05-25
+"MUE-1092","Pedro","Puebla","LabC","Lisis alcalina",15.4,36,61,17,91,2024-01-29
+"MUE-1093","Juan","Guadalajara","LabA","Fenol-Cloroformo",34.23,40,62,20,110,2024-12-26
+"MUE-1094","Andres","Puebla","LabA","Kits comerciales",52.21,44,68,20,88,2020-09-26
+"MUE-1095","Ana","Toluca","LabC","CTAB",42.34,29,71,22,121,2023-01-20
+"MUE-1096","Juan","Monterrey","LabB","Kits comerciales",9.98,42,76,26,93,2020-09-16
+"MUE-1097","Camila","Monterrey","LabB","CTAB",37.47,37,72,21,100,2020-11-12
+"MUE-1098","Andres","Toluca","LabB","Fenol-Cloroformo",74.21,35,64,23,87,2020-11-08
+"MUE-1099","Ana","Toluca","LabB","Fenol-Cloroformo",31.87,41,87,16,91,2024-04-24
+"MUE-1100","Pedro","Guadalajara","LabB","Lisis alcalina",52.5,39,74,10,101,2022-02-11
+"MUE-1101","Sofia","CDMX","LabC","Kits comerciales",42.59,41,59,23,118,2022-06-25
+"MUE-1102","Juan","Toluca","LabA","Kits comerciales",50.27,37,61,21,95,2020-04-22
+"MUE-1103","Diego","Toluca","LabA","Fenol-Cloroformo",47.34,48,75,15,94,2024-05-29
+"MUE-1104","Ana","Puebla","LabA","Kits comerciales",47.96,34,77,19,114,2023-01-12
+"MUE-1105","Maria","Monterrey","LabB","Kits comerciales",48.16,45,62,11,80,2021-07-12
+"MUE-1106","Elena","Monterrey","LabC","CTAB",17.35,47,77,17,90,2020-08-28
+"MUE-1107","Pedro","Monterrey","LabB","Fenol-Cloroformo",50.01,37,67,20,111,2020-11-30
+"MUE-1108","Diego","Puebla","LabA","Fenol-Cloroformo",51.93,35,67,21,100,2023-08-26
+"MUE-1109","Ana","Puebla","LabA","CTAB",56.19,40,56,12,87,2021-11-25
+"MUE-1110","Camila","CDMX","LabB","Lisis alcalina",70.51,51,71,16,93,2024-03-01
+"MUE-1111","Pedro","Toluca","LabA","Lisis alcalina",50.55,45,66,35,99,2023-01-21
+"MUE-1112","Luis","CDMX","LabC","Kits comerciales",54.06,44,66,26,95,2020-05-09
+"MUE-1113","Pedro","Puebla","LabB","Kits comerciales",28.59,42,71,16,109,2021-08-25
+"MUE-1114","Pedro","Toluca","LabC","Lisis alcalina",51.49,38,74,31,92,2024-02-29
+"MUE-1115","Ana","Toluca","LabB","CTAB",26.67,29,71,15,107,2021-02-07
+"MUE-1116","Luis","Guadalajara","LabC","CTAB",79.98,41,72,17,105,2024-11-27
+"MUE-1117","Luis","Guadalajara","LabC","Fenol-Cloroformo",44.64,48,68,18,96,2024-03-11
+"MUE-1118","Sofia","Guadalajara","LabB","Lisis alcalina",55.28,35,73,17,113,2020-02-11
+"MUE-1119","Sofia","Monterrey","LabB","Kits comerciales",56.62,45,63,21,99,2023-12-09
+"MUE-1120","Pedro","CDMX","LabC","Lisis alcalina",30.39,47,60,25,89,2020-05-19
+"MUE-1121","Andres","Guadalajara","LabA","Lisis alcalina",57,44,81,19,105,2021-04-25
+"MUE-1122","Maria","Monterrey","LabB","Lisis alcalina",33.91,35,52,25,79,2020-04-23
+"MUE-1123","Maria","Puebla","LabB","Kits comerciales",56.88,44,52,16,83,2022-07-26
+"MUE-1124","Camila","Monterrey","LabA","Kits comerciales",40.72,37,79,26,101,2021-12-23
+"MUE-1125","Maria","Guadalajara","LabB","CTAB",39.8,28,67,15,110,2022-04-02
+"MUE-1126","Maria","Toluca","LabB","CTAB",56.21,34,71,14,113,2020-12-31
+"MUE-1127","Pedro","Puebla","LabC","Lisis alcalina",55.5,36,74,17,92,2024-02-08
+"MUE-1128","Diego","Guadalajara","LabC","Lisis alcalina",46.27,39,80,17,106,2022-09-18
+"MUE-1129","Juan","Toluca","LabB","Kits comerciales",38.96,31,65,25,106,2023-07-08
+"MUE-1130","Ana","CDMX","LabB","Lisis alcalina",52.91,52,76,15,82,2020-10-08
+"MUE-1131","Juan","CDMX","LabA","CTAB",49.27,43,62,25,85,2020-11-01
+"MUE-1132","Camila","Puebla","LabB","Kits comerciales",64.39,50,79,17,96,2024-11-11
+"MUE-1133","Juan","CDMX","LabC","Lisis alcalina",40.52,39,67,18,118,2023-02-27
+"MUE-1134","Ana","Monterrey","LabC","Lisis alcalina",48.15,38,79,22,98,2024-10-06
+"MUE-1135","Elena","Monterrey","LabB","Lisis alcalina",84.06,47,69,17,101,2024-06-21
+"MUE-1136","Ana","Toluca","LabA","Kits comerciales",30.74,43,65,24,88,2024-11-24
+"MUE-1137","Sofia","CDMX","LabC","Fenol-Cloroformo",54.76,45,84,16,94,2020-11-03
+"MUE-1138","Pedro","Toluca","LabC","CTAB",56.16,39,65,25,101,2020-10-06
+"MUE-1139","Camila","Monterrey","LabB","Fenol-Cloroformo",43.27,39,60,24,85,2020-12-09
+"MUE-1140","Juan","Monterrey","LabA","Lisis alcalina",39.35,41,72,21,100,2023-05-29
+"MUE-1141","Sofia","Monterrey","LabA","CTAB",28.14,40,67,17,111,2023-09-19
+"MUE-1142","Camila","Monterrey","LabA","CTAB",28.74,45,52,24,83,2023-08-27
+"MUE-1143","Juan","Toluca","LabA","Kits comerciales",46.04,37,83,19,85,2020-03-25
+"MUE-1144","Luis","Monterrey","LabB","Kits comerciales",68.79,31,67,8,89,2023-06-12
+"MUE-1145","Camila","Monterrey","LabA","Lisis alcalina",50.81,35,76,21,100,2020-01-06
+"MUE-1146","Pedro","Puebla","LabB","CTAB",73.19,36,66,20,112,2022-06-24
+"MUE-1147","Juan","Monterrey","LabB","Lisis alcalina",40.97,35,67,26,97,2022-09-02
+"MUE-1148","Sofia","Guadalajara","LabB","Fenol-Cloroformo",58.68,47,72,17,118,2023-06-24
+"MUE-1149","Pedro","Puebla","LabA","Lisis alcalina",51.87,37,66,17,104,2022-06-19
+"MUE-1150","Maria","Monterrey","LabC","Lisis alcalina",55.44,43,81,21,95,2022-12-29
+"MUE-1151","Juan","CDMX","LabC","Kits comerciales",53.08,31,62,21,116,2020-01-01
+"MUE-1152","Sofia","Puebla","LabA","CTAB",61.67,39,77,17,113,2020-08-07
+"MUE-1153","Maria","CDMX","LabC","Kits comerciales",49.88,52,63,21,97,2022-10-26
+"MUE-1154","Juan","Toluca","LabA","Fenol-Cloroformo",64.53,50,60,21,115,2020-06-05
+"MUE-1155","Camila","Monterrey","LabC","Lisis alcalina",57.35,47,77,13,83,2020-03-27
+"MUE-1156","Andres","Monterrey","LabC","Lisis alcalina",49.86,47,58,24,97,2024-09-10
+"MUE-1157","Maria","CDMX","LabC","CTAB",48.31,54,67,27,111,2021-11-16
+"MUE-1158","Maria","CDMX","LabA","CTAB",30.85,42,65,18,100,2024-02-25
+"MUE-1159","Camila","Puebla","LabC","Fenol-Cloroformo",40.27,36,86,22,104,2022-11-07
+"MUE-1160","Luis","Toluca","LabA","Kits comerciales",46.05,44,70,20,96,2020-10-04
+"MUE-1161","Luis","Monterrey","LabA","Fenol-Cloroformo",64.03,49,77,12,102,2023-03-05
+"MUE-1162","Luis","Guadalajara","LabB","CTAB",61.87,57,90,14,107,2024-03-31
+"MUE-1163","Maria","Monterrey","LabA","CTAB",37.91,39,78,25,101,2022-08-29
+"MUE-1164","Luis","Puebla","LabB","CTAB",42.86,48,62,20,95,2021-10-30
+"MUE-1165","Sofia","Monterrey","LabC","Lisis alcalina",76.06,44,78,22,98,2021-03-15
+"MUE-1166","Elena","Toluca","LabC","Kits comerciales",28.81,40,51,24,96,2023-11-22
+"MUE-1167","Luis","Puebla","LabB","CTAB",52.69,39,78,28,104,2021-12-17
+"MUE-1168","Juan","Puebla","LabA","Fenol-Cloroformo",54.16,33,74,16,98,2021-05-23
+"MUE-1169","Camila","CDMX","LabC","Fenol-Cloroformo",42.47,38,80,17,96,2022-08-20
+"MUE-1170","Maria","CDMX","LabC","Kits comerciales",29.41,40,74,29,104,2023-05-22
+"MUE-1171","Maria","CDMX","LabA","Kits comerciales",44.1,47,85,23,102,2024-03-07
+"MUE-1172","Elena","CDMX","LabB","Lisis alcalina",90.33,36,72,14,104,2024-05-22
+"MUE-1173","Pedro","Toluca","LabA","CTAB",48.35,47,56,21,112,2021-02-07
+"MUE-1174","Juan","CDMX","LabC","Kits comerciales",46.65,51,76,17,111,2020-09-12
+"MUE-1175","Ana","Puebla","LabB","Lisis alcalina",52.69,36,85,16,94,2023-08-22
+"MUE-1176","Pedro","CDMX","LabA","CTAB",32.47,38,74,22,85,2020-11-07
+"MUE-1177","Luis","Puebla","LabA","Fenol-Cloroformo",61.27,46,55,22,92,2023-12-30
+"MUE-1178","Elena","Guadalajara","LabB","Lisis alcalina",60.79,34,86,28,102,2022-01-07
+"MUE-1179","Luis","Monterrey","LabC","Fenol-Cloroformo",44.78,42,60,24,99,2020-04-21
+"MUE-1180","Luis","CDMX","LabB","Fenol-Cloroformo",50.89,55,82,14,88,2023-06-13
+"MUE-1181","Elena","CDMX","LabC","CTAB",42.42,35,74,26,82,2024-01-03
+"MUE-1182","Juan","Guadalajara","LabA","Kits comerciales",60.35,52,72,13,96,2024-09-01
+"MUE-1183","Andres","Monterrey","LabB","Lisis alcalina",25.12,46,73,20,93,2021-04-16
+"MUE-1184","Juan","Guadalajara","LabA","Fenol-Cloroformo",46.67,41,66,16,115,2024-11-12
+"MUE-1185","Maria","Guadalajara","LabB","Lisis alcalina",59.35,45,67,19,92,2020-12-20
+"MUE-1186","Luis","Puebla","LabB","Fenol-Cloroformo",75.31,34,57,16,95,2020-09-01
+"MUE-1187","Juan","Puebla","LabB","Kits comerciales",36.37,39,69,12,98,2022-01-02
+"MUE-1188","Diego","CDMX","LabC","Lisis alcalina",33.22,44,86,24,93,2023-04-02
+"MUE-1189","Andres","Monterrey","LabB","CTAB",48.38,40,79,24,100,2021-09-13
+"MUE-1190","Maria","Monterrey","LabA","Fenol-Cloroformo",49.14,44,74,23,89,2023-03-14
+"MUE-1191","Andres","Guadalajara","LabA","CTAB",61.37,31,79,24,90,2024-07-23
+"MUE-1192","Sofia","Puebla","LabC","Kits comerciales",48.28,38,71,29,105,2021-11-24
+"MUE-1193","Andres","Monterrey","LabC","CTAB",41.39,43,68,32,95,2023-04-28
+"MUE-1194","Pedro","Monterrey","LabC","Kits comerciales",78.35,28,85,17,92,2022-08-27
+"MUE-1195","Andres","Monterrey","LabA","Kits comerciales",45.06,45,64,20,93,2020-02-27
+"MUE-1196","Juan","Monterrey","LabB","CTAB",63.21,39,67,20,89,2021-04-14
+"MUE-1197","Pedro","Monterrey","LabB","CTAB",61.17,29,72,23,88,2024-07-08
+"MUE-1198","Sofia","Toluca","LabB","CTAB",43.4,41,69,16,107,2024-02-17
+"MUE-1199","Ana","Monterrey","LabA","Lisis alcalina",74.94,34,76,22,94,2023-04-03
+"MUE-1200","Juan","Toluca","LabC","Fenol-Cloroformo",32.66,52,74,14,102,2020-12-26
+"MUE-1201","Elena","CDMX","LabB","Lisis alcalina",35.93,32,77,23,104,2023-12-27
+"MUE-1202","Maria","Toluca","LabA","Lisis alcalina",67.51,32,70,19,94,2024-01-26
+"MUE-1203","Juan","Puebla","LabC","Kits comerciales",26.64,38,55,18,109,2024-03-24
+"MUE-1204","Sofia","Toluca","LabB","CTAB",59.56,49,84,20,100,2023-12-02
+"MUE-1205","Sofia","Puebla","LabC","CTAB",52.96,39,71,30,90,2021-07-04
+"MUE-1206","Camila","CDMX","LabC","Lisis alcalina",61.09,39,86,25,102,2023-06-04
+"MUE-1207","Juan","Toluca","LabA","CTAB",61.72,45,78,27,98,2020-06-04
+"MUE-1208","Sofia","Toluca","LabC","CTAB",40.02,42,57,21,98,2024-01-19
+"MUE-1209","Juan","Monterrey","LabB","Fenol-Cloroformo",39.73,52,73,15,116,2022-11-28
+"MUE-1210","Sofia","CDMX","LabA","Fenol-Cloroformo",62.21,39,65,10,110,2023-07-08
+"MUE-1211","Sofia","Toluca","LabA","Lisis alcalina",63.33,31,66,20,104,2020-12-20
+"MUE-1212","Maria","Toluca","LabC","Kits comerciales",33.29,49,63,18,85,2024-03-09
+"MUE-1213","Elena","Guadalajara","LabB","Kits comerciales",31.52,33,52,22,80,2020-06-08
+"MUE-1214","Andres","Monterrey","LabC","Kits comerciales",33.88,33,75,13,112,2024-03-15
+"MUE-1215","Elena","Toluca","LabA","CTAB",49.78,42,61,24,84,2023-03-13
+"MUE-1216","Pedro","Monterrey","LabB","Kits comerciales",49.68,33,49,24,97,2024-09-23
+"MUE-1217","Andres","Toluca","LabB","Fenol-Cloroformo",84.91,33,74,16,115,2023-04-06
+"MUE-1218","Maria","CDMX","LabB","Fenol-Cloroformo",58.06,51,77,17,98,2020-08-04
+"MUE-1219","Diego","Monterrey","LabB","CTAB",47.74,41,70,20,105,2024-10-02
+"MUE-1220","Ana","Monterrey","LabC","CTAB",42.08,46,63,21,113,2021-01-07
+"MUE-1221","Sofia","Monterrey","LabB","Fenol-Cloroformo",41.97,35,67,21,111,2020-03-02
+"MUE-1222","Elena","Monterrey","LabB","CTAB",40.7,38,72,30,99,2024-02-17
+"MUE-1223","Diego","Puebla","LabB","CTAB",33.59,28,67,22,111,2022-06-25
+"MUE-1224","Andres","Monterrey","LabA","Kits comerciales",52.62,39,69,16,93,2024-03-07
+"MUE-1225","Pedro","Monterrey","LabB","Fenol-Cloroformo",2.16,41,75,25,114,2020-04-25
+"MUE-1226","Andres","CDMX","LabA","Lisis alcalina",32.46,34,73,23,106,2020-12-16
+"MUE-1227","Sofia","CDMX","LabC","Lisis alcalina",64.87,38,59,14,90,2024-01-22
+"MUE-1228","Sofia","CDMX","LabA","CTAB",52.24,48,81,15,105,2022-10-22
+"MUE-1229","Camila","Puebla","LabA","CTAB",58.32,41,80,22,112,2020-07-06
+"MUE-1230","Luis","Monterrey","LabB","Kits comerciales",41.15,39,73,29,112,2023-03-29
+"MUE-1231","Sofia","CDMX","LabB","Lisis alcalina",71.14,42,78,16,98,2020-10-02
+"MUE-1232","Juan","Puebla","LabB","Fenol-Cloroformo",45.54,39,69,19,123,2021-09-21
+"MUE-1233","Luis","Monterrey","LabB","CTAB",58.81,34,67,15,94,2020-06-12
+"MUE-1234","Sofia","Monterrey","LabB","CTAB",50.21,39,70,18,90,2020-07-01
+"MUE-1235","Elena","CDMX","LabC","CTAB",57.19,49,70,21,103,2021-07-13
+"MUE-1236","Diego","CDMX","LabC","CTAB",43.38,39,86,23,102,2023-03-14
+"MUE-1237","Diego","Toluca","LabC","Lisis alcalina",68.66,34,64,14,85,2024-03-18
+"MUE-1238","Maria","Toluca","LabB","Fenol-Cloroformo",42.24,43,59,19,92,2022-06-12
+"MUE-1239","Juan","Monterrey","LabA","Kits comerciales",92.9,27,92,28,104,2021-08-29
+"MUE-1240","Pedro","Toluca","LabA","Lisis alcalina",47.57,41,63,18,101,2024-12-18
+"MUE-1241","Camila","Toluca","LabA","Kits comerciales",51.89,33,81,23,92,2022-03-28
+"MUE-1242","Juan","Monterrey","LabB","Fenol-Cloroformo",40.7,31,63,16,88,2021-04-25
+"MUE-1243","Camila","Monterrey","LabC","CTAB",61,34,67,13,96,2021-10-08
+"MUE-1244","Diego","Monterrey","LabB","Kits comerciales",52.83,36,77,20,98,2024-07-11
+"MUE-1245","Pedro","Guadalajara","LabB","CTAB",59.53,38,71,31,93,2020-05-22
+"MUE-1246","Juan","Guadalajara","LabB","Fenol-Cloroformo",60.7,39,66,21,89,2020-12-07
+"MUE-1247","Camila","CDMX","LabB","Kits comerciales",38.47,34,68,19,112,2022-04-05
+"MUE-1248","Camila","Guadalajara","LabB","Lisis alcalina",62.39,45,65,16,97,2021-04-28
+"MUE-1249","Diego","CDMX","LabA","CTAB",32.15,37,75,30,92,2020-10-24
+"MUE-1250","Andres","Monterrey","LabB","Lisis alcalina",52.3,46,66,19,112,2020-05-27
+"MUE-1251","Juan","Guadalajara","LabC","Kits comerciales",63.69,41,65,21,98,2023-08-07
+"MUE-1252","Camila","Puebla","LabA","Fenol-Cloroformo",26.13,49,77,12,110,2023-10-03
+"MUE-1253","Juan","Monterrey","LabA","Kits comerciales",43.38,50,85,14,87,2020-08-22
+"MUE-1254","Sofia","Toluca","LabC","Kits comerciales",43.96,37,66,28,104,2022-09-01
+"MUE-1255","Ana","Monterrey","LabA","Lisis alcalina",19.07,42,80,24,93,2023-11-15
+"MUE-1256","Maria","Toluca","LabC","Kits comerciales",46.96,35,77,18,109,2024-10-20
+"MUE-1257","Elena","Guadalajara","LabA","CTAB",71.11,49,67,29,103,2023-10-16
+"MUE-1258","Pedro","CDMX","LabC","CTAB",28.89,41,69,14,104,2024-02-18
+"MUE-1259","Elena","Monterrey","LabC","CTAB",33.51,46,64,19,91,2020-01-10
+"MUE-1260","Luis","Guadalajara","LabC","Lisis alcalina",44.1,34,66,22,127,2022-06-04
+"MUE-1261","Camila","Puebla","LabC","CTAB",49.11,27,62,19,112,2022-06-06
+"MUE-1262","Sofia","CDMX","LabB","Kits comerciales",51.57,44,64,27,118,2021-12-09
+"MUE-1263","Andres","CDMX","LabC","Lisis alcalina",52.83,32,77,18,97,2022-12-05
+"MUE-1264","Maria","Toluca","LabC","Kits comerciales",45.83,56,64,17,102,2024-12-04
+"MUE-1265","Juan","Monterrey","LabA","Kits comerciales",85.39,37,81,25,106,2023-03-03
+"MUE-1266","Juan","Puebla","LabB","Lisis alcalina",43.29,34,75,19,99,2020-03-15
+"MUE-1267","Ana","Guadalajara","LabC","Kits comerciales",29.97,30,61,17,94,2023-01-27
+"MUE-1268","Elena","Puebla","LabC","Kits comerciales",26.53,38,81,14,105,2024-09-16
+"MUE-1269","Andres","CDMX","LabA","Lisis alcalina",47.01,44,76,21,103,2023-03-20
+"MUE-1270","Juan","Puebla","LabB","CTAB",41.9,45,69,12,99,2022-05-10
+"MUE-1271","Ana","CDMX","LabB","CTAB",65.74,35,62,12,93,2021-03-04
+"MUE-1272","Andres","Toluca","LabC","CTAB",47.19,34,74,13,101,2024-04-11
+"MUE-1273","Juan","Guadalajara","LabA","Fenol-Cloroformo",51.19,45,75,22,89,2023-11-18
+"MUE-1274","Ana","Guadalajara","LabA","Fenol-Cloroformo",25.74,36,56,23,119,2023-01-13
+"MUE-1275","Luis","CDMX","LabB","CTAB",46.4,47,64,28,110,2021-06-10
+"MUE-1276","Camila","Toluca","LabB","Fenol-Cloroformo",45.92,36,60,21,90,2021-06-09
+"MUE-1277","Camila","CDMX","LabA","CTAB",28.95,32,61,21,91,2021-12-20
+"MUE-1278","Maria","Toluca","LabA","Fenol-Cloroformo",36.31,43,74,25,97,2024-04-05
+"MUE-1279","Andres","Toluca","LabC","Fenol-Cloroformo",36.9,45,70,18,111,2021-05-10
+"MUE-1280","Elena","Puebla","LabA","CTAB",62.41,29,87,16,116,2024-11-12
+"MUE-1281","Juan","Monterrey","LabC","Lisis alcalina",58.37,33,78,12,106,2024-06-06
+"MUE-1282","Luis","Guadalajara","LabB","Kits comerciales",60.42,45,75,12,93,2022-04-04
+"MUE-1283","Diego","Guadalajara","LabA","Lisis alcalina",71.09,44,70,17,104,2023-05-25
+"MUE-1284","Sofia","Toluca","LabA","Lisis alcalina",45.18,36,69,15,98,2021-06-12
+"MUE-1285","Ana","CDMX","LabA","Fenol-Cloroformo",67.75,36,73,8,104,2022-09-19
+"MUE-1286","Diego","CDMX","LabA","Lisis alcalina",46.01,43,64,26,76,2022-09-26
+"MUE-1287","Pedro","CDMX","LabC","CTAB",67.34,37,58,19,99,2022-09-16
+"MUE-1288","Ana","Monterrey","LabB","Kits comerciales",31.2,44,72,20,101,2020-11-27
+"MUE-1289","Juan","Monterrey","LabB","Fenol-Cloroformo",40.94,38,68,18,104,2020-10-29
+"MUE-1290","Sofia","Toluca","LabA","CTAB",63.7,37,60,19,119,2022-12-16
+"MUE-1291","Sofia","Toluca","LabA","Lisis alcalina",74.86,35,75,13,95,2020-09-12
+"MUE-1292","Luis","Puebla","LabB","Fenol-Cloroformo",49.42,36,66,18,90,2022-01-19
+"MUE-1293","Maria","CDMX","LabC","Lisis alcalina",45.03,38,77,16,115,2022-09-23
+"MUE-1294","Maria","Guadalajara","LabA","Kits comerciales",59.39,44,74,14,108,2020-09-03
+"MUE-1295","Elena","Toluca","LabA","CTAB",48.19,39,80,21,92,2021-02-27
+"MUE-1296","Camila","CDMX","LabA","Kits comerciales",50.2,51,75,12,96,2022-10-26
+"MUE-1297","Sofia","Puebla","LabB","Kits comerciales",53.78,31,59,24,103,2022-11-04
+"MUE-1298","Elena","Toluca","LabC","CTAB",66.34,38,82,13,93,2020-08-25
+"MUE-1299","Diego","Guadalajara","LabB","CTAB",34.02,34,75,23,119,2023-11-25
+"MUE-1300","Pedro","CDMX","LabB","Lisis alcalina",43.38,36,69,18,106,2021-10-26
+"MUE-1301","Juan","Monterrey","LabC","CTAB",59,37,64,24,112,2022-10-15
+"MUE-1302","Ana","Monterrey","LabB","Fenol-Cloroformo",17.84,35,67,19,104,2023-08-22
+"MUE-1303","Elena","CDMX","LabA","Fenol-Cloroformo",69.43,40,64,25,78,2022-07-07
+"MUE-1304","Maria","Toluca","LabA","Lisis alcalina",40.27,43,61,33,93,2023-08-20
+"MUE-1305","Maria","CDMX","LabA","Fenol-Cloroformo",34.33,33,87,19,92,2022-09-05
+"MUE-1306","Diego","Monterrey","LabB","Fenol-Cloroformo",52.51,40,71,13,93,2024-12-11
+"MUE-1307","Juan","Puebla","LabB","CTAB",83.51,45,57,26,108,2020-10-13
+"MUE-1308","Juan","Monterrey","LabA","CTAB",39.92,32,69,18,100,2024-01-04
+"MUE-1309","Elena","Monterrey","LabA","Lisis alcalina",27.58,41,75,31,90,2021-12-02
+"MUE-1310","Ana","Puebla","LabA","Fenol-Cloroformo",48,42,73,19,99,2022-11-16
+"MUE-1311","Ana","Monterrey","LabC","Kits comerciales",67.55,34,78,16,101,2020-11-03
+"MUE-1312","Maria","CDMX","LabA","Kits comerciales",45.84,41,70,24,99,2023-02-03
+"MUE-1313","Juan","Toluca","LabB","Lisis alcalina",59,44,70,26,97,2020-06-20
+"MUE-1314","Pedro","Guadalajara","LabC","CTAB",67.35,34,75,19,86,2022-12-31
+"MUE-1315","Elena","Guadalajara","LabA","CTAB",24.29,39,74,11,95,2022-10-24
+"MUE-1316","Andres","Monterrey","LabB","CTAB",59,50,72,22,88,2024-02-15
+"MUE-1317","Pedro","Guadalajara","LabA","Fenol-Cloroformo",42.24,36,56,24,96,2024-03-26
+"MUE-1318","Ana","Puebla","LabC","Lisis alcalina",49.11,44,67,12,89,2020-09-25
+"MUE-1319","Juan","Toluca","LabA","CTAB",83.68,43,69,26,104,2022-01-24
+"MUE-1320","Andres","CDMX","LabC","Fenol-Cloroformo",53.78,45,63,18,110,2022-06-06
+"MUE-1321","Pedro","Guadalajara","LabC","Kits comerciales",62.16,37,78,19,88,2024-07-14
+"MUE-1322","Ana","Guadalajara","LabB","Fenol-Cloroformo",35.16,43,72,19,81,2023-02-12
+"MUE-1323","Andres","Monterrey","LabB","Lisis alcalina",56.45,43,70,26,95,2022-12-20
+"MUE-1324","Elena","CDMX","LabB","Lisis alcalina",48.15,45,69,23,95,2021-08-03
+"MUE-1325","Elena","CDMX","LabB","Lisis alcalina",46.52,44,65,17,90,2024-12-31
+"MUE-1326","Sofia","Toluca","LabA","Lisis alcalina",58.37,47,70,17,104,2022-08-22
+"MUE-1327","Sofia","Monterrey","LabA","Lisis alcalina",27.44,39,64,26,109,2022-07-26
+"MUE-1328","Camila","CDMX","LabA","Fenol-Cloroformo",70.86,51,75,12,112,2020-07-28
+"MUE-1329","Luis","Toluca","LabC","Fenol-Cloroformo",84.24,39,63,20,120,2020-05-12
+"MUE-1330","Ana","Toluca","LabC","Lisis alcalina",43.38,31,70,17,77,2020-03-27
+"MUE-1331","Juan","Monterrey","LabC","CTAB",57.78,37,72,23,79,2023-05-30
+"MUE-1332","Ana","Guadalajara","LabC","Lisis alcalina",80.81,40,56,25,94,2020-01-16
+"MUE-1333","Diego","Puebla","LabA","Fenol-Cloroformo",36.77,34,65,12,95,2022-01-02
+"MUE-1334","Diego","Guadalajara","LabA","Fenol-Cloroformo",50.71,37,68,26,124,2020-07-23
+"MUE-1335","Luis","Monterrey","LabB","Kits comerciales",84.63,35,76,23,116,2023-07-18
+"MUE-1336","Maria","Puebla","LabC","Kits comerciales",36.12,42,65,22,98,2022-09-29
+"MUE-1337","Elena","Puebla","LabB","Fenol-Cloroformo",64.33,40,70,14,113,2023-10-16
+"MUE-1338","Juan","Monterrey","LabC","Kits comerciales",57.1,42,74,26,92,2022-06-06
+"MUE-1339","Elena","CDMX","LabA","Fenol-Cloroformo",44.55,38,76,22,104,2024-04-23
+"MUE-1340","Andres","CDMX","LabC","Kits comerciales",55.43,44,56,13,102,2024-06-04
+"MUE-1341","Diego","Toluca","LabC","Kits comerciales",45.02,45,74,24,110,2021-04-02
+"MUE-1342","Maria","Monterrey","LabA","CTAB",61.41,44,74,12,104,2021-11-21
+"MUE-1343","Diego","Toluca","LabB","Kits comerciales",42.36,38,83,14,99,2023-06-04
+"MUE-1344","Maria","Puebla","LabA","Kits comerciales",23.64,39,72,21,99,2022-04-11
+"MUE-1345","Ana","Guadalajara","LabA","Kits comerciales",62.2,32,65,14,107,2023-06-14
+"MUE-1346","Camila","Toluca","LabA","CTAB",66.98,41,66,24,102,2023-01-19
+"MUE-1347","Diego","Puebla","LabA","CTAB",51.67,44,79,21,95,2023-02-14
+"MUE-1348","Elena","Toluca","LabA","Kits comerciales",37.55,34,67,21,102,2020-07-18
+"MUE-1349","Camila","Guadalajara","LabB","Fenol-Cloroformo",42.76,40,75,18,100,2024-03-19
+"MUE-1350","Andres","Toluca","LabC","CTAB",30.24,38,76,25,103,2024-06-01
+"MUE-1351","Pedro","Monterrey","LabB","Lisis alcalina",29.19,40,59,22,86,2022-12-20
+"MUE-1352","Sofia","Monterrey","LabB","Fenol-Cloroformo",66.99,39,62,32,96,2022-05-29
+"MUE-1353","Diego","Monterrey","LabA","Kits comerciales",19.12,33,87,21,99,2022-12-24
+"MUE-1354","Pedro","CDMX","LabC","Kits comerciales",58.38,47,84,19,106,2024-07-04
+"MUE-1355","Camila","Toluca","LabC","Kits comerciales",44.24,51,67,21,71,2020-05-06
+"MUE-1356","Juan","CDMX","LabB","Kits comerciales",30.12,31,77,12,76,2022-03-11
+"MUE-1357","Andres","Toluca","LabC","CTAB",46.51,48,72,20,80,2022-06-16
+"MUE-1358","Sofia","Toluca","LabA","Kits comerciales",47.16,49,63,23,97,2021-04-07
+"MUE-1359","Andres","Guadalajara","LabB","Fenol-Cloroformo",68.03,33,60,25,86,2024-06-20
+"MUE-1360","Pedro","CDMX","LabC","Lisis alcalina",85.98,47,69,22,98,2021-07-30
+"MUE-1361","Pedro","Guadalajara","LabA","Fenol-Cloroformo",77.34,32,73,24,90,2022-07-20
+"MUE-1362","Sofia","Guadalajara","LabC","Kits comerciales",74.4,38,66,26,108,2021-05-31
+"MUE-1363","Andres","CDMX","LabB","CTAB",74.24,46,83,21,89,2024-11-13
+"MUE-1364","Andres","Toluca","LabA","Fenol-Cloroformo",63.93,43,70,19,98,2020-05-15
+"MUE-1365","Pedro","Monterrey","LabA","CTAB",43.18,35,77,22,98,2022-12-30
+"MUE-1366","Maria","Toluca","LabA","Lisis alcalina",52.57,35,62,22,84,2023-05-05
+"MUE-1367","Diego","CDMX","LabC","Fenol-Cloroformo",27.04,32,70,20,95,2024-11-06
+"MUE-1368","Ana","Toluca","LabC","Kits comerciales",38.33,38,68,17,102,2021-10-14
+"MUE-1369","Sofia","CDMX","LabB","Kits comerciales",36.9,31,84,18,103,2022-03-11
+"MUE-1370","Camila","CDMX","LabA","Fenol-Cloroformo",33.65,36,81,22,98,2020-06-27
+"MUE-1371","Maria","CDMX","LabA","CTAB",71.19,31,75,21,97,2023-12-15
+"MUE-1372","Pedro","Puebla","LabA","Fenol-Cloroformo",57.5,39,74,17,95,2021-06-15
+"MUE-1373","Elena","Guadalajara","LabB","Lisis alcalina",53.97,30,71,18,108,2021-09-28
+"MUE-1374","Maria","Guadalajara","LabC","Lisis alcalina",49.83,41,70,30,96,2021-08-12
+"MUE-1375","Luis","CDMX","LabB","Kits comerciales",64.79,34,72,24,98,2020-11-17
+"MUE-1376","Luis","CDMX","LabC","Lisis alcalina",63.27,44,78,16,94,2022-08-05
+"MUE-1377","Diego","Toluca","LabB","Kits comerciales",36.43,31,73,21,93,2023-03-31
+"MUE-1378","Juan","Guadalajara","LabA","CTAB",19.94,38,63,12,96,2021-05-20
+"MUE-1379","Ana","Toluca","LabB","CTAB",32.32,45,66,25,106,2022-02-03
+"MUE-1380","Maria","Toluca","LabB","Lisis alcalina",42.58,42,90,25,94,2021-09-18
+"MUE-1381","Pedro","CDMX","LabA","Fenol-Cloroformo",49.95,38,61,24,110,2022-10-07
+"MUE-1382","Diego","Puebla","LabC","CTAB",72.55,41,71,16,102,2024-09-14
+"MUE-1383","Camila","Guadalajara","LabC","CTAB",59.52,31,62,14,103,2024-01-04
+"MUE-1384","Maria","Toluca","LabA","Lisis alcalina",60.28,35,68,19,107,2022-10-18
+"MUE-1385","Diego","Puebla","LabB","Fenol-Cloroformo",62.16,38,54,21,98,2022-10-09
+"MUE-1386","Pedro","Toluca","LabB","Fenol-Cloroformo",48.04,36,80,22,97,2022-07-10
+"MUE-1387","Sofia","Puebla","LabB","Lisis alcalina",33.89,42,72,12,107,2021-08-24
+"MUE-1388","Camila","Toluca","LabC","Kits comerciales",36.54,48,86,20,101,2023-08-23
+"MUE-1389","Elena","Monterrey","LabB","Kits comerciales",29.64,42,74,22,98,2020-11-13
+"MUE-1390","Sofia","Puebla","LabB","Kits comerciales",30.61,44,69,22,110,2020-01-16
+"MUE-1391","Elena","Toluca","LabC","Fenol-Cloroformo",27.24,34,74,17,103,2023-01-20
+"MUE-1392","Camila","Puebla","LabB","Kits comerciales",62.89,34,58,19,109,2024-08-22
+"MUE-1393","Elena","Toluca","LabB","Fenol-Cloroformo",31.78,51,69,20,95,2020-07-16
+"MUE-1394","Sofia","CDMX","LabB","Kits comerciales",59.29,45,68,18,95,2020-01-08
+"MUE-1395","Pedro","CDMX","LabC","Fenol-Cloroformo",85.18,50,67,17,90,2024-05-26
+"MUE-1396","Diego","CDMX","LabC","Fenol-Cloroformo",47.03,40,60,25,96,2023-06-03
+"MUE-1397","Juan","Puebla","LabC","CTAB",47.24,34,68,24,112,2021-06-26
+"MUE-1398","Sofia","Monterrey","LabA","Fenol-Cloroformo",62.58,46,89,16,103,2020-09-13
+"MUE-1399","Maria","Monterrey","LabA","Fenol-Cloroformo",49.78,53,68,17,101,2022-12-15
+"MUE-1400","Ana","Puebla","LabA","Fenol-Cloroformo",38.54,42,75,14,92,2020-12-26
+"MUE-1401","Diego","Guadalajara","LabC","CTAB",28.71,39,66,21,115,2023-07-05
+"MUE-1402","Pedro","Puebla","LabC","CTAB",51.4,54,63,24,81,2024-09-15
+"MUE-1403","Pedro","Puebla","LabA","CTAB",43.59,38,69,17,116,2020-07-30
+"MUE-1404","Luis","Puebla","LabB","Kits comerciales",55.89,35,67,23,101,2021-11-27
+"MUE-1405","Juan","Toluca","LabB","Kits comerciales",54.23,37,74,23,96,2020-12-17
+"MUE-1406","Sofia","Monterrey","LabA","Kits comerciales",69.47,45,84,20,95,2024-09-07
+"MUE-1407","Maria","Monterrey","LabB","Kits comerciales",59,39,63,17,111,2020-09-19
+"MUE-1408","Ana","Toluca","LabA","CTAB",67.05,44,79,11,91,2022-06-21
+"MUE-1409","Diego","Guadalajara","LabA","CTAB",51.05,35,65,21,91,2020-06-15
+"MUE-1410","Elena","CDMX","LabC","CTAB",62.24,33,78,16,109,2021-01-31
+"MUE-1411","Juan","Monterrey","LabB","Fenol-Cloroformo",46.29,44,69,17,111,2021-07-06
+"MUE-1412","Maria","Monterrey","LabB","Kits comerciales",47.7,40,65,17,117,2022-08-14
+"MUE-1413","Maria","Guadalajara","LabA","Kits comerciales",51.12,35,69,16,84,2021-12-22
+"MUE-1414","Camila","Puebla","LabB","Lisis alcalina",33.35,40,75,15,97,2020-04-02
+"MUE-1415","Pedro","Guadalajara","LabB","CTAB",31.92,40,77,18,115,2021-08-09
+"MUE-1416","Juan","Puebla","LabA","Lisis alcalina",45.64,35,64,21,105,2021-04-06
+"MUE-1417","Luis","Guadalajara","LabA","Fenol-Cloroformo",28.98,37,56,22,99,2021-11-27
+"MUE-1418","Camila","CDMX","LabA","CTAB",51.44,38,71,15,110,2022-06-30
+"MUE-1419","Ana","Puebla","LabB","Kits comerciales",61.97,35,68,16,104,2020-07-28
+"MUE-1420","Luis","Guadalajara","LabB","Kits comerciales",36.76,36,75,18,100,2024-09-22
+"MUE-1421","Camila","Monterrey","LabC","Kits comerciales",50.78,61,77,31,111,2022-07-29
+"MUE-1422","Camila","Toluca","LabA","Kits comerciales",26.89,35,81,15,94,2022-11-16
+"MUE-1423","Maria","CDMX","LabC","Kits comerciales",64.02,40,76,20,91,2020-08-10
+"MUE-1424","Sofia","CDMX","LabB","CTAB",44.64,51,68,26,106,2020-03-28
+"MUE-1425","Diego","Guadalajara","LabC","Fenol-Cloroformo",72.96,40,72,25,111,2021-04-25
+"MUE-1426","Andres","CDMX","LabC","CTAB",50.63,38,66,20,79,2020-05-14
+"MUE-1427","Diego","Toluca","LabA","Kits comerciales",77.9,36,60,18,114,2020-03-17
+"MUE-1428","Luis","Puebla","LabC","Kits comerciales",55.02,44,58,21,91,2021-10-24
+"MUE-1429","Ana","Puebla","LabA","Kits comerciales",47.16,34,69,17,103,2020-04-27
+"MUE-1430","Camila","Toluca","LabC","Kits comerciales",65.18,40,73,19,122,2023-02-06
+"MUE-1431","Camila","CDMX","LabC","Kits comerciales",57.95,39,77,21,88,2021-11-16
+"MUE-1432","Juan","Monterrey","LabC","Kits comerciales",41.67,33,72,14,102,2022-10-20
+"MUE-1433","Diego","Guadalajara","LabC","Lisis alcalina",60.53,52,60,23,96,2022-02-11
+"MUE-1434","Ana","Toluca","LabA","Kits comerciales",59.46,36,67,23,99,2022-06-23
+"MUE-1435","Elena","Puebla","LabA","CTAB",55.59,41,57,22,101,2022-08-28
+"MUE-1436","Sofia","Monterrey","LabB","CTAB",44.65,30,60,17,101,2024-07-15
+"MUE-1437","Luis","Monterrey","LabB","CTAB",49.25,43,60,14,114,2020-10-17
+"MUE-1438","Sofia","CDMX","LabB","Fenol-Cloroformo",63.18,32,79,8,121,2024-08-21
+"MUE-1439","Elena","CDMX","LabB","CTAB",66.87,34,88,11,101,2022-02-22
+"MUE-1440","Pedro","Monterrey","LabB","Fenol-Cloroformo",54.47,39,74,21,113,2020-08-25
+"MUE-1441","Sofia","Monterrey","LabB","Kits comerciales",37.9,46,69,19,117,2024-07-04
+"MUE-1442","Andres","CDMX","LabB","Kits comerciales",61.31,29,84,22,92,2020-08-13
+"MUE-1443","Camila","Puebla","LabA","Kits comerciales",52.25,32,74,17,99,2023-05-01
+"MUE-1444","Andres","Guadalajara","LabC","CTAB",67.06,38,72,18,100,2020-02-19
+"MUE-1445","Diego","CDMX","LabB","CTAB",25.98,36,80,24,99,2024-03-16
+"MUE-1446","Pedro","Monterrey","LabA","Kits comerciales",38.84,46,56,19,92,2021-08-29
+"MUE-1447","Camila","Guadalajara","LabA","Kits comerciales",57.99,43,62,26,83,2021-02-06
+"MUE-1448","Elena","Toluca","LabA","Kits comerciales",29.71,38,77,28,112,2023-03-05
+"MUE-1449","Ana","Monterrey","LabB","Kits comerciales",91.23,34,63,17,117,2021-06-01
+"MUE-1450","Camila","Puebla","LabC","CTAB",37.22,39,69,16,90,2023-02-15
+"MUE-1451","Camila","CDMX","LabB","Kits comerciales",56.71,40,58,29,100,2021-05-18
+"MUE-1452","Camila","Guadalajara","LabC","Lisis alcalina",24.08,38,63,18,101,2022-09-07
+"MUE-1453","Ana","Monterrey","LabA","Lisis alcalina",83.08,47,87,15,89,2022-02-22
+"MUE-1454","Juan","Puebla","LabC","Lisis alcalina",60.89,40,76,25,102,2020-04-11
+"MUE-1455","Andres","Toluca","LabB","Fenol-Cloroformo",42.29,39,59,24,105,2020-06-22
+"MUE-1456","Maria","Toluca","LabB","Lisis alcalina",53.92,44,71,23,105,2023-03-07
+"MUE-1457","Diego","Toluca","LabA","CTAB",39.34,54,69,28,112,2022-07-28
+"MUE-1458","Pedro","Guadalajara","LabC","Kits comerciales",24.21,43,75,19,101,2022-07-16
+"MUE-1459","Sofia","Monterrey","LabC","Lisis alcalina",33.66,47,73,22,105,2022-08-11
+"MUE-1460","Camila","Toluca","LabC","Fenol-Cloroformo",36.33,34,78,22,100,2021-03-01
+"MUE-1461","Andres","Monterrey","LabC","CTAB",67.12,44,72,18,105,2020-02-08
+"MUE-1462","Pedro","CDMX","LabC","Lisis alcalina",56.99,36,69,22,109,2023-11-16
+"MUE-1463","Juan","Toluca","LabA","Lisis alcalina",44.44,40,74,19,99,2024-11-25
+"MUE-1464","Camila","CDMX","LabB","CTAB",46.16,44,68,22,94,2023-01-24
+"MUE-1465","Diego","Puebla","LabC","Fenol-Cloroformo",66.08,56,79,18,94,2023-12-29
+"MUE-1466","Maria","Guadalajara","LabC","Fenol-Cloroformo",34.94,35,66,17,88,2024-03-30
+"MUE-1467","Pedro","Monterrey","LabB","Kits comerciales",58.99,37,79,14,84,2022-06-09
+"MUE-1468","Diego","Puebla","LabA","Fenol-Cloroformo",35.98,35,78,17,71,2024-04-17
+"MUE-1469","Luis","Puebla","LabC","CTAB",60.75,39,68,14,102,2023-05-05
+"MUE-1470","Andres","Guadalajara","LabB","Lisis alcalina",68.85,31,64,16,101,2024-12-03
+"MUE-1471","Maria","Monterrey","LabA","Lisis alcalina",43.44,35,69,13,93,2023-01-18
+"MUE-1472","Andres","Toluca","LabC","CTAB",56.85,33,82,19,100,2024-01-09
+"MUE-1473","Diego","Guadalajara","LabC","Fenol-Cloroformo",16.92,43,81,23,103,2024-02-24
+"MUE-1474","Andres","Monterrey","LabC","Lisis alcalina",54.86,34,60,19,97,2021-08-23
+"MUE-1475","Andres","Toluca","LabA","Lisis alcalina",54.72,52,66,23,101,2021-04-14
+"MUE-1476","Diego","Toluca","LabA","Kits comerciales",56.38,40,73,18,121,2024-06-17
+"MUE-1477","Luis","CDMX","LabB","Lisis alcalina",68.25,35,81,27,95,2023-08-02
+"MUE-1478","Pedro","Guadalajara","LabA","Kits comerciales",35.7,31,60,13,123,2024-09-20
+"MUE-1479","Andres","Monterrey","LabB","Kits comerciales",70.99,48,78,23,108,2020-11-27
+"MUE-1480","Ana","Guadalajara","LabC","Lisis alcalina",35.59,39,62,22,117,2024-09-16
+"MUE-1481","Camila","CDMX","LabA","Kits comerciales",25.48,47,58,34,104,2023-12-02
+"MUE-1482","Juan","Monterrey","LabA","Kits comerciales",83.09,47,59,13,101,2020-02-15
+"MUE-1483","Elena","CDMX","LabC","CTAB",62.25,49,70,21,104,2024-03-01
+"MUE-1484","Diego","Toluca","LabA","Fenol-Cloroformo",61.45,52,78,21,114,2024-01-16
+"MUE-1485","Ana","Puebla","LabB","Fenol-Cloroformo",59.47,39,58,24,105,2020-11-12
+"MUE-1486","Elena","Guadalajara","LabA","CTAB",46.87,42,78,15,108,2021-01-18
+"MUE-1487","Pedro","Guadalajara","LabA","Kits comerciales",65.13,58,67,17,79,2020-01-28
+"MUE-1488","Ana","CDMX","LabC","Fenol-Cloroformo",71.54,35,62,26,101,2024-07-25
+"MUE-1489","Maria","Toluca","LabC","CTAB",26.57,45,69,21,90,2021-06-05
+"MUE-1490","Camila","Puebla","LabB","Kits comerciales",32.85,46,68,28,103,2022-01-14
+"MUE-1491","Juan","Guadalajara","LabB","CTAB",39.16,39,63,25,110,2021-08-16
+"MUE-1492","Juan","Toluca","LabB","CTAB",57.89,32,62,25,107,2021-05-07
+"MUE-1493","Camila","Guadalajara","LabB","Fenol-Cloroformo",14.84,39,69,26,100,2021-11-15
+"MUE-1494","Ana","Toluca","LabC","Fenol-Cloroformo",47.64,41,69,23,107,2022-11-01
+"MUE-1495","Camila","Toluca","LabA","Lisis alcalina",28.24,35,59,19,100,2024-04-29
+"MUE-1496","Pedro","Guadalajara","LabC","Fenol-Cloroformo",44.82,40,71,23,114,2020-05-25
+"MUE-1497","Luis","Guadalajara","LabA","Kits comerciales",25.9,39,70,22,88,2024-05-11
+"MUE-1498","Diego","Guadalajara","LabB","Kits comerciales",67.56,35,71,15,88,2020-05-01
+"MUE-1499","Ana","CDMX","LabB","Lisis alcalina",45.86,52,65,26,93,2023-12-03
+"MUE-1500","Luis","CDMX","LabC","Fenol-Cloroformo",47.08,43,85,31,89,2020-04-23
